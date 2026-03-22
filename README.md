@@ -36,9 +36,9 @@ _Coming soon._
 
 ## Credits
 
-Originally created by **adolfo (zayronxio)** — [github.com/zayronxio/Os-Catalina-icons](https://github.com/zayronxio/Os-Catalina-icons)
+Originally created by **adolfo (zayronxio)** - [github.com/zayronxio/Os-Catalina-icons](https://github.com/zayronxio/Os-Catalina-icons)
 
-Maintained and extended by **Arnis Kemlers** — [github.com/kem-a](https://github.com/kem-a)
+Maintained and extended by **Arnis Kemlers** - [github.com/kem-a](https://github.com/kem-a)
 
 ## License
 
