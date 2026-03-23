@@ -5,7 +5,7 @@ Inherits=hicolor
 Example=folder
 FollowsColorScheme=true
 
-Directories=actions/16,actions/22,actions/24,actions/symbolic,apps/22,apps/64,apps/128,devices/16,devices/symbolic,devices/128,mimetypes/128,places/16,places/22,places/24,places/symbolic,places/128,status/16,status/22,status/24,status/symbolic
+Directories=actions/16,actions/22,actions/24,actions/symbolic,apps/22,apps/64,apps/scalable,devices/16,devices/symbolic,devices/scalable,mimetypes/scalable,places/16,places/22,places/24,places/symbolic,places/scalable,status/16,status/22,status/24,status/symbolic,categories/22,categories/symbolic
 
 [actions/16]
 Context=Actions
@@ -97,30 +97,42 @@ MinSize=32
 MaxSize=256
 Type=Scalable
 
-[apps/128]
+[apps/scalable]
+Size=128
 Context=Applications
-Size=128
-MinSize=64
+MinSize=16
 MaxSize=512
 Type=Scalable
 
-[devices/128]
+[devices/scalable]
+Size=128
 Context=Devices
-Size=128
-MinSize=64
+MinSize=32
 MaxSize=512
 Type=Scalable
 
-[mimetypes/128]
+[mimetypes/scalable]
 Context=MimeTypes
 Size=128
 MinSize=64
 MaxSize=512
 Type=Scalable
 
-[places/128]
-Context=Places
+[places/scalable]
 Size=128
-MinSize=64
+Context=Places
+MinSize=32
+MaxSize=512
+Type=Scalable
+
+[categories/22]
+Size=22
+Context=Categories
+Type=Fixed
+
+[categories/symbolic]
+Size=16
+Context=Applications
+MinSize=16
 MaxSize=512
 Type=Scalable
