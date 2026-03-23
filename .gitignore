@@ -2,3 +2,4 @@
 .vscode/
 *DE.md
 Catalina-light/*.cache
+Catalina-dark/*.cache
