@@ -1,1 +1,10 @@
-<svg id="prefix__prefix__prefix__svg2" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><defs id="prefix__prefix__prefix__defs3051"><linearGradient gradientTransform="translate(-21.787 -269.42) scale(.27273)" gradientUnits="userSpaceOnUse" y2="1031.081" x2="46.54" y1="1028.362" x1="2" id="prefix__prefix__prefix__linearGradient4160-4" xlink:href="#prefix__prefix__prefix__linearGradient4197"/><linearGradient id="prefix__prefix__prefix__linearGradient4197"><stop id="prefix__prefix__prefix__stop4199" offset="0" stop-color="#ff7900" stop-opacity="1"/><stop id="prefix__prefix__prefix__stop4201" offset="1" stop-color="#ffb500" stop-opacity="1"/></linearGradient><style type="text/css" id="current-color-scheme"/></defs><g id="prefix__prefix__prefix__g1" transform="matrix(1.33333 0 0 1.33333 -8 -11.334)" fill-opacity="1"><circle id="prefix__prefix__prefix__path4136-2" cx="-15.242" cy="11.042" transform="rotate(-93.688)" opacity="1" fill="url(#prefix__prefix__prefix__linearGradient4160-4)" r="6"/><path id="prefix__prefix__prefix__path8855" d="M12.897 17.747h1.714v-6h-1.714m-3.429 6h1.714v-6H9.468z" fill="#fff"/></g></svg>
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="prefix__prefix__prefix__linearGradient4160-4" x1="2" x2="46.54" y1="1028.4" y2="1031.1" gradientTransform="translate(-21.787 -269.42) scale(.27273)" gradientUnits="userSpaceOnUse"/>
+<style id="current-color-scheme" type="text/css"/>
+</defs>
+<g transform="matrix(1.3333 0 0 1.3333 -8 -11.334)">
+<circle transform="rotate(266.31)" cx="-15.242" cy="11.042" r="6" fill="url(#prefix__prefix__prefix__linearGradient4160-4)"/>
+<path d="M12.897 17.747h1.714v-6h-1.714m-3.429 6h1.714v-6H9.468z" fill="#fff"/>
+</g>
+</svg>

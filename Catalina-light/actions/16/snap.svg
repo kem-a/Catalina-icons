@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
- <defs>
-  <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
-  </style>
- </defs>
- <path style="fill:currentColor" class="ColorScheme-Text" d="M 2.9550781 0.42382812 L 0.421875 2.9570312 L 2.9824219 5.515625 L 5.515625 2.9824219 L 2.9550781 0.42382812 z M 5.3378906 4.6328125 L 4.6308594 5.3398438 L 8.6152344 9.3242188 L 6.96875 10.970703 L 10.96875 10.970703 L 10.96875 6.9707031 L 9.3222656 8.6152344 L 5.3378906 4.6328125 z M 13.017578 10.484375 L 10.484375 13.019531 L 13.044922 15.578125 L 15.578125 13.046875 L 13.017578 10.484375 z"/>
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }</style>
+</defs>
+<path class="ColorScheme-Text" d="m2.9551 0.42383-2.5332 2.5332 2.5605 2.5586 2.5332-2.5332-2.5605-2.5586zm2.3828 4.209-0.70703 0.70703 3.9844 3.9844-1.6465 1.6465h4v-4l-1.6465 1.6445-3.9844-3.9824zm7.6797 5.8516-2.5332 2.5352 2.5605 2.5586 2.5332-2.5312-2.5605-2.5625z" fill="currentColor"/>
 </svg>
