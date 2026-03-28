@@ -1,10 +1,10 @@
-<svg width="22" height="22" version="1.1" viewBox="0 0 5.8208 5.8208" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(0 -291.18)" fill="#fff">
-<rect x=".35079" y="292.7" width=".65147" height=".65147" rx="0" ry="0"/>
-<rect x=".35079" y="293.99" width=".65147" height=".65147" rx="0" ry="0"/>
-<rect x=".35079" y="295.29" width=".65147" height=".65147" rx="0" ry="0"/>
-<path d="m1.4115 292.7h3.8504v0.65147h-3.8504z"/>
-<path d="m1.4115 293.99h1.9294v0.65147h-1.9294z"/>
-<path d="m1.4115 295.29h3.8504v0.65147h-3.8504z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" version="1.1" viewBox="0 0 5.8208 5.8208">
+<g fill="#fff">
+<rect x="0.35079" y="1.52" width=".65147" height=".65147" rx="0" ry="0" />
+<rect x="0.35079" y="2.81" width=".65147" height=".65147" rx="0" ry="0" />
+<rect x="0.35079" y="4.11" width=".65147" height=".65147" rx="0" ry="0" />
+<path d="m1.4115 1.52h3.8504v0.65147h-3.8504z" />
+<path d="m1.4115 2.81h1.9294v0.65147h-1.9294z" />
+<path d="m1.4115 4.11h3.8504v0.65147h-3.8504z" />
 </g>
 </svg>

@@ -1,12 +1,11 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="linearGradient922" x1="-64.607" x2="-64.453" y1="136.39" y2="207.24" gradientTransform="matrix(.43576 0 0 .43576 43.763 204.58)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#ccc" offset="0"/>
 <stop stop-color="#b2b2b2" offset="1"/>
 </linearGradient>
 </defs>
-<g transform="translate(0 -263.13)">
-<g transform="matrix(1.0338 0 0 1.0338 -.57286 -8.8351)">
+<g transform="matrix(1.0338 0 0 1.0338 -.57286 -271.96)">
 <rect x="1.028" y="263.54" width="31.811" height="31.811" ry="3.7258" fill="url(#linearGradient922)" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".436"/>
 <g transform="matrix(.33601 0 0 .33601 -1.6937 207.29)" opacity=".4">
 <rect x="12.384" y="243.49" width="39.464" height="10" rx="2.2542" ry="2.3236" stroke-width="2.4453"/>
@@ -17,7 +16,6 @@
 <rect x="84.136" y="197.55" width="14.35" height="3.5876" stroke-width="3.5876"/>
 <rect x="84.136" y="204.73" width="14.35" height="3.5876" stroke-width="3.5876"/>
 <rect x="84.136" y="211.9" width="14.35" height="3.5876" stroke-width="3.5876"/>
-</g>
 </g>
 </g>
 </svg>

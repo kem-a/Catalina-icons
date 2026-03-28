@@ -1,4 +1,4 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="linearGradient965" x1="-23.585" x2="23.027" y1="124.84" y2="170.17" gradientTransform="matrix(.73146 0 0 .97284 -171.49 27.399)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#404040" offset="0"/>
@@ -9,8 +9,7 @@
 <stop stop-color="#333" offset="1"/>
 </radialGradient>
 </defs>
-<g transform="translate(0 -263.13)">
-<g transform="matrix(.2616 0 0 .26267 58.572 228.9)" stroke-width="3.8149">
+<g transform="matrix(.2616 0 0 .26267 58.572 -34.23)" stroke-width="3.8149">
 <rect x="-129.14" y="159.41" width="3.025" height="9.2956" ry=".58875" fill="#fff" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".73646"/>
 <rect x="-129.14" y="178.18" width="3.018" height="17.453" ry=".66645" fill="#fff" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".71274"/>
 <rect x="-192.59" y="131.33" width="65.385" height="126.92" ry="11.276" fill="#333"/>
@@ -20,6 +19,5 @@
 <rect x="-181.6" y="139.53" width="4.6803" height="1.8721" ry=".93607" fill="#333"/>
 <rect x="-188.74" y="148.85" width="57.678" height="99.015" ry="0" fill="url(#linearGradient965)"/>
 <circle cx="-137.01" cy="140.46" r=".5" fill="#2a7fff"/>
-</g>
 </g>
 </svg>

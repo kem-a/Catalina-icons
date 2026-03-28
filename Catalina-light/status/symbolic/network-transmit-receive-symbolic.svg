@@ -1,13 +1,13 @@
-<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" enable-background="new" version="1.1">
 <defs>
 <filter color-interpolation-filters="sRGB">
-<feBlend in2="BackgroundImage" mode="darken"/>
+<feBlend in2="BackgroundImage" mode="darken" />
 </filter>
 </defs>
-<g transform="translate(-525 431)">
-<g transform="matrix(.8 0 0 .8 127.4 -106.61)" enable-background="new" fill="#363636">
-<path d="m509-394 5.5-4.5-5.5-4.5c4e-3 3e-3 0 1.3333 0 2h-3v5h3v2z" color="#000000"/>
-<path d="m505-397-5.5 4.5 5.5 4.5c-4e-3 -3e-3 0-1.3333 0-2h3v-2.1875-0.8125-2h-3v-2z" color="#000000"/>
+<g>
+<g transform="matrix(0.8 0 0 0.8 -397.6 324.39)" enable-background="new" fill="#363636">
+<path d="m509-394 5.5-4.5-5.5-4.5c4e-3 3e-3 0 1.3333 0 2h-3v5h3v2z" color="#000000" />
+<path d="m505-397-5.5 4.5 5.5 4.5c-4e-3 -3e-3 0-1.3333 0-2h3v-2.1875-0.8125-2h-3v-2z" color="#000000" />
 </g>
 </g>
 </svg>

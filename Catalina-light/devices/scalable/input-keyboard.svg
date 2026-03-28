@@ -1,19 +1,16 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1197">
-<stop stop-color="#fcfcfc" offset="0"/>
-<stop stop-color="#e3e3e3" offset="1"/>
-</linearGradient>
 <linearGradient id="linearGradient3801" x1="-241.22" x2="-241.22" y1="231.54" y2="240.93" gradientTransform="matrix(.31498 0 0 .31498 91.172 198.65)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#e5e5e5" offset="0"/>
 <stop stop-color="#b2b2b2" offset="1"/>
 </linearGradient>
-<linearGradient id="linearGradient3803" x1="-230.59" x2="-128.89" y1="205.2" y2="247.06" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1197"/>
+<linearGradient id="linearGradient3803" x1="-230.59" x2="-128.89" y1="205.2" y2="247.06" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fcfcfc" offset="0"/>
+<stop stop-color="#e3e3e3" offset="1"/>
+</linearGradient>
 </defs>
-<g transform="translate(0 -263.13)">
-<g transform="translate(5.9207e-7 .24777)">
-<rect x=".31629" y="270.52" width="33.234" height="18.603" ry=".70999" fill="url(#linearGradient3801)" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".2"/>
-<g transform="matrix(.31498 0 0 .31498 73.43 210.79)" opacity=".25">
+<rect x=".31629" y="7.638" width="33.234" height="18.603" ry=".70999" fill="url(#linearGradient3801)" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".2"/>
+<g transform="matrix(.31498 0 0 .31498 73.43 -52.092)" opacity=".25">
 <rect x="-230.59" y="201.44" width="6.5692" height="3.7538" ry=".54973" opacity="1"/>
 <rect x="-222.96" y="201.44" width="6.5692" height="3.7538" ry=".54973" opacity="1"/>
 <rect x="-215.24" y="201.44" width="6.5692" height="3.7538" ry=".54973" opacity="1"/>
@@ -84,7 +81,7 @@
 <rect x="-134.28" y="243.08" width="5.3845" height="3.9857" ry=".42426" opacity="1"/>
 <rect x="-147.5" y="243.08" width="5.3845" height="3.9857" ry=".42426" opacity="1"/>
 </g>
-<g transform="matrix(.31498 0 0 .31498 73.43 210.55)" fill="url(#linearGradient3803)" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".32834">
+<g transform="matrix(.31498 0 0 .31498 73.43 -52.332)" fill="url(#linearGradient3803)" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".32834">
 <rect x="-230.59" y="201.44" width="6.5692" height="3.7538" ry=".54973"/>
 <rect x="-222.96" y="201.44" width="6.5692" height="3.7538" ry=".54973"/>
 <rect x="-215.24" y="201.44" width="6.5692" height="3.7538" ry=".54973"/>
@@ -154,7 +151,5 @@
 <rect x="-141.59" y="239.85" width="6.7805" height="7.214" ry=".7679"/>
 <rect x="-134.28" y="243.08" width="5.3845" height="3.9857" ry=".42426"/>
 <rect x="-147.5" y="243.08" width="5.3845" height="3.9857" ry=".42426"/>
-</g>
-</g>
 </g>
 </svg>

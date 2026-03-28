@@ -1,39 +1,39 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867">
 <defs>
 <clipPath>
-<rect width="384" height="384"/>
+<rect width="384" height="384" />
 </clipPath>
 <clipPath>
-<rect width="384" height="384"/>
+<rect width="384" height="384" />
 </clipPath>
-<linearGradient id="linearGradient948" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="matrix(.26458 0 0 .26458 -73.214 269.23)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient944"/>
+<linearGradient id="linearGradient948" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="matrix(.26458 0 0 .26458 -73.214 269.23)" gradientUnits="userSpaceOnUse" ns1:href="#linearGradient944" />
 <linearGradient id="linearGradient944">
-<stop stop-color="#d5dada" offset="0"/>
-<stop stop-color="#f1f1f1" offset="1"/>
+<stop stop-color="#d5dada" offset="0" />
+<stop stop-color="#f1f1f1" offset="1" />
 </linearGradient>
 <linearGradient id="linearGradient993" x1="-39.014" x2="-21.756" y1="265.76" y2="285.73" gradientTransform="translate(1.2934 .1994)" gradientUnits="userSpaceOnUse">
-<stop stop-color="#f3eeb7" offset="0"/>
-<stop stop-color="#ff9676" offset="1"/>
+<stop stop-color="#f3eeb7" offset="0" />
+<stop stop-color="#ff9676" offset="1" />
 </linearGradient>
 <clipPath>
-<rect width="384" height="384"/>
+<rect width="384" height="384" />
 </clipPath>
 <clipPath>
-<rect width="384" height="384"/>
+<rect width="384" height="384" />
 </clipPath>
-<linearGradient id="linearGradient1194" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="matrix(.26458 0 0 .26458 -114.23 271.81)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient944"/>
+<linearGradient id="linearGradient1194" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="matrix(.26458 0 0 .26458 -114.23 271.81)" gradientUnits="userSpaceOnUse" ns1:href="#linearGradient944" />
 </defs>
-<g transform="translate(0 -263.13)">
-<g transform="matrix(.97507 -.15 .15 .97507 23.859 10.715)" fill="none" opacity=".389" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".039216">
-<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".15" style="paint-order:fill markers stroke"/>
-<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".3" style="paint-order:fill markers stroke"/>
-<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".45" style="paint-order:fill markers stroke"/>
-<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".6" style="paint-order:fill markers stroke"/>
-<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".85" style="paint-order:fill markers stroke"/>
-<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" style="paint-order:fill markers stroke"/>
+<g>
+<g transform="matrix(0.97507 -0.15 0.15 0.97507 23.859 -252.415)" fill="none" opacity=".389" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".039216">
+<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".15" style="paint-order:fill markers stroke" />
+<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".3" style="paint-order:fill markers stroke" />
+<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".45" style="paint-order:fill markers stroke" />
+<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".6" style="paint-order:fill markers stroke" />
+<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" stroke-width=".85" style="paint-order:fill markers stroke" />
+<rect transform="rotate(-.018651)" x="-61.945" y="253.77" width="25.83" height="29.567" rx="1.4423" ry="1.4423" opacity="1" style="paint-order:fill markers stroke" />
 </g>
-<rect transform="rotate(-8.764)" x="-39.163" y="264.57" width="25.483" height="29.169" rx="1.4229" ry="1.4229" fill="url(#linearGradient993)" style="paint-order:fill markers stroke"/>
-<path d="m14.556 271.61c-3.2288 0.51755-5.4264 3.5544-4.9089 6.783 0.26854 1.7526 2.0629 3.0346 3.0413 4.5862 0.43604 0.69162 1.2598 2.1043 1.2598 2.1043l5.3963-0.86498s0.34095-1.5994 0.53897-2.3926c0.44442-1.7796 1.702-3.5707 1.4555-5.307-0.51752-3.2286-3.5542-5.4264-6.783-4.9089zm0.88218 2.626 0.50457 3.1478 1.7988-0.28832-2.0494 4.4797-0.50457-3.1478-1.7988 0.28833zm-1.3601 11.174 1.4182 3.5761c0.18252 0.47044 0.54528 0.83507 1.0435 0.75521l1.7988-0.28833c0.49825-0.0799 0.72509-0.53983 0.75521-1.0435l0.22937-3.8402z" fill="#fff" stroke-width=".45543"/>
+<rect x="-39.163" y="264.57" width="25.483" height="29.169" rx="1.4229" ry="1.4229" fill="url(#linearGradient993)" style="paint-order:fill markers stroke" />
+<path d="m14.556 8.48c-3.2288 0.51755-5.4264 3.5544-4.9089 6.783 0.26854 1.7526 2.0629 3.0346 3.0413 4.5862 0.43604 0.69162 1.2598 2.1043 1.2598 2.1043l5.3963-0.86498s0.34095-1.5994 0.53897-2.3926c0.44442-1.7796 1.702-3.5707 1.4555-5.307-0.51752-3.2286-3.5542-5.4264-6.783-4.9089zm0.88218 2.626 0.50457 3.1478 1.7988-0.28832-2.0494 4.4797-0.50457-3.1478-1.7988 0.28833zm-1.3601 11.174 1.4182 3.5761c0.18252 0.47044 0.54528 0.83507 1.0435 0.75521l1.7988-0.28833c0.49825-0.0799 0.72509-0.53983 0.75521-1.0435l0.22937-3.8402z" fill="#fff" stroke-width=".45543" />
 </g>
 <style type="text/css">.st0{fill:#656565;}
 	.st1{fill:url(#SVGID_1_);}

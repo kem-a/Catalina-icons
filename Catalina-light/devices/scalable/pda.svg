@@ -1,4 +1,4 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="linearGradient965" x1="55.269" x2="-23.585" y1="124.84" y2="226.62" gradientTransform="matrix(.1982 0 0 .20233 13.608 241.78)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#77bde5" offset="0"/>
@@ -33,8 +33,7 @@
 <stop stop-color="#1a1a1a" offset="1"/>
 </linearGradient>
 </defs>
-<g transform="translate(0 -263.13)">
-<g transform="matrix(1.024 0 0 1.024 -.40607 -6.2526)">
+<g transform="matrix(1.024 0 0 1.024 -.40607 -269.38)">
 <rect x="6.4919" y="263.96" width="20.883" height="31.928" ry="1.0967" opacity=".25"/>
 <rect x="6.4919" y="263.44" width="20.883" height="31.928" ry="1.0967" fill="url(#linearGradient974)" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".2"/>
 <rect x="8.934" y="267.04" width="15.629" height="20.592" ry="1.2239" fill="url(#linearGradient965)" stroke="#233a58" stroke-linecap="round" stroke-linejoin="round" stroke-width=".24795"/>
@@ -45,6 +44,5 @@
 <circle cx="12.764" cy="292.11" r="1.2257" fill="url(#linearGradient913)"/>
 <circle cx="16.933" cy="265.16" r="1.3788" fill="url(#linearGradient885)" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width=".11628"/>
 <rect x="12.702" y="264.58" width="1.2535" height=".50142" ry="0" fill="#4d4d4d"/>
-</g>
 </g>
 </svg>

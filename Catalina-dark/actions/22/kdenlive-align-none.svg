@@ -1,12 +1,12 @@
-<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
 <defs>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#dedede
       }</style>
 </defs>
-<g transform="translate(-553.72 -583.12)" fill="currentColor">
-<rect class="ColorScheme-Text" x="556.72" y="594.12" width="6" height="6" ry=".5"/>
-<rect class="ColorScheme-Text" x="559.72" y="586.12" width="13" height="6" ry=".5"/>
-<rect class="ColorScheme-Text" x="566.72" y="596.12" width="6" height="6" ry=".5"/>
+<g fill="currentColor">
+<rect class="ColorScheme-Text" x="3" y="11" width="6" height="6" ry=".5" />
+<rect class="ColorScheme-Text" x="6" y="3" width="13" height="6" ry=".5" />
+<rect class="ColorScheme-Text" x="13" y="13" width="6" height="6" ry=".5" />
 </g>
 </svg>

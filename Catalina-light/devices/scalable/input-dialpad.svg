@@ -1,16 +1,14 @@
 <svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(0 -161.53)">
-<g transform="translate(1.7288 -2.3438)" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="4.5099">
-<ellipse cx="34.763" cy="247.23" rx="10.414" ry="10.414"/>
-<ellipse cx="34.763" cy="215.99" rx="10.414" ry="10.414"/>
-<ellipse cx="34.763" cy="184.75" rx="10.414" ry="10.414"/>
-<ellipse cx="66.005" cy="247.23" rx="10.414" ry="10.414"/>
-<ellipse cx="66.005" cy="215.99" rx="10.414" ry="10.414"/>
-<ellipse cx="66.005" cy="184.75" rx="10.414" ry="10.414"/>
-<ellipse cx="97.246" cy="247.23" rx="10.414" ry="10.414"/>
-<ellipse cx="97.246" cy="215.99" rx="10.414" ry="10.414"/>
-<ellipse cx="97.246" cy="184.75" rx="10.414" ry="10.414"/>
-<ellipse cx="66.005" cy="278.47" rx="10.414" ry="10.414"/>
-</g>
+<g fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linejoin="round" stroke-width="4.5099">
+<ellipse cx="36.492" cy="83.356" rx="10.414" ry="10.414"/>
+<ellipse cx="36.492" cy="52.116" rx="10.414" ry="10.414"/>
+<ellipse cx="36.492" cy="20.876" rx="10.414" ry="10.414"/>
+<ellipse cx="67.734" cy="83.356" rx="10.414" ry="10.414"/>
+<ellipse cx="67.734" cy="52.116" rx="10.414" ry="10.414"/>
+<ellipse cx="67.734" cy="20.876" rx="10.414" ry="10.414"/>
+<ellipse cx="98.975" cy="83.356" rx="10.414" ry="10.414"/>
+<ellipse cx="98.975" cy="52.116" rx="10.414" ry="10.414"/>
+<ellipse cx="98.975" cy="20.876" rx="10.414" ry="10.414"/>
+<ellipse cx="67.734" cy="114.6" rx="10.414" ry="10.414"/>
 </g>
 </svg>

@@ -1,11 +1,11 @@
-<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(-301 -29)">
-<g transform="matrix(0 -1 1 0 301 45)" enable-background="new" fill="#dedede">
-<g transform="translate(-361 -29)" fill="#dedede">
-<g transform="matrix(.9375 0 0 -.9375 53.063 548.28)" fill="#dedede">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" enable-background="new" version="1.1">
+<g>
+<g transform="matrix(0 -1 1 0 0 16)" enable-background="new" fill="#dedede">
+<g fill="#dedede">
+<g transform="matrix(0.9375 0 0 -0.9375 -307.937 519.28)" fill="#dedede">
 <g transform="matrix(-1.0825 0 0 -1.0825 348.79 1673)" fill="#dedede">
 <g transform="matrix(.00011827 .032712 -.032712 .00011827 18.269 1034.4)" fill="#dedede">
-<path d="m321.47 243.89-155.43 155.42c-9.8872 9.892-25.918 9.892-35.8 0-9.8832-9.8832-9.8832-25.913 0-35.795l137.53-137.53-137.53-137.52c-9.8832-9.8872-9.8832-25.915 0-35.798 9.8832-9.8872 25.913-9.8872 35.8 0l155.43 155.43c4.9416 4.944 7.4096 11.417 7.4096 17.893 0 6.4792-2.4728 12.957-7.4136 17.898z" fill="#dedede"/>
+<path d="m321.47 243.89-155.43 155.42c-9.8872 9.892-25.918 9.892-35.8 0-9.8832-9.8832-9.8832-25.913 0-35.795l137.53-137.53-137.53-137.52c-9.8832-9.8872-9.8832-25.915 0-35.798 9.8832-9.8872 25.913-9.8872 35.8 0l155.43 155.43c4.9416 4.944 7.4096 11.417 7.4096 17.893 0 6.4792-2.4728 12.957-7.4136 17.898z" fill="#dedede" />
 </g>
 </g>
 </g>

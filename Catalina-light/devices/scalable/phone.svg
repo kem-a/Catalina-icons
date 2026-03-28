@@ -1,14 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink">
 <defs>
 <linearGradient id="linearGradient965-7" x1="-23.585" x2="10.249" y1="124.84" y2="173.45" gradientTransform="matrix(.1868 0 0 .21551 13.938 242.72)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#404040" offset="0"/>
 <stop stop-color="#1f1f1f" offset="1"/>
 </linearGradient>
-<radialGradient id="radialGradient1114" cx="-74.104" cy="276.04" r="5.6027" gradientTransform="matrix(1.0755 -1.109 1.1794 1.1438 -318.67 -120.38)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1120"/>
-<linearGradient id="linearGradient1120">
+<radialGradient id="radialGradient1114" cx="-74.104" cy="276.04" r="5.6027" gradientTransform="matrix(1.0755 -1.109 1.1794 1.1438 -318.67 -120.38)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#6a6a6a" offset="0"/>
 <stop stop-color="#0d0d0d" offset="1"/>
-</linearGradient>
+</radialGradient>
 <linearGradient id="linearGradient1013" x1="-94.898" x2="-94.914" y1="175.5" y2="177.08" gradientTransform="matrix(.26734 0 0 .26734 42.175 220.1)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#1a1a1a" offset="0"/>
 <stop stop-color="#333" offset="1"/>
@@ -18,22 +17,20 @@
 <stop stop-color="#333" offset="1"/>
 </linearGradient>
 </defs>
-<g transform="translate(0 -263.13)">
-<rect x="8.2992" y="266.98" width=".44856" height="1.3914" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".053468"/>
-<rect x="8.2992" y="270.08" width=".44856" height="1.3914" ry=".14241" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".053468"/>
-<rect x="8.2992" y="273.35" width=".44856" height="1.3914" ry=".14241" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".053468"/>
-<rect x="20.014" y="263.42" width="2.887" height=".37543" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".053468"/>
-<rect x="8.6238" y="263.8" width="16.762" height="32.834" ry="1.9311" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".20569"/>
-<rect x="8.8646" y="264.06" width="16.28" height="32.304" ry="1.8999"/>
-<rect x="15.316" y="267" width="3.1629" height=".63456" ry=".31728" fill="url(#linearGradient1013)"/>
-<rect x="9.5324" y="269.62" width="14.73" height="21.935" ry="0" fill="url(#linearGradient965-7)"/>
-<g transform="matrix(.26734 0 0 .26734 -82.242 240.66)">
+<rect x="8.2992" y="3.85" width=".44856" height="1.3914" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".053468"/>
+<rect x="8.2992" y="6.95" width=".44856" height="1.3914" ry=".14241" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".053468"/>
+<rect x="8.2992" y="10.22" width=".44856" height="1.3914" ry=".14241" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".053468"/>
+<rect x="20.014" y=".29" width="2.887" height=".37543" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".053468"/>
+<rect x="8.6238" y=".67" width="16.762" height="32.834" ry="1.9311" fill="#ccc" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".20569"/>
+<rect x="8.8646" y=".93" width="16.28" height="32.304" ry="1.8999"/>
+<rect x="15.316" y="3.87" width="3.1629" height=".63456" ry=".31728" fill="url(#linearGradient1013)"/>
+<rect x="9.5324" y="6.49" width="14.73" height="21.935" ry="0" fill="url(#linearGradient965-7)"/>
+<g transform="matrix(.26734 0 0 .26734 -82.242 -22.47)">
 <g transform="matrix(1.0342 0 0 1.0342 446.63 -80.455)" fill="url(#radialGradient1114)">
 <circle cx="-73.293" cy="269.83" r="5.6027" fill="url(#radialGradient1114)"/>
 </g>
 <rect x="368.87" y="196.83" width="3.9336" height="3.5403" ry=".86614" fill="#1a1a1a" fill-opacity=".98333" stroke="#b4b4b5" stroke-linecap="round" stroke-linejoin="round" stroke-width=".49664"/>
 </g>
-<circle cx="13.236" cy="267.32" r=".41684" fill="url(#linearGradient1029)"/>
-<circle cx="13.23" cy="267.32" r=".20051" fill="#153980"/>
-</g>
+<circle cx="13.236" cy="4.19" r=".41684" fill="url(#linearGradient1029)"/>
+<circle cx="13.23" cy="4.19" r=".20051" fill="#153980"/>
 </svg>

@@ -1,10 +1,10 @@
-<svg width="16" height="16" version="1.1" viewBox="0 0 4.2333 4.2333" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(0 -292.77)">
-<rect x=".52917" y="296.47" width="3.175" height=".26458" fill="#363636"/>
-<rect x=".52917" y="293.56" width=".26458" height="2.9104" fill="#363636"/>
-<rect x="3.4396" y="293.56" width=".26458" height="2.9104" fill="#363636"/>
-<rect x=".52917" y="293.56" width="3.175" height=".26458" fill="#363636"/>
-<path d="m1.0583 294.35 0.52917 0.52916-0.52917 0.52917" fill="none" stroke="#000" stroke-width=".26458px"/>
-<path d="m2.1167 295.15v0.26458h0.79375v-0.26458z" fill="#363636"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1" viewBox="0 0 4.2333 4.2333">
+<g>
+<rect x="0.52917" y="3.7" width="3.175" height=".26458" fill="#363636" />
+<rect x="0.52917" y="0.79" width=".26458" height="2.9104" fill="#363636" />
+<rect x="3.4396" y="0.79" width=".26458" height="2.9104" fill="#363636" />
+<rect x="0.52917" y="0.79" width="3.175" height=".26458" fill="#363636" />
+<path d="m1.0583 1.58 0.52917 0.52916-0.52917 0.52917" fill="none" stroke="#000" stroke-width=".26458px" />
+<path d="m2.1167 2.38v0.26458h0.79375v-0.26458z" fill="#363636" />
 </g>
 </svg>

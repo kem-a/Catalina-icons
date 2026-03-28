@@ -1,10 +1,10 @@
-<svg width="22" height="22" version="1.1" viewBox="0 0 5.8208 5.8208" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(0 -291.18)" fill-opacity=".47451">
-<circle cx=".98801" cy="292.55" r=".35862"/>
-<circle cx=".98801" cy="294.19" r=".35862"/>
-<circle cx=".98801" cy="295.82" r=".35862"/>
-<rect x="1.5875" y="292.63" width="3.8365" height=".26459" rx=".13229" ry=".13229"/>
-<rect x="1.5875" y="294.22" width="3.8365" height=".26459" rx=".13229" ry=".13229"/>
-<rect x="1.5875" y="295.81" width="3.8365" height=".26459" rx=".13229" ry=".13229"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" version="1.1" viewBox="0 0 5.8208 5.8208">
+<g fill-opacity=".47451">
+<circle cx="0.98801" cy="1.37" r=".35862" />
+<circle cx="0.98801" cy="3.01" r=".35862" />
+<circle cx="0.98801" cy="4.64" r=".35862" />
+<rect x="1.5875" y="1.45" width="3.8365" height=".26459" rx=".13229" ry=".13229" />
+<rect x="1.5875" y="3.04" width="3.8365" height=".26459" rx=".13229" ry=".13229" />
+<rect x="1.5875" y="4.63" width="3.8365" height=".26459" rx=".13229" ry=".13229" />
 </g>
 </svg>

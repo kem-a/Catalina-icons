@@ -1,13 +1,13 @@
-<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
 <defs>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#363636
       }</style>
 </defs>
-<g transform="translate(1 -1031.4)" fill="#363636">
-<rect class="ColorScheme-Text" transform="scale(1,-1)" x="12" y="-1048.4" width="6" height="6" ry=".5"/>
-<rect class="ColorScheme-Text" transform="scale(1,-1)" x="2" y="-1050.4" width="6" height="8" ry=".5"/>
-<rect class="ColorScheme-Text" transform="scale(1,-1)" x="2" y="-1040.9" width="16" height="1.5" ry=".5"/>
-<rect class="ColorScheme-Text" transform="scale(1,-1)" x="12" y="-1037.4" width="6" height="3" ry=".375"/>
+<g fill="#363636">
+<rect class="ColorScheme-Text" x="12" y="-1048.4" width="6" height="6" ry=".5" />
+<rect class="ColorScheme-Text" x="2" y="-1050.4" width="6" height="8" ry=".5" />
+<rect class="ColorScheme-Text" x="2" y="-1040.9" width="16" height="1.5" ry=".5" />
+<rect class="ColorScheme-Text" x="12" y="-1037.4" width="6" height="3" ry=".375" />
 </g>
 </svg>

@@ -1,4 +1,4 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <filter id="filter4244-4" x="-.14734" y="-.16574" width="1.2947" height="1.3315" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="3.3624534"/>
@@ -40,8 +40,7 @@
 <stop stop-color="#af8a4f" offset="1"/>
 </linearGradient>
 </defs>
-<g transform="translate(0 -263.13)">
-<g transform="matrix(-.97398 0 0 -.97398 -27.864 267.24)" display="none" filter="url(#filter4244-4)">
+<g transform="matrix(-.97398 0 0 -.97398 -27.864 4.11)" display="none" filter="url(#filter4244-4)">
 <path d="m32.027 20.525 18.936 25.572c2.4941-1.8301 5.3711-3.1885 8.5859-3.8936 0.08496-0.01953 0.16406-0.03711 0.25-0.05469l-6.6377-31.131c-7.8936 1.5332-14.533 5.0693-21.134 9.5068z" display="inline" enable-background="new    " fill="url(#SVGID_11_)" opacity=".8"/>
 <g display="inline">
 <path d="m43.664 13.968 12.203 29.351c2.8633-1.1729 5.9824-1.7959 9.272-1.7021 0.0874 2e-3 0.16894 0.0039 0.25635 0.0068l0.93555-31.733c-8.0303-0.41992-15.188 1.3672-22.667 4.0781z" enable-background="new    " fill="url(#SVGID_12_)" opacity=".8"/>
@@ -50,7 +49,7 @@
 <path d="m18.459 34.97c-3.2324 4.7871-5.2119 9.9355-6.8984 15.42l30.977 8.1289c0.58984-2.085 1.416-4.1387 2.6465-6.0625 0.04785-0.07324 0.12305-0.18262 0.17188-0.25586z" enable-background="new    " fill="url(#SVGID_15_)" opacity=".8"/>
 </g>
 </g>
-<g transform="matrix(.98437 0 0 .98437 -13.659 9.8458)">
+<g transform="matrix(.98437 0 0 .98437 -13.659 -253.28)">
 <path d="m19.501 258.11c-0.86194 0-1.5558 0.69383-1.5558 1.5558v30.226c0 0.86193 0.69383 1.5558 1.5558 1.5558h23.154c0.86193 0 1.5559-0.69384 1.5559-1.5558v-28.104l-3.4836-3.6773z" opacity=".25"/>
 <path d="m19.501 257.58c-0.86194 0-1.5558 0.69383-1.5558 1.5558v30.226c0 0.86193 0.69383 1.5558 1.5558 1.5558h23.154c0.86193 0 1.5559-0.69384 1.5559-1.5558v-28.104l-3.4836-3.6773z" fill="url(#linearGradient1114)"/>
 <rect x="20.516" y="261.66" width="21.124" height="12.947" ry="2.0341" fill="#808080" opacity=".3"/>
@@ -84,6 +83,5 @@
 <rect x="20.905" y="279.13" width="20.345" height="11.356" ry=".46163" fill="url(#linearGradient4740)" fill-rule="evenodd"/>
 <path d="m21.411 279.13c-0.60089 0-0.5035 0.42973-0.5035 0.99131v4.4011h20.345v-4.4011c0-0.56158 0.03781-0.99129-0.56308-0.99129z" fill="url(#radialGradient4750)" fill-rule="evenodd"/>
 <path d="m30.707 280.81 0.81131 1.9946-1.6665-1e-3z" fill="#fff" fill-rule="evenodd"/>
-</g>
 </g>
 </svg>
