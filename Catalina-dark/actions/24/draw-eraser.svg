@@ -22,7 +22,7 @@
 <stop stop-color="#b0b0b0" offset="1"/>
 </linearGradient>
 <linearGradient id="linearGradient1024" x1="-76.465" x2="-74.613" y1="-60.325" y2="-59.002" gradientTransform="translate(77.655 63.434)" gradientUnits="userSpaceOnUse">
-<stop stop-color="#bebebe" offset="0"/>
+<stop stop-color="#dedede" offset="0"/>
 <stop stop-color="#434547" stop-opacity="0" offset="1"/>
 </linearGradient>
 </defs>
