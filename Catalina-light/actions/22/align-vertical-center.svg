@@ -1,11 +1,11 @@
 <svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#4d4d4d
+        color:#363636
       }</style>
 </defs>
 <g transform="translate(1 -1031.4)">
-<g transform="matrix(0 1 -1 0 1052.4 1032.4)" fill="currentColor">
+<g transform="matrix(0 1 -1 0 1052.4 1032.4)" fill="#363636">
 <rect class="ColorScheme-Text" x="9.25" y="1034.4" width="1.5" height="16" ry=".5"/>
 <rect class="ColorScheme-Text" x="6" y="1036.4" width="8" height="5" ry=".5"/>
 <rect class="ColorScheme-Text" x="4" y="1043.4" width="12" height="5" ry=".5"/>

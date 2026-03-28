@@ -1,6 +1,7 @@
-<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }</style>
-</defs>
-<path class="ColorScheme-Text" d="m9 2v12h1v-12h-1zm-8 1v2h2v-2h-2zm4 0v2h2v-2h-2zm7 0v1h2v-1h-2zm0 3v1h2v-1h-2zm-11 1v2h2v-2h-2zm4 0v2h2v-2h-2zm7 2v1h2v-1h-2zm-11 2v2h2v-2h-2zm4 0v2h2v-2h-2zm7 1v1h2v-1h-2z" fill="currentColor"/>
+<svg width="16" height="16" version="1.1" viewBox="0 0 4.2333 4.2333" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(0 -292.77)" fill-opacity=".47451">
+<path transform="matrix(.26458 0 0 .26458 0 292.77)" d="m2.5 3c-0.83101 0-1.5 0.66899-1.5 1.5v7c0 0.83101 0.66899 1.5 1.5 1.5h11c0.83101 0 1.5-0.66899 1.5-1.5v-7c0-0.83101-0.66899-1.5-1.5-1.5h-11zm0 1h11c0.277 0 0.5 0.223 0.5 0.5v7c0 0.277-0.223 0.5-0.5 0.5h-11c-0.277 0-0.5-0.223-0.5-0.5v-7c0-0.277 0.223-0.5 0.5-0.5z"/>
+<path d="m1.4111 293.82v2.1167h0.26458v-2.1167z"/>
+<path d="m2.5576 293.82v2.1167h0.26458v-2.1167z"/>
+</g>
 </svg>

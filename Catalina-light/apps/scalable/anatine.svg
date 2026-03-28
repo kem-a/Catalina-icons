@@ -1,7 +1,13 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient859" x1="73.909" x2="79.909" y1="8.694" y2="137.96" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient867" x1="69.849" x2="72.163" y1="15.805" y2="128.54" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient859" x1="73.909" x2="79.909" y1="8.694" y2="137.96" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f1f1f1" offset="0"/>
+<stop stop-color="#d9dad9" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient867" x1="69.849" x2="72.163" y1="15.805" y2="128.54" gradientTransform="matrix(.20207 0 0 .20207 29.315 30.434)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3295eb" offset="0"/>
+<stop stop-color="#2570ef" offset="1"/>
+</linearGradient>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>

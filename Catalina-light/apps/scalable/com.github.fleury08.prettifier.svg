@@ -1,13 +1,19 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient4601" x1="-23.371" x2="-23.368" y1="265.06" y2="258.26" gradientTransform="matrix(.97502 -.15031 .15031 .97502 1.7893 9.4995)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient4601" x1="-23.371" x2="-23.368" y1="265.06" y2="258.26" gradientTransform="matrix(.97502 -.15031 .15031 .97502 1.7893 9.4995)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d3d3d3" offset="0"/>
+<stop stop-color="#e0e0e0" offset="1"/>
+</linearGradient>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
-<linearGradient id="linearGradient948" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="matrix(.26458 0 0 .26458 -73.214 269.23)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient948" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="matrix(.26458 0 0 .26458 -73.214 269.23)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d5dada" offset="0"/>
+<stop stop-color="#f1f1f1" offset="1"/>
+</linearGradient>
 <filter id="h" x="-.063962" y="-.0565" width="1.1279" height="1.113" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="2.1746765"/>
 </filter>
@@ -66,7 +72,10 @@
 <filter id="p" x="-.019943" y="-.13645" width="1.0399" height="1.2729" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation=".19828681"/>
 </filter>
-<linearGradient id="linearGradient4940" x1="-30.145" x2="-25.075" y1="290.81" y2="269" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient4940" x1="-30.145" x2="-25.075" y1="290.81" y2="269" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1185ff" offset="0"/>
+<stop stop-color="#11bfff" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.97507 -.15 .15 .97507 22.55 10.715)" fill="none" opacity=".389" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".039216">

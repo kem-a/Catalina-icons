@@ -1,10 +1,10 @@
 <svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <mask id="m">
-<rect width="16" height="16" fill="#fff"/>
+<rect width="16" height="16" fill="#363636"/>
 <text x="1" y="11.5" fill="black" font-family="Open Sans" font-size="9" font-weight="500">Es</text>
 <text x="10" y="14.5" fill="black" font-family="Open Sans" font-size="8" font-weight="500">1</text>
 </mask>
 </defs>
-<rect width="16" height="16" rx="2" fill="#4d4d4d" mask="url(#m)"/>
+<rect width="16" height="16" rx="2" fill="#363636" mask="url(#m)"/>
 </svg>

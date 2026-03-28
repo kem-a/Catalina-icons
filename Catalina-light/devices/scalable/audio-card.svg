@@ -1,12 +1,19 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient4639" x1="192.34" x2="192.34" y1="228.05" y2="198.89" gradientTransform="matrix(.29526 0 0 .26906 -40.363 223.73)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4649" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.30364 0 0 .27948 -27.529 222.74)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5177" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(1.055 0 0 .8154 -165.51 117.34)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5357" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.18925 0 0 .64511 108.75 9.1551)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5361" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.18925 0 0 .64511 108.75 17.198)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5365" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.18925 0 0 .64511 108.75 25.341)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1045" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.30364 0 0 .27948 -27.529 227.53)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient927">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#1a1a1a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4639" x1="192.34" x2="192.34" y1="228.05" y2="198.89" gradientTransform="matrix(.29526 0 0 .26906 -40.363 223.73)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#63984b" offset="0"/>
+<stop stop-color="#8dbf76" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4649" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.30364 0 0 .27948 -27.529 222.74)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient927"/>
+<linearGradient id="linearGradient5177" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(1.055 0 0 .8154 -165.51 117.34)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient927"/>
+<linearGradient id="linearGradient5357" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.18925 0 0 .64511 108.75 9.1551)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient927"/>
+<linearGradient id="linearGradient5361" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.18925 0 0 .64511 108.75 17.198)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient927"/>
+<linearGradient id="linearGradient5365" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.18925 0 0 .64511 108.75 25.341)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient927"/>
+<linearGradient id="linearGradient1045" x1="167.69" x2="167.49" y1="196.79" y2="206.75" gradientTransform="matrix(.30364 0 0 .27948 -27.529 227.53)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient927"/>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(1.1101 0 0 1.1194 1.1212 -35.281)" stroke-width=".89704">

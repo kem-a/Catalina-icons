@@ -1,6 +1,9 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient852" x1="-275.91" x2="-276.78" y1="204.46" y2="174.5" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient852" x1="-275.91" x2="-276.78" y1="204.46" y2="174.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d3c8a8" offset="0"/>
+<stop stop-color="#ece6cd" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(1.0061 0 0 1.0061 -.10314 -1.8893)" stroke-width=".99396">

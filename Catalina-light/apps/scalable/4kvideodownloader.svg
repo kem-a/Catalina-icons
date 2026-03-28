@@ -1,8 +1,17 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient823" x1="68.463" x2="68.287" y1="23.819" y2="121.01" gradientTransform="matrix(.94602 0 0 .94602 -.89771 -.44925)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1080" x1="701.81" x2="699.28" y1="398.37" y2="220.53" gradientTransform="matrix(.66355 0 0 .66355 -399.67 -144.99)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient872" cx="64.333" cy="64.226" r="60.566" gradientTransform="matrix(1.8556 0 0 1.6531 -55.043 -41.948)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient823" x1="68.463" x2="68.287" y1="23.819" y2="121.01" gradientTransform="matrix(.94602 0 0 .94602 -.89771 -.44925)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#46dfb3" offset="0"/>
+<stop stop-color="#19d7a0" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1080" x1="701.81" x2="699.28" y1="398.37" y2="220.53" gradientTransform="matrix(.66355 0 0 .66355 -399.67 -144.99)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d9dadd" offset="0"/>
+<stop stop-color="#f7f9f9" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient872" cx="64.333" cy="64.226" r="60.566" gradientTransform="matrix(1.8556 0 0 1.6531 -55.043 -41.948)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#46dfb3" stop-opacity="0" offset="0"/>
+<stop stop-opacity=".17787" offset="1"/>
+</radialGradient>
 <filter id="filter919" x="-.18585" y="-.2478" width="1.3717" height="1.4956" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="5.7588089"/>
 </filter>

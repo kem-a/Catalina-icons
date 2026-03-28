@@ -1,8 +1,18 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient5042" x1="-517.26" x2="-158.21" y1="-264.23" y2="168.43" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5056" x1="-94.844" x2="-276.97" y1="28.729" y2="285.19" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1306" x1="-612.4" x2="-158.21" y1="-379.95" y2="168.43" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient5054">
+<stop stop-color="#d1dee5" offset="0"/>
+<stop stop-color="#f6fbff" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient5042" x1="-517.26" x2="-158.21" y1="-264.23" y2="168.43" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1585f3" offset="0"/>
+<stop stop-color="#4cbcfb" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient5056" x1="-94.844" x2="-276.97" y1="28.729" y2="285.19" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient5054"/>
+<linearGradient id="linearGradient1306" x1="-612.4" x2="-158.21" y1="-379.95" y2="168.43" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0e7bed" offset="0"/>
+<stop stop-color="#58c5fa" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.053307 0 0 -.053307 32.54 277.41)" opacity=".25" stroke-width="3.8995">

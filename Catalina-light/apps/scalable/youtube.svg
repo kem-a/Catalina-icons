@@ -1,7 +1,13 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient859" x1="73.909" x2="79.909" y1="8.694" y2="137.96" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient867" x1="68.113" x2="68.113" y1="106.06" y2="8.7812" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient859" x1="73.909" x2="79.909" y1="8.694" y2="137.96" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f1f1f1" offset="0"/>
+<stop stop-color="#d9dad9" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient867" x1="68.113" x2="68.113" y1="106.06" y2="8.7812" gradientUnits="userSpaceOnUse">
+<stop stop-color="#c6001a" offset="0"/>
+<stop stop-color="#f00020" offset="1"/>
+</linearGradient>
 </defs>
 <filter x="-.069933" y="-.054406" width="1.1399" height="1.1088" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.9764485"/>

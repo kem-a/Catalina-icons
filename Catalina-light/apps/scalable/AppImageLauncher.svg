@@ -1,9 +1,19 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient825" x1="-741.83" x2="-741.83" y1="959.05" y2="93.836" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient835" x1="-738.76" x2="-738.76" y1="931.43" y2="152.13" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="e-3" x1="32" x2="32" y1="-3.5763" y2="57" gradientTransform="translate(-93.831 13.017)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="b-5" x1="124.73" x2="124.87" y1="193.81" y2="232.94" gradientTransform="matrix(1.3333 0 0 1.3333 -228.33 -240.93)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient825" x1="-741.83" x2="-741.83" y1="959.05" y2="93.836" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ccd4da" offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient835" x1="-738.76" x2="-738.76" y1="931.43" y2="152.13" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#dfe3e8" offset="0"/>
+<stop stop-color="#fefeff" offset="1"/>
+</linearGradient>
+<linearGradient id="a">
+<stop stop-color="#111" offset="0"/>
+<stop stop-color="#626262" offset="1"/>
+</linearGradient>
+<linearGradient id="e-3" x1="32" x2="32" y1="-3.5763" y2="57" gradientTransform="translate(-93.831 13.017)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<linearGradient id="b-5" x1="124.73" x2="124.87" y1="193.81" y2="232.94" gradientTransform="matrix(1.3333 0 0 1.3333 -228.33 -240.93)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
 </defs>
 <circle cx="63.592" cy="64.286" r="61.38" fill="url(#linearGradient825)"/>
 <circle cx="63.592" cy="64.286" r="55.09" fill="url(#linearGradient835)"/>

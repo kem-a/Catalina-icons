@@ -1,7 +1,13 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient859" x1="91.31" x2="34.942" y1="122.97" y2="15.363" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient902" x1="68.204" x2="67.638" y1="132.27" y2="15.816" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient859" x1="91.31" x2="34.942" y1="122.97" y2="15.363" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f5f5f5" offset="0"/>
+<stop stop-color="#e0e1e0" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient902" x1="68.204" x2="67.638" y1="132.27" y2="15.816" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9416b7" offset="0"/>
+<stop stop-color="#e41b93" offset="1"/>
+</linearGradient>
 </defs>
 <filter x="-.069933" y="-.054406" width="1.1399" height="1.1088" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.9764485"/>

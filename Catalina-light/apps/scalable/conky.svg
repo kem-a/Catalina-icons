@@ -1,8 +1,17 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient4546" x1="68.619" x2="68.619" y1="7.4113" y2="123.62" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4646" x1="179.01" x2="178.91" y1="86.676" y2="106.81" gradientTransform="translate(31.394 -1.7627)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4159" x1="68.619" x2="68.619" y1="123.62" y2="7.4113" gradientTransform="matrix(.95244 0 0 .95244 3.0728 3.051)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient4546" x1="68.619" x2="68.619" y1="7.4113" y2="123.62" gradientUnits="userSpaceOnUse">
+<stop stop-color="#cfe6ec" offset="0"/>
+<stop stop-color="#747472" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4646" x1="179.01" x2="178.91" y1="86.676" y2="106.81" gradientTransform="translate(31.394 -1.7627)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#eae9e9" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4159" x1="68.619" x2="68.619" y1="123.62" y2="7.4113" gradientTransform="matrix(.95244 0 0 .95244 3.0728 3.051)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#181818" offset="0"/>
+<stop stop-color="#181818" offset="1"/>
+</linearGradient>
 </defs>
 <path d="m64.613 1.4883c-34.585 1e-7 -62.682 28.098-62.682 62.684s28.096 62.682 62.682 62.682c34.585 0 62.684-28.096 62.684-62.682-1e-5 -34.585-28.098-62.684-62.684-62.684z" color="#000000" color-rendering="auto" fill="url(#linearGradient4546)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
 <circle cx="64.614" cy="64.171" r="57.029" fill="url(#linearGradient4159)"/>

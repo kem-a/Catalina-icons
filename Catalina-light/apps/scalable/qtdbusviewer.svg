@@ -1,9 +1,23 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<radialGradient id="radialGradient829" cx="-466.44" cy="527.19" r="496.81" gradientTransform="matrix(.12131 0 0 .12162 118.76 .34911)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient845" x1="-513.95" x2="-519.39" y1="92.874" y2="915.13" gradientTransform="matrix(.12681 0 0 .12681 131.79 3.662)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4619" x1="94.345" x2="94.728" y1="70.281" y2="123.4" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient4631" cx="99.522" cy="91.374" r="35.859" gradientTransform="translate(-6.1362 3.6434)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="radialGradient829" cx="-466.44" cy="527.19" r="496.81" gradientTransform="matrix(.12131 0 0 .12162 118.76 .34911)" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop stop-color="#202020" offset=".95644"/>
+<stop stop-color="#212121" stop-opacity=".57647" offset=".97679"/>
+<stop stop-color="#242424" stop-opacity="0" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient845" x1="-513.95" x2="-519.39" y1="92.874" y2="915.13" gradientTransform="matrix(.12681 0 0 .12681 131.79 3.662)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00cd89" offset="0"/>
+<stop stop-color="#00a0a0" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4619" x1="94.345" x2="94.728" y1="70.281" y2="123.4" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e6e9e9" offset="0"/>
+<stop stop-color="#f7f8f8" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient4631" cx="99.522" cy="91.374" r="35.859" gradientTransform="translate(-6.1362 3.6434)" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop stop-opacity="0" offset="1"/>
+</radialGradient>
 </defs>
 <path d="m135.64 64.464a73.458 69.056 0 0 1-73.42 69.056 73.458 69.056 0 0 1-73.495-68.984 73.458 69.056 0 0 1 73.344-69.127 73.458 69.056 0 0 1 73.571 68.913l-73.457 0.14236z" fill="url(#radialGradient829)" opacity=".275" style="paint-order:fill markers stroke"/>
 <circle cx="62.181" cy="64.464" r="58.601" fill="url(#linearGradient845)" style="paint-order:fill markers stroke"/>

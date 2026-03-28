@@ -1,11 +1,20 @@
-<svg width="128" height="128" data-name="Firefox - Large" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" data-name="Firefox - Large" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1078" x1="71.717" x2="70.95" y1="136.63" y2="29.245" gradientTransform="translate(-9.8347 6.952)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1104" x1="218.31" x2="218.31" y1="175.99" y2="66.307" gradientTransform="translate(-75.884 -32.986)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1078" x1="71.717" x2="70.95" y1="136.63" y2="29.245" gradientTransform="translate(-9.8347 6.952)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1f76f4" offset="0"/>
+<stop stop-color="#1acffc" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1104" x1="218.31" x2="218.31" y1="175.99" y2="66.307" gradientTransform="translate(-75.884 -32.986)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#dce8f4" offset="0"/>
+<stop stop-color="#f6f7f7" offset="1"/>
+</linearGradient>
 <filter id="filter1119" x="-.029931" y="-.018413" width="1.0599" height="1.0368" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="0.99453124"/>
 </filter>
-<linearGradient id="linearGradient1198" x1="135.36" x2="137.1" y1="46.539" y2="199.95" gradientTransform="translate(-48.271 -25.492)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1198" x1="135.36" x2="137.1" y1="46.539" y2="199.95" gradientTransform="translate(-48.271 -25.492)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" stop-opacity=".50898" offset="0"/>
+<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+</linearGradient>
 <filter id="filter1254" x="-.016331" y="-.017297" width="1.0327" height="1.0346" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="0.9356259"/>
 </filter>

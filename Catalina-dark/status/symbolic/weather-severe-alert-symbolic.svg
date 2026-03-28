@@ -4,13 +4,13 @@
 <feBlend in2="BackgroundImage" mode="darken"/>
 </filter>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#f2f2f2
+        color:#dedede
       }</style>
 <linearGradient id="linearGradient4160-4" x1="2" x2="46.54" y1="1028.4" y2="1031.1" gradientTransform="matrix(.27273 0 0 .27273 307.78 210.78)" gradientUnits="userSpaceOnUse"/>
 </defs>
 <g transform="translate(-465 331)">
 <g transform="translate(465 -333.28)" enable-background="new">
-<path d="m8 4c-1.574 0-2.8858 1.0301-3.375 2.4374-1.477 0.18716-2.625 1.4347-2.625 2.9626 0 1.6568 1.3432 3 3 3h6.6c1.3255 0 2.4-1.0745 2.4-2.4s-1.0745-2.4-2.4-2.4c0-1.9882-1.6118-3.6-3.6-3.6z" fill="#bebebe"/>
+<path d="m8 4c-1.574 0-2.8858 1.0301-3.375 2.4374-1.477 0.18716-2.625 1.4347-2.625 2.9626 0 1.6568 1.3432 3 3 3h6.6c1.3255 0 2.4-1.0745 2.4-2.4s-1.0745-2.4-2.4-2.4c0-1.9882-1.6118-3.6-3.6-3.6z" fill="#dedede"/>
 </g>
 <g transform="matrix(.58333 0 0 .58333 198.94 -119.24)">
 <ellipse transform="matrix(-.064329 -.99793 .99793 -.064329 0 0)" cx="314.33" cy="491.24" rx="6" ry="6" fill="url(#linearGradient4160-4)"/>

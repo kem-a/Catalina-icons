@@ -5,5 +5,5 @@
 <text x="3" y="11.5" fill="black" font-family="Open Sans" font-size="9" font-weight="500">Bs</text>
 </mask>
 </defs>
-<rect width="16" height="16" rx="2" fill="#4d4d4d" mask="url(#m)"/>
+<rect width="16" height="16" rx="2" fill="#dedede" mask="url(#m)"/>
 </svg>

@@ -1,10 +1,14 @@
-<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<linearGradient id="a">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+</linearGradient>
 <linearGradient id="b" x1="698.58" x2="698.32" y1="-342.21" y2="-203.64" gradientUnits="userSpaceOnUse">
 <stop stop-color="#d87aa7" offset="0"/>
 <stop stop-color="#d16050" offset="1"/>
 </linearGradient>
-<linearGradient id="c" x1="664.41" x2="683.9" y1="-278.7" y2="-278.3" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="d" x1="751.04" x2="683.9" y1="-278.7" y2="-278.3" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="c" x1="664.41" x2="683.9" y1="-278.7" y2="-278.3" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<linearGradient id="d" x1="751.04" x2="683.9" y1="-278.7" y2="-278.3" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
 <filter id="e" x="-.019704" y="-.008627" width="1.0394" height="1.0173" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation=".57245241"/>
 </filter>

@@ -1,7 +1,17 @@
-<svg width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient938" x1="273.65" x2="239.44" y1="130.17" y2="32.542" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient948" cx="254.37" cy="80.814" r="56.66" gradientTransform="matrix(.82345 1.1781e-8 -1.1862e-8 .82906 44.91 13.814)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient938" x1="273.65" x2="239.44" y1="130.17" y2="32.542" gradientUnits="userSpaceOnUse">
+<stop stop-color="#006de8" offset="0"/>
+<stop stop-color="#0097e2" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient948" cx="254.37" cy="80.814" r="56.66" gradientTransform="matrix(.82345 1.1781e-8 -1.1862e-8 .82906 44.91 13.814)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#77b7ff" offset="0"/>
+<stop stop-color="#77b7ff" stop-opacity=".13333" offset=".57934"/>
+<stop stop-color="#77b7ff" stop-opacity=".086275" offset=".67968"/>
+<stop stop-color="#77b7ff" stop-opacity=".023529" offset=".81264"/>
+<stop stop-color="#77b7ff" stop-opacity="0" offset=".88037"/>
+<stop stop-color="#77b7ff" stop-opacity=".0055556" offset="1"/>
+</radialGradient>
 </defs>
 <linearGradient id="a" x1="64.828" x2="64.828" y1="927.27" y2="1049.8" gradientTransform="translate(0 -924.36)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#fff" offset="0"/>

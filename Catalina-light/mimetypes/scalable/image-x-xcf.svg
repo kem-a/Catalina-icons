@@ -1,7 +1,25 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1503-8" x1="10.733" x2="10.733" y1="261.04" y2="285" gradientTransform="matrix(.96678 0 0 .96677 .87285 9.4386)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient935-3" cx="190.85" cy="148.93" r="53.835" gradientTransform="matrix(1.1739 0 0 1.1739 -131.41 -151.99)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1503-8" x1="10.733" x2="10.733" y1="261.04" y2="285" gradientTransform="matrix(.96678 0 0 .96677 .87285 9.4386)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e5e5e5" offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient935-3" cx="190.85" cy="148.93" r="53.835" gradientTransform="matrix(1.1739 0 0 1.1739 -131.41 -151.99)" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop stop-opacity=".74118" offset=".27788"/>
+<stop stop-opacity=".26275" offset=".5838"/>
+<stop stop-opacity=".21569" offset=".62282"/>
+<stop stop-opacity=".17255" offset=".66894"/>
+<stop stop-opacity=".13333" offset=".70968"/>
+<stop stop-opacity=".090196" offset=".76299"/>
+<stop stop-opacity=".066667" offset=".79677"/>
+<stop stop-opacity=".031373" offset=".86607"/>
+<stop stop-opacity=".027451" offset=".88823"/>
+<stop stop-opacity=".023529" offset=".90482"/>
+<stop stop-opacity=".019608" offset=".91823"/>
+<stop stop-opacity=".011765" offset=".9452"/>
+<stop stop-opacity="0" offset="1"/>
+</radialGradient>
 <radialGradient id="radialGradient7057" cx="416.8" cy="399.14" r="20.131" gradientTransform="matrix(-.25699 -.044253 .019534 -.11344 86.227 347.18)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#8ae234" offset="0"/>
 <stop stop-color="#4db07d" stop-opacity=".88235" offset="1"/>

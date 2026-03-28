@@ -1,12 +1,45 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient825" x1="1003.4" x2="1157.6" y1="317.37" y2="515.68" gradientTransform="translate(-916.73 -377)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient835" cx="1083.5" cy="419.92" r="168.22" gradientTransform="matrix(.93613 0 0 .89824 -865.75 -350.37)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient849" cx="1086" cy="416.53" r="91.102" gradientTransform="translate(-939.61 -393.95)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient868" x1="1111.7" x2="981.68" y1="368.19" y2="539.57" gradientTransform="translate(-939.61 -393.95)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient885" cx="1089.9" cy="416.66" r="41.647" gradientTransform="matrix(1 0 0 1 -939.61 -393.95)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient905" cx="736.23" cy="491.84" r="20.551" gradientTransform="matrix(1.0722 -1.0973e-6 1.1184e-6 1.0928 -727.88 -421.61)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient927" cx="55.297" cy="121.86" r="45.551" gradientTransform="matrix(.94778 0 0 .9576 1.1928 5.5906)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient825" x1="1003.4" x2="1157.6" y1="317.37" y2="515.68" gradientTransform="translate(-916.73 -377)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#c4c7ca" offset="0"/>
+<stop stop-color="#919395" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient835" cx="1083.5" cy="419.92" r="168.22" gradientTransform="matrix(.93613 0 0 .89824 -865.75 -350.37)" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop stop-color="#272727" stop-opacity=".32967" offset=".88176"/>
+<stop stop-color="#080808" stop-opacity=".043956" offset=".9754"/>
+<stop stop-opacity="0" offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient849" cx="1086" cy="416.53" r="91.102" gradientTransform="translate(-939.61 -393.95)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5b5b5b" offset="0"/>
+<stop stop-color="#5b5b5b" offset=".89302"/>
+<stop stop-color="#545454" offset=".91442"/>
+<stop stop-color="#3d3d3d" offset=".95088"/>
+<stop stop-color="#1f1f1f" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient868" x1="1111.7" x2="981.68" y1="368.19" y2="539.57" gradientTransform="translate(-939.61 -393.95)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f0f4f7" offset="0"/>
+<stop stop-color="#d7e2ea" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient885" cx="1089.9" cy="416.66" r="41.647" gradientTransform="matrix(1 0 0 1 -939.61 -393.95)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#292929" offset="0"/>
+<stop stop-color="#999b9d" offset=".59815"/>
+<stop stop-color="#9a9c9e" offset=".86268"/>
+<stop stop-color="#929495" offset=".91355"/>
+<stop stop-color="#7d7f80" offset=".96188"/>
+<stop stop-color="#676868" stop-opacity=".46275" offset=".98223"/>
+<stop stop-color="#545454" stop-opacity="0" offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient905" cx="736.23" cy="491.84" r="20.551" gradientTransform="matrix(1.0722 -1.0973e-6 1.1184e-6 1.0928 -727.88 -421.61)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#babdbf" offset="0"/>
+<stop stop-color="#babdbf" offset=".80189"/>
+<stop stop-color="#b0b4b6" offset=".89151"/>
+<stop stop-color="#9fa3a6" offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient927" cx="55.297" cy="121.86" r="45.551" gradientTransform="matrix(.94778 0 0 .9576 1.1928 5.5906)" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop stop-opacity="0" offset="1"/>
+</radialGradient>
 </defs>
 <g transform="matrix(.39751 0 0 .39751 5.4819 54.871)">
 <path d="m101.69 122.28a48.093 48.093 0 0 1-48.054 48.093 48.093 48.093 0 0 1-48.132-48.016 48.093 48.093 0 0 1 47.977-48.171 48.093 48.093 0 0 1 48.209 47.938" fill="url(#radialGradient927)" style="paint-order:fill markers stroke"/>

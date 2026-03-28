@@ -1,9 +1,21 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<radialGradient id="radialGradient1082" cx="66.918" cy="110.97" r="18.709" gradientTransform="matrix(.89779 .24 -.26765 1.0012 23.455 139.13)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1090" x1="93.021" x2="105.62" y1="-4.3495" y2="8.2758" gradientTransform="matrix(.7482 0 0 .7482 3.9446 182.84)" gradientUnits="userSpaceOnUse" spreadMethod="reflect"/>
-<radialGradient id="radialGradient1096" cx="66.997" cy="69.368" r="49.525" gradientTransform="matrix(2.7225 -3.1253 .74276 .64704 -160.41 416.02)" gradientUnits="userSpaceOnUse" spreadMethod="reflect"/>
-<linearGradient id="linearGradient4632" x1="5.676" x2="164.13" y1="83.05" y2="89.54" gradientTransform="matrix(.7482 0 0 .7482 5.3119 182.84)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="radialGradient1082" cx="66.918" cy="110.97" r="18.709" gradientTransform="matrix(.89779 .24 -.26765 1.0012 23.455 139.13)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f2e8ec" offset="0"/>
+<stop stop-color="#8c8789" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient1090" x1="93.021" x2="105.62" y1="-4.3495" y2="8.2758" gradientTransform="matrix(.7482 0 0 .7482 3.9446 182.84)" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+<stop stop-color="#f4ecee" offset="0"/>
+<stop stop-color="#999496" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient1096" cx="66.997" cy="69.368" r="49.525" gradientTransform="matrix(2.7225 -3.1253 .74276 .64704 -160.41 416.02)" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+<stop stop-color="#f2e8ec" offset="0"/>
+<stop stop-color="#6e6a6b" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient4632" x1="5.676" x2="164.13" y1="83.05" y2="89.54" gradientTransform="matrix(.7482 0 0 .7482 5.3119 182.84)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#80a9ca" offset="0"/>
+<stop stop-color="#83a9c9" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.24874 0 0 .24874 .085224 223.04)" stroke-width="4.0202">

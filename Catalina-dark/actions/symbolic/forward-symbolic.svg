@@ -1,0 +1,8 @@
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#bebebe;
+      }</style>
+</defs>
+<path class="ColorScheme-Text" d="m8.443 2.6307v2.1477h-2.1477c-2.5772 0-4.2953 1.8268-4.2953 4.5101 0 2.7919 3.4362 4.0805 3.4362 4.0805s-1.6108-2.2787-1.2349-3.4362c0.31433-0.96782 1.351-1.7181 2.5235-1.7181h1.7181v2.1477l5.557-3.8658-5.557-3.8658z" color="#bebebe" fill="#363636"/>
+</svg>

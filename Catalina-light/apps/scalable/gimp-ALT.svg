@@ -1,4 +1,12 @@
-<svg width="136.53" height="136.53" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<linearGradient id="a">
+<stop stop-color="#9760ef" offset="0"/>
+<stop stop-color="#c054f2" stop-opacity="0" offset="1"/>
+</linearGradient>
+<linearGradient id="b">
+<stop stop-color="#17c7e7" offset="0"/>
+<stop stop-color="#c054f2" stop-opacity="0" offset="1"/>
+</linearGradient>
 <linearGradient id="c" x1="66.215" x2="67.555" y1="19.331" y2="122.01" gradientUnits="userSpaceOnUse">
 <stop stop-color="#fcfcfc" stop-opacity=".94819" offset="0"/>
 <stop stop-color="#ededed" stop-opacity=".9171" offset="1"/>
@@ -7,14 +15,14 @@
 <stop stop-color="#e83c2b" offset="0"/>
 <stop stop-color="#c054f2" stop-opacity=".79216" offset="1"/>
 </linearGradient>
-<linearGradient id="e" x1="88.226" x2="38.181" y1="119.56" y2="35.285" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="f" x1="210.84" x2="176.01" y1="71.479" y2="62.07" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="g" x1="151.12" x2="187.06" y1="100.93" y2="62.479" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="e" x1="88.226" x2="38.181" y1="119.56" y2="35.285" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<linearGradient id="f" x1="210.84" x2="176.01" y1="71.479" y2="62.07" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<linearGradient id="g" x1="151.12" x2="187.06" y1="100.93" y2="62.479" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
 <linearGradient id="h" x1="178.12" x2="187.87" y1="50.207" y2="66.161" gradientUnits="userSpaceOnUse">
 <stop stop-color="#f66456" offset="0"/>
 <stop stop-color="#d9493e" stop-opacity="0" offset="1"/>
 </linearGradient>
-<linearGradient id="i" x1="227.61" x2="191.15" y1="22.389" y2="60.434" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="i" x1="227.61" x2="191.15" y1="22.389" y2="60.434" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
 <circle cx="68.112" cy="69.239" r="64.022" fill="url(#c)" stroke="url(#d)" stroke-opacity=".94819" stroke-width="6"/>
 <circle cx="68.112" cy="69.239" r="64.022" fill="none" stroke="url(#e)" stroke-opacity=".94819" stroke-width="6"/>
 <g transform="translate(-112.81 3.4712)" stroke-width=".12187">

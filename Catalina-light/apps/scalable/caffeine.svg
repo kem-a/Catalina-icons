@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient825" x1="-741.83" x2="-741.83" y1="959.05" y2="93.836" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient835" x1="-738.76" x2="-738.76" y1="931.43" y2="152.13" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient825" x1="-741.83" x2="-741.83" y1="959.05" y2="93.836" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fc4d22" offset="0"/>
+<stop stop-color="#f7a27a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient835" x1="-738.76" x2="-738.76" y1="931.43" y2="152.13" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f59161" offset="0"/>
+<stop stop-color="#fe4c20" offset="1"/>
+</linearGradient>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
@@ -44,26 +50,18 @@
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
-<linearGradient id="linearGradient948" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="translate(-833.29 -293.54)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient948" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="translate(-833.29 -293.54)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient944"/>
+<linearGradient id="linearGradient944">
+<stop stop-color="#d5dada" offset="0"/>
+<stop stop-color="#f1f1f1" offset="1"/>
+</linearGradient>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
-<linearGradient id="linearGradient1194" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="translate(-988.32 -283.8)" gradientUnits="userSpaceOnUse"/>
-<clipPath>
-<rect width="384" height="384"/>
-</clipPath>
-<clipPath>
-<rect width="384" height="384"/>
-</clipPath>
-<clipPath>
-<rect width="384" height="384"/>
-</clipPath>
-<clipPath>
-<rect width="384" height="384"/>
-</clipPath>
+<linearGradient id="linearGradient1194" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="translate(-988.32 -283.8)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient944"/>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
@@ -88,9 +86,32 @@
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
-<linearGradient id="linearGradient3506" x1="71.547" x2="71.547" y1="38.465" y2="45.787" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient3514" x1="67.939" x2="67.939" y1="36.004" y2="40.223" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient3516" x1="71.496" x2="71.496" y1="97.977" y2="44.553" gradientUnits="userSpaceOnUse"/>
+<clipPath>
+<rect width="384" height="384"/>
+</clipPath>
+<clipPath>
+<rect width="384" height="384"/>
+</clipPath>
+<clipPath>
+<rect width="384" height="384"/>
+</clipPath>
+<clipPath>
+<rect width="384" height="384"/>
+</clipPath>
+<linearGradient id="linearGradient3506" x1="71.547" x2="71.547" y1="38.465" y2="45.787" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#e1e0de" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient3514" x1="67.939" x2="67.939" y1="36.004" y2="40.223" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f0f0f0" offset="0"/>
+<stop stop-color="#e4e4e4" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient3516" x1="71.496" x2="71.496" y1="97.977" y2="44.553" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fcd3c3" offset="0"/>
+<stop stop-color="#fff" offset=".41771"/>
+<stop stop-color="#fff" offset=".54713"/>
+<stop stop-color="#f3e5e1" offset="1"/>
+</linearGradient>
 </defs>
 <circle cx="63.592" cy="64.286" r="61.38" fill="url(#linearGradient825)"/>
 <circle cx="63.592" cy="64.286" r="55.09" fill="url(#linearGradient835)"/>

@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient829" x1="-259.39" x2="-233.31" y1="145.94" y2="132.31" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient837" x1="47.069" x2="57.786" y1="267.52" y2="285.22" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient829" x1="-259.39" x2="-233.31" y1="145.94" y2="132.31" gradientUnits="userSpaceOnUse">
+<stop stop-color="#a911dd" offset="0"/>
+<stop stop-color="#ba22ee" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient837" x1="47.069" x2="57.786" y1="267.52" y2="285.22" gradientUnits="userSpaceOnUse">
+<stop stop-color="#11a6dd" offset="0"/>
+<stop stop-color="#1186dd" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <rect transform="rotate(-64.547)" x="-259.39" y="125.59" width="27.315" height="20.346" rx=".86853" ry=".86853" fill="url(#linearGradient829)" style="paint-order:fill markers stroke"/>

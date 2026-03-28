@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient825" x1="-741.83" x2="-741.83" y1="959.05" y2="93.836" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient835" x1="-738.76" x2="-738.76" y1="931.43" y2="152.13" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient825" x1="-741.83" x2="-741.83" y1="959.05" y2="93.836" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#278af7" offset="0"/>
+<stop stop-color="#46c0f2" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient835" x1="-738.76" x2="-738.76" y1="931.43" y2="152.13" gradientTransform="matrix(.13668 0 0 .13668 162.31 -5.9893)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4bc9f1" offset="0"/>
+<stop stop-color="#278af7" offset="1"/>
+</linearGradient>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
@@ -44,14 +50,18 @@
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
-<linearGradient id="linearGradient948" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="translate(-833.29 -293.54)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient948" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="translate(-833.29 -293.54)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient944"/>
+<linearGradient id="linearGradient944">
+<stop stop-color="#d5dada" offset="0"/>
+<stop stop-color="#f1f1f1" offset="1"/>
+</linearGradient>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>
-<linearGradient id="linearGradient1194" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="translate(-988.32 -283.8)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1194" x1="122.34" x2="84.091" y1="117.04" y2="71.02" gradientTransform="translate(-988.32 -283.8)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient944"/>
 <clipPath>
 <rect width="384" height="384"/>
 </clipPath>

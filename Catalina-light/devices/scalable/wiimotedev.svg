@@ -1,6 +1,9 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<radialGradient id="radialGradient845" cx="67.733" cy="227.2" r="29.283" gradientTransform="matrix(.26132 0 0 .56581 -.76654 151.51)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="radialGradient845" cx="67.733" cy="227.2" r="29.283" gradientTransform="matrix(.26132 0 0 .56581 -.76654 151.51)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e5e5e5" offset="0"/>
+<stop stop-color="#ccc" offset="1"/>
+</radialGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <rect x="9.2811" y="263.5" width="15.304" height="33.138" ry="1.5032" fill="url(#radialGradient845)" stroke="#808080" stroke-linecap="round" stroke-linejoin="round" stroke-width=".2"/>

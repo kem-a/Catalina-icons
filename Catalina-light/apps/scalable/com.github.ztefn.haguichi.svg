@@ -1,16 +1,20 @@
-<svg version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <radialGradient id="d" cx="-4.0288" cy="93.468" r="35.338" gradientTransform="matrix(1.1885 0 0 .099043 204.79 154.24)" gradientUnits="userSpaceOnUse">
 <stop offset="0"/>
 <stop stop-opacity="0" offset="1"/>
 </radialGradient>
-<radialGradient id="c" cx="4.993" cy="43.5" r="2.5" gradientTransform="matrix(1.4101 0 0 1.4 -23.656 -104.4)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="c" cx="4.993" cy="43.5" r="2.5" gradientTransform="matrix(1.4101 0 0 1.4 -23.656 -104.4)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+<linearGradient id="a">
+<stop stop-color="#181818" offset="0"/>
+<stop stop-color="#181818" stop-opacity="0" offset="1"/>
+</linearGradient>
 <linearGradient id="h" x1="25.058" x2="25.058" y1="47.028" y2="39.999" gradientTransform="matrix(.32672 0 0 1 13.344 0)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#181818" stop-opacity="0" offset="0"/>
 <stop stop-color="#181818" offset=".5"/>
 <stop stop-color="#181818" stop-opacity="0" offset="1"/>
 </linearGradient>
-<radialGradient id="b" cx="4.993" cy="43.5" r="2.5" gradientTransform="matrix(1.4101 0 0 1.4 18.714 -104.4)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="b" cx="4.993" cy="43.5" r="2.5" gradientTransform="matrix(1.4101 0 0 1.4 18.714 -104.4)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
 <linearGradient id="g" x1="-150" x2="-77.819" y1="129" y2="25.901" gradientTransform="matrix(1.0041 0 0 -1 254.14 301)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#640f0f" offset="0"/>
 <stop stop-color="#ff4f4f" offset=".12214"/>

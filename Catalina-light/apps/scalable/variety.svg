@@ -1,9 +1,29 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient4512" x1="-81.296" x2="-81.296" y1="95.892" y2="1.0124" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4538" x1="-73.329" x2="-73.329" y1="94.156" y2="6.5085" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4554" x1="-133.88" x2="-30.228" y1="91.625" y2="4.1943" gradientTransform="translate(-63.389 28.453)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4618" x1="-41.424" x2="62.225" y1="-22.509" y2="-109.94" gradientTransform="translate(-155.84 142.59)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient4512" x1="-81.296" x2="-81.296" y1="95.892" y2="1.0124" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3f81ae" offset="0"/>
+<stop stop-color="#43a7ec" offset=".49"/>
+<stop stop-color="#43a7ec" offset=".7"/>
+<stop stop-color="#99c6e5" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4538" x1="-73.329" x2="-73.329" y1="94.156" y2="6.5085" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4ab5ff" offset="0"/>
+<stop stop-color="#4ab5ff" offset=".7231"/>
+<stop stop-color="#0065ab" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4554" x1="-133.88" x2="-30.228" y1="91.625" y2="4.1943" gradientTransform="translate(-63.389 28.453)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#503e97" stop-opacity=".98039" offset="0"/>
+<stop stop-color="#832590" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4618" x1="-41.424" x2="62.225" y1="-22.509" y2="-109.94" gradientTransform="translate(-155.84 142.59)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7666ce" offset="0"/>
+<stop stop-color="#8491d8" offset=".17322"/>
+<stop stop-color="#8b74da" offset=".3133"/>
+<stop stop-color="#c199ee" offset=".5"/>
+<stop stop-color="#e5b3fb" offset=".68477"/>
+<stop stop-color="#8478d7" offset=".86265"/>
+<stop stop-color="#957cc8" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(222.54 4.909)">
 <rect x="-200.36" y="32.647" width="106.74" height="91.408" rx="8.5333" ry="8.5333" fill="url(#linearGradient4618)" stroke="url(#linearGradient4554)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" style="paint-order:fill markers stroke"/>

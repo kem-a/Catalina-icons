@@ -1,6 +1,6 @@
 <svg width="22" height="22" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <rect x="1.1667" y="2" width="20" height="20" opacity="0" stroke-width=".083333" style="paint-order:fill markers stroke"/>
-<path d="m2 10v3c0 0.83333 0.16359 1 1 1h4l4 4v-13l-4 4h-4c-0.83333 0-1 0.16667-1 1z" fill="#202020"/>
-<path d="m15 4c6 4 6 11 0 15v-1c4.4746-4 4.5085-9 0-13z" fill="#202020"/>
-<path d="m13 8c3 1.6102 3 5.4746 0 7v1c4.4216-1.5283 4.2188-7.5403 0-9z" fill="#202020"/>
+<path d="m2 10v3c0 0.83333 0.16359 1 1 1h4l4 4v-13l-4 4h-4c-0.83333 0-1 0.16667-1 1z" fill="#dedede"/>
+<path d="m15 4c6 4 6 11 0 15v-1c4.4746-4 4.5085-9 0-13z" fill="#dedede"/>
+<path d="m13 8c3 1.6102 3 5.4746 0 7v1c4.4216-1.5283 4.2188-7.5403 0-9z" fill="#dedede"/>
 </svg>

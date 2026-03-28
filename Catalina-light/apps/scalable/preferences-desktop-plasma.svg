@@ -1,9 +1,27 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient838" x1="-146.65" x2="-146.65" y1="195.59" y2="157.63" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient858" x1="-149.66" x2="-149.66" y1="195.4" y2="197.12" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient886" x1="44.171" x2="44.171" y1="13.358" y2="154.97" gradientTransform="matrix(.14034 0 0 .14034 10.571 268.6)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient898" x1="37.639" x2="37.639" y1="15.912" y2="150.34" gradientTransform="matrix(.14034 0 0 .14034 10.571 268.6)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient838" x1="-146.65" x2="-146.65" y1="195.59" y2="157.63" gradientUnits="userSpaceOnUse">
+<stop stop-color="#dee2e7" offset="0"/>
+<stop stop-color="#d5d9e1" offset=".187"/>
+<stop stop-color="#afb4b9" offset=".43348"/>
+<stop stop-color="#979da4" offset=".54615"/>
+<stop stop-color="#9398a0" offset=".69404"/>
+<stop stop-color="#818b91" offset=".81846"/>
+<stop stop-color="#6b7177" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient858" x1="-149.66" x2="-149.66" y1="195.4" y2="197.12" gradientUnits="userSpaceOnUse">
+<stop stop-color="#918a98" offset="0"/>
+<stop stop-color="#656268" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient886" x1="44.171" x2="44.171" y1="13.358" y2="154.97" gradientTransform="matrix(.14034 0 0 .14034 10.571 268.6)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4d717b" offset="0"/>
+<stop stop-color="#251e3c" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient898" x1="37.639" x2="37.639" y1="15.912" y2="150.34" gradientTransform="matrix(.14034 0 0 .14034 10.571 268.6)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#c1fff7" offset="0"/>
+<stop stop-color="#88feea" offset=".038424"/>
+<stop stop-color="#2f8ffe" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.14034 0 0 .14034 37.772 268.75)">

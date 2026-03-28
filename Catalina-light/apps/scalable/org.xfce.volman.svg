@@ -1,9 +1,27 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient951" x1="2.4065" x2="31.494" y1="17.062" y2="17.062" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient977" x1="6.2808" x2="25.549" y1="5.4868" y2="24.755" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient992" cx="24.545" cy="29.496" r="1.2993" gradientTransform="translate(.025057 -.0083523)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1012" x1="27.756" x2="27.756" y1="23.969" y2="22.332" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1010">
+<stop stop-color="#646464" offset="0"/>
+<stop stop-color="#c9c9c9" stop-opacity=".92941" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient951" x1="2.4065" x2="31.494" y1="17.062" y2="17.062" gradientUnits="userSpaceOnUse">
+<stop stop-color="#bac0c3" offset="0"/>
+<stop stop-color="#eaeced" offset=".13492"/>
+<stop stop-color="#d1d6d8" offset=".25187"/>
+<stop stop-color="#c8cbcb" offset=".78465"/>
+<stop stop-color="#d2d7da" offset=".91134"/>
+<stop stop-color="#afb5b8" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient977" x1="6.2808" x2="25.549" y1="5.4868" y2="24.755" gradientUnits="userSpaceOnUse">
+<stop stop-color="#dce2e4" offset="0"/>
+<stop stop-color="#acaeae" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient992" cx="24.545" cy="29.496" r="1.2993" gradientTransform="translate(.025057 -.0083523)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9becbc" offset="0"/>
+<stop stop-color="#4ebc87" stop-opacity=".98431" offset=".87273"/>
+<stop stop-color="#328b5f" stop-opacity=".9837" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient1012" x1="27.756" x2="27.756" y1="23.969" y2="22.332" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1010"/>
 </defs>
 <g transform="matrix(.97573 0 0 .97573 -65.748 -37.203)" fill="none" opacity=".29677" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".02">
 <rect x="69.84" y="40.71" width="29.811" height="29.811" rx="6.6099" ry="6.6099" stroke-width=".1"/>

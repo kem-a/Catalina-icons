@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient908" x1="-275.79" x2="-278.23" y1="97.916" y2="250.33" gradientTransform="matrix(.84018 0 0 .84018 80.705 148.23)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient2833" x1="-33.718" x2="-23.582" y1="139.26" y2="190.63" gradientTransform="translate(-117.93 145.14)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient908" x1="-275.79" x2="-278.23" y1="97.916" y2="250.33" gradientTransform="matrix(.84018 0 0 .84018 80.705 148.23)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0db7fa" offset="0"/>
+<stop stop-color="#0070fc" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient2833" x1="-33.718" x2="-23.582" y1="139.26" y2="190.63" gradientTransform="translate(-117.93 145.14)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f6f6f6" offset="0"/>
+<stop stop-color="#d2d2d2" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.25379 0 0 .25379 54.536 205.19)">

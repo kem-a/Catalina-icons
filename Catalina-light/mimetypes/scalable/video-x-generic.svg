@@ -1,7 +1,16 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1503-8" x1="10.733" x2="10.733" y1="261.04" y2="285" gradientTransform="matrix(.96678 0 0 .96677 .87285 9.4386)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="f" cx="46.617" cy="1023.5" r="25.322" gradientTransform="matrix(-1.7613e-7 .19728 -.19875 -1.7437e-7 180.34 288.52)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1503-8" x1="10.733" x2="10.733" y1="261.04" y2="285" gradientTransform="matrix(.96678 0 0 .96677 .87285 9.4386)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e5e5e5" offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
+<radialGradient id="f" cx="46.617" cy="1023.5" r="25.322" gradientTransform="matrix(-1.7613e-7 .19728 -.19875 -1.7437e-7 180.34 288.52)" gradientUnits="userSpaceOnUse" xlink:href="#d"/>
+<linearGradient id="d">
+<stop stop-color="#bcc5d5" offset="0"/>
+<stop stop-color="#94a5b9" offset=".28398"/>
+<stop stop-color="#69758a" offset=".51511"/>
+<stop stop-color="#282825" offset="1"/>
+</linearGradient>
 <radialGradient id="g" cx="-498.85" cy="944.67" r="11.015" gradientTransform="matrix(4.6756e-7 .53755 -.47706 0 427.43 564.53)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#bcc5d5" offset="0"/>
 <stop stop-color="#6e78a9" offset=".51511"/>
@@ -18,7 +27,7 @@
 <stop stop-color="#1b00bc" offset="0"/>
 <stop stop-color="#109cd8" offset="1"/>
 </linearGradient>
-<radialGradient id="e" cx="233.65" cy="90.547" r="54.818" gradientTransform="matrix(0 .091539 -.091398 0 -14.824 276.32)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="e" cx="233.65" cy="90.547" r="54.818" gradientTransform="matrix(0 .091539 -.091398 0 -14.824 276.32)" gradientUnits="userSpaceOnUse" xlink:href="#d"/>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="translate(-26.313 6.0567)" fill="none">

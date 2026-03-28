@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1503-8" x1="10.733" x2="10.733" y1="261.04" y2="285" gradientTransform="matrix(.96678 0 0 .96677 .87285 9.4386)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5093" x1="59.76" x2="81.131" y1="50.451" y2="73.796" gradientTransform="matrix(.60388 0 0 .60388 -25.777 245.54)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1503-8" x1="10.733" x2="10.733" y1="261.04" y2="285" gradientTransform="matrix(.96678 0 0 .96677 .87285 9.4386)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e5e5e5" offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient5093" x1="59.76" x2="81.131" y1="50.451" y2="73.796" gradientTransform="matrix(.60388 0 0 .60388 -25.777 245.54)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fda94d" offset="0"/>
+<stop stop-color="#fd4dfc" stop-opacity=".83471" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="translate(-26.313 6.0567)" fill="none">

@@ -1,6 +1,9 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1503-8" x1="29.203" x2="4.5843" y1="263.52" y2="296.17" gradientTransform="matrix(1.001 0 0 1.001 -.017758 -.29086)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1503-8" x1="29.203" x2="4.5843" y1="263.52" y2="296.17" gradientTransform="matrix(1.001 0 0 1.001 -.017758 -.29086)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d9d9d9" offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
 <clipPath id="clipPath4111">
 <rect x="148.04" y="266.7" width="23.164" height="5.5408" ry="2.2294" fill="#d9b782"/>
 </clipPath>

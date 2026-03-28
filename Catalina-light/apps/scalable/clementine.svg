@@ -1,8 +1,15 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient894" x1="10.638" x2="113.44" y1="34.526" y2="114.94" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient863" x1="41.322" x2="101.85" y1="30.209" y2="100.79" gradientTransform="translate(66.82)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient907" x1="33.585" x2="98.141" y1="27.308" y2="115.06" gradientTransform="translate(.00031444 -.00085442)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient892">
+<stop stop-color="#e87d2b" offset="0"/>
+<stop stop-color="#ebcf91" offset=".37545"/>
+<stop stop-color="#ece3b3" offset=".5"/>
+<stop stop-color="#dae5be" offset=".60637"/>
+<stop stop-color="#7cf1e7" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient894" x1="10.638" x2="113.44" y1="34.526" y2="114.94" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient892"/>
+<linearGradient id="linearGradient863" x1="41.322" x2="101.85" y1="30.209" y2="100.79" gradientTransform="translate(66.82)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient892"/>
+<linearGradient id="linearGradient907" x1="33.585" x2="98.141" y1="27.308" y2="115.06" gradientTransform="translate(.00031444 -.00085442)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient892"/>
 </defs>
 <filter x="-.069933" y="-.054406" width="1.1399" height="1.1088" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.9764485"/>

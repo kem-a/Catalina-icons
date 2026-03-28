@@ -1,7 +1,11 @@
-<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient5007" x1="396.23" x2="397.76" y1="545.31" y2="517.26" gradientTransform="matrix(1.0161 0 0 1.0161 -6.5085 -8.6249)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4342" x1="403.44" x2="402.49" y1="544.99" y2="518.34" gradientTransform="matrix(1.0161 0 0 1.0161 -6.5085 -8.6249)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient8467-5">
+<stop stop-color="#d3d3d3" offset="0"/>
+<stop stop-color="#fcf9f9" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient5007" x1="396.23" x2="397.76" y1="545.31" y2="517.26" gradientTransform="matrix(1.0161 0 0 1.0161 -6.5085 -8.6249)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient8467-5"/>
+<linearGradient id="linearGradient4342" x1="403.44" x2="402.49" y1="544.99" y2="518.34" gradientTransform="matrix(1.0161 0 0 1.0161 -6.5085 -8.6249)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient8467-5"/>
 </defs>
 <g transform="translate(-384.57 -515.8)">
 <g transform="matrix(1.0509 0 0 1.0509 -20.38 -26.904)">

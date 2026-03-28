@@ -1,8 +1,17 @@
-<svg width="170.67" height="170.67" version="1.1" viewBox="0 0 170.67 170.67" xmlns="http://www.w3.org/2000/svg">
+<svg width="170.67" height="170.67" version="1.1" viewBox="0 0 170.67 170.67" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient825" x1="102.27" x2="89.998" y1="146.51" y2="253.89" gradientTransform="translate(-3.4019 -103.62)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient982" x1="102.27" x2="89.998" y1="146.51" y2="253.89" gradientTransform="rotate(-12.246 -394.16 201.96)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1395" x1="88.127" x2="102.69" y1="113.92" y2="79.844" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient825" x1="102.27" x2="89.998" y1="146.51" y2="253.89" gradientTransform="translate(-3.4019 -103.62)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#62e895" offset="0"/>
+<stop stop-color="#00b181" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient982" x1="102.27" x2="89.998" y1="146.51" y2="253.89" gradientTransform="rotate(-12.246 -394.16 201.96)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#51e689" offset="0"/>
+<stop stop-color="#00a87b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1395" x1="88.127" x2="102.69" y1="113.92" y2="79.844" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#fff" stop-opacity=".178" offset="1"/>
+</linearGradient>
 <filter id="h" x="-.063962" y="-.0565" width="1.1279" height="1.113" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="2.1746765"/>
 </filter>

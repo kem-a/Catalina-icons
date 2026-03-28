@@ -1,14 +1,14 @@
 <svg version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#f2f2f2
+        color:#dedede
       }</style>
 </defs>
 <g transform="matrix(1 0 0 .99752 1 -1028.8)">
 <g transform="matrix(-1 0 0 1 20 -.019885)" fill="currentColor">
-<rect class="ColorScheme-Text" transform="matrix(0,1,1,0,0,0)" x="1034.4" y="2" width="6" height="13" ry=".5" color="#f2f2f2"/>
-<rect class="ColorScheme-Text" transform="matrix(0,1,1,0,0,0)" x="1044.4" y="9" width="6.0398" height="6" ry=".5" color="#f2f2f2"/>
-<rect class="ColorScheme-Text" transform="matrix(0,1,1,0,0,0)" x="1034.4" y="16.5" width="16" height="1.5" ry=".5" color="#f2f2f2"/>
+<rect class="ColorScheme-Text" transform="matrix(0,1,1,0,0,0)" x="1034.4" y="2" width="6" height="13" ry=".5" color="#dedede"/>
+<rect class="ColorScheme-Text" transform="matrix(0,1,1,0,0,0)" x="1044.4" y="9" width="6.0398" height="6" ry=".5" color="#dedede"/>
+<rect class="ColorScheme-Text" transform="matrix(0,1,1,0,0,0)" x="1034.4" y="16.5" width="16" height="1.5" ry=".5" color="#dedede"/>
 </g>
 </g>
 </svg>

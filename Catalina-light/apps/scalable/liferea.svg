@@ -1,12 +1,19 @@
-<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1005" x1="38.383" x2="38.043" y1="33.055" y2="78.162" gradientTransform="matrix(.89812 0 0 .89812 -67.026 -12.766)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1019" x1="18.404" x2="60.404" y1="42.064" y2="42.064" gradientTransform="matrix(.89812 0 0 .89812 -66.814 -12.766)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1027" x1="29.617" x2="29.83" y1="68.906" y2="46.949" gradientTransform="matrix(.81818 0 0 .81818 2.7642 14.548)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1005" x1="38.383" x2="38.043" y1="33.055" y2="78.162" gradientTransform="matrix(.89812 0 0 .89812 -67.026 -12.766)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f6fbff" offset="0"/>
+<stop stop-color="#eaeff2" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1019" x1="18.404" x2="60.404" y1="42.064" y2="42.064" gradientTransform="matrix(.89812 0 0 .89812 -66.814 -12.766)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<linearGradient id="linearGradient1027" x1="29.617" x2="29.83" y1="68.906" y2="46.949" gradientTransform="matrix(.81818 0 0 .81818 2.7642 14.548)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
 </defs>
 <linearGradient id="a" x1="406.93" x2="406.93" y1="546.8" y2="500.8" gradientTransform="translate(-384.57 -499.8)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#3889e9" offset="0"/>
 <stop stop-color="#5ea5fb" offset="1"/>
+</linearGradient>
+<linearGradient id="b" x1="407.62" x2="407.62" y1="545.72" y2="501.36" gradientTransform="translate(-384.57 -499.8)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f60" offset="0"/>
+<stop stop-color="#ff7f2a" offset="1"/>
 </linearGradient>
 <circle cx="24" cy="24" r="23" fill="none"/>
 <circle cx="24" cy="24" r="0" fill="url(#a)"/>

@@ -1,5 +1,9 @@
-<svg width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<svg width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<linearGradient id="b">
+<stop stop-color="#ecebec" offset="0"/>
+<stop stop-color="#54595d" offset="1"/>
+</linearGradient>
 <radialGradient id="a" cx="512.01" cy="512.01" r="470.16" gradientTransform="matrix(.97625 0 0 .97625 12.152 12.141)" gradientUnits="userSpaceOnUse">
 <stop stop-opacity="0" offset="0"/>
 <stop stop-opacity=".52593" offset="1"/>
@@ -11,10 +15,10 @@
 <stop stop-color="#cfdcdf" offset="0"/>
 <stop stop-color="#767574" offset="1"/>
 </linearGradient>
-<linearGradient id="m" x1="8" x2="8" y1="30" y2="32" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="l" x1="8" x2="8" y1="30" y2="32" gradientTransform="translate(48)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="k" x1="8" x2="8" y1="30" y2="32" gradientTransform="translate(24,-23)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="j" x1="8" x2="8" y1="30" y2="32" gradientTransform="translate(24,25)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="m" x1="8" x2="8" y1="30" y2="32" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<linearGradient id="l" x1="8" x2="8" y1="30" y2="32" gradientTransform="translate(48)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<linearGradient id="k" x1="8" x2="8" y1="30" y2="32" gradientTransform="translate(24,-23)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<linearGradient id="j" x1="8" x2="8" y1="30" y2="32" gradientTransform="translate(24,25)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
 <linearGradient id="i" x1="499.95" x2="499.95" y1="2.0078" y2="1026" gradientTransform="matrix(.99609 0 0 .99609 2 2)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#e8f1f4" offset="0"/>
 <stop stop-color="#5d5c5b" offset="1"/>

@@ -1,9 +1,16 @@
-<svg width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient968" x1="15.168" x2="101.56" y1="32.947" y2="90.858" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient968" x1="15.168" x2="101.56" y1="32.947" y2="90.858" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f19233" offset="0"/>
+<stop stop-color="#33b2f1" stop-opacity=".77186" offset="1"/>
+</linearGradient>
 </defs>
-<linearGradient id="a" x1="23.426" x2="23.066" y1="18.306" y2="18.666" gradientTransform="matrix(2.779 0 0 2.779 -3.0686 .45374)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="f" x1="40.75" x2="30.933" y1="1001.4" y2="1010.3" gradientTransform="matrix(.45512 -.90179 .90179 .45512 -852.92 -363.96)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="a" x1="23.426" x2="23.066" y1="18.306" y2="18.666" gradientTransform="matrix(2.779 0 0 2.779 -3.0686 .45374)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+<linearGradient id="b">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+</linearGradient>
+<linearGradient id="f" x1="40.75" x2="30.933" y1="1001.4" y2="1010.3" gradientTransform="matrix(.45512 -.90179 .90179 .45512 -852.92 -363.96)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
 <filter id="h" x="-.063962" y="-.0565" width="1.1279" height="1.113" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="2.1746765"/>
 </filter>

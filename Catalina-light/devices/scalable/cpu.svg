@@ -1,6 +1,9 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient5236" x1="-42" x2="-6" y1="-24" y2="-24" gradientTransform="matrix(.48939 0 0 .48939 -265.35 -7.6566)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient5236" x1="-42" x2="-6" y1="-24" y2="-24" gradientTransform="matrix(.48939 0 0 .48939 -265.35 -7.6566)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d0d0d0" offset="0"/>
+<stop stop-color="#f1eeee" offset="1"/>
+</linearGradient>
 <linearGradient id="ButtonShadow" x1="45.448" x2="45.448" y1="92.54" y2="7.0165" gradientTransform="scale(1.0059 .99417)" gradientUnits="userSpaceOnUse">
 <stop offset="0"/>
 <stop stop-opacity=".58824" offset="1"/>
@@ -11,8 +14,15 @@
 <filter id="filter3806" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.2"/>
 </filter>
-<linearGradient id="linearGradient5228" x1="56" x2="88" y1="72" y2="72" gradientTransform="matrix(.9375 0 0 .9375 -140.5 3.5)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient3788" x1="70" x2="70" y1="54" y2="75.095" gradientTransform="translate(0,4)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient5228" x1="56" x2="88" y1="72" y2="72" gradientTransform="matrix(.9375 0 0 .9375 -140.5 3.5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#499119" offset="0"/>
+<stop stop-color="#8fd625" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient3788" x1="70" x2="70" y1="54" y2="75.095" gradientTransform="translate(0,4)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3737"/>
+<linearGradient id="linearGradient3737">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+</linearGradient>
 <linearGradient id="linearGradient3812" x1="65.263" x2="65.263" y1="64.205" y2="50.069" gradientTransform="matrix(.625 0 0 .625 78.5 32.25)" gradientUnits="userSpaceOnUse">
 <stop offset="0"/>
 <stop stop-opacity="0" offset="1"/>
@@ -23,8 +33,11 @@
 <filter id="filter3831" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="0.6375"/>
 </filter>
-<linearGradient id="linearGradient3832" x1="65.263" x2="65.263" y1="64.205" y2="50.069" gradientTransform="matrix(.625 0 0 .625 28.5 31.25)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient1872" cx="-87.989" cy="191.05" r="67.677" gradientTransform="matrix(.23502 0 0 .23502 40.081 232.2)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient3832" x1="65.263" x2="65.263" y1="64.205" y2="50.069" gradientTransform="matrix(.625 0 0 .625 28.5 31.25)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3737"/>
+<radialGradient id="radialGradient1872" cx="-87.989" cy="191.05" r="67.677" gradientTransform="matrix(.23502 0 0 .23502 40.081 232.2)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#69a7cc" offset="0"/>
+<stop stop-color="#325695" offset="1"/>
+</radialGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(2.0824 0 0 2.0824 -527.87 70.993)" display="none">

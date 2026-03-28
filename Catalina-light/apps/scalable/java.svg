@@ -1,6 +1,9 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient5095" x1="570.66" x2="788.53" y1="524.47" y2="862.92" gradientTransform="matrix(.2704 0 0 .2704 -132.55 -111.64)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient5095" x1="570.66" x2="788.53" y1="524.47" y2="862.92" gradientTransform="matrix(.2704 0 0 .2704 -132.55 -111.64)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f6f6f6" offset="0"/>
+<stop stop-color="#e6e6e6" offset="1"/>
+</linearGradient>
 </defs>
 <rect transform="matrix(.98725 -.15918 .15918 .98725 0 0)" x="-1.1398" y="20.351" width="106.18" height="105.3" rx="7.3329" ry="7.3329" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".064394" stroke-width="1.6224" style="paint-order:fill markers stroke"/>
 <rect transform="matrix(.98725 -.15918 .15918 .98725 0 0)" x="-1.1398" y="20.351" width="106.18" height="105.3" rx="7.3329" ry="7.3329" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".064394" stroke-width="1.0816" style="paint-order:fill markers stroke"/>

@@ -1,9 +1,26 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient838" x1="-146.65" x2="-146.65" y1="195.59" y2="157.63" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient858" x1="-149.66" x2="-149.66" y1="195.4" y2="197.12" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient886" x1="44.171" x2="44.171" y1="13.358" y2="154.97" gradientTransform="matrix(.14034 0 0 .14034 10.571 268.6)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4592" x1="2.1807" x2="32.438" y1="280.18" y2="280.37" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient838" x1="-146.65" x2="-146.65" y1="195.59" y2="157.63" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e4dee7" offset="0"/>
+<stop stop-color="#dcd5e1" offset=".187"/>
+<stop stop-color="#b3afb9" offset=".43348"/>
+<stop stop-color="#9d97a4" offset=".54615"/>
+<stop stop-color="#9893a0" offset=".69404"/>
+<stop stop-color="#888191" offset=".81846"/>
+<stop stop-color="#736b77" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient858" x1="-149.66" x2="-149.66" y1="195.4" y2="197.12" gradientUnits="userSpaceOnUse">
+<stop stop-color="#918a98" offset="0"/>
+<stop stop-color="#656268" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient886" x1="44.171" x2="44.171" y1="13.358" y2="154.97" gradientTransform="matrix(.14034 0 0 .14034 10.571 268.6)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7b4d74" offset="0"/>
+<stop stop-color="#3c1e2f" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4592" x1="2.1807" x2="32.438" y1="280.18" y2="280.37" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ffe2f0" offset="0"/>
+<stop stop-color="#c32573" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.14034 0 0 .14034 37.772 268.75)">

@@ -1,6 +1,9 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient823" x1="68.463" x2="68.287" y1="23.819" y2="121.01" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient823" x1="68.463" x2="68.287" y1="23.819" y2="121.01" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8ada91" offset="0"/>
+<stop stop-color="#7bc289" offset="1"/>
+</linearGradient>
 <filter id="filter896" x="-.21604" y="-.20888" width="1.4321" height="1.4178" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="5.5805961"/>
 </filter>

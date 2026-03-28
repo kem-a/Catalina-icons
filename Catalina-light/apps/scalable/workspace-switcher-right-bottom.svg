@@ -1,6 +1,17 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient932" x1="16.206" x2="16.206" y1="280.12" y2="276.66" gradientTransform="translate(7.7822 .030401)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient932" x1="16.206" x2="16.206" y1="280.12" y2="276.66" gradientTransform="translate(7.7822 .030401)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1dd033" offset="0"/>
+<stop stop-color="#70eb6d" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1116" x1="16.206" x2="16.206" y1="280.12" y2="276.66" gradientTransform="translate(7.7822 .030401)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#8e46c5" offset="0"/>
+<stop stop-color="#ba6be5" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1192" x1="16.206" x2="16.206" y1="280.12" y2="276.66" gradientTransform="translate(7.7822 .030401)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#296eea" offset="0"/>
+<stop stop-color="#26cff6" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.95497 0 0 .95497 .70484 12.617)">
@@ -89,7 +100,7 @@
 <rect x="14.003" y="276.87" width="3.5211" height="3.5112" rx=".87548" ry=".87548"/>
 <rect x="13.969" y="276.87" width="3.5211" height="3.5112" rx=".87548" ry=".87548"/>
 </g>
-<rect x="22.126" y="276.62" width="3.5211" height="3.5112" rx=".87548" ry=".87548" fill="url(#linearGradient932)"/>
+<rect x="22.126" y="276.62" width="3.5211" height="3.5112" rx=".87548" ry=".87548" fill="url(#linearGradient1116)"/>
 </g>
 <g transform="translate(-12.188 10.659)">
 <g transform="translate(7.8076)" fill-opacity=".03" opacity=".41984">
@@ -126,7 +137,7 @@
 <rect x="14.003" y="276.87" width="3.5211" height="3.5112" rx=".87548" ry=".87548"/>
 <rect x="13.969" y="276.87" width="3.5211" height="3.5112" rx=".87548" ry=".87548"/>
 </g>
-<rect x="22.126" y="276.62" width="3.5211" height="3.5112" rx=".87548" ry=".87548" fill="url(#linearGradient932)"/>
+<rect x="22.126" y="276.62" width="3.5211" height="3.5112" rx=".87548" ry=".87548" fill="url(#linearGradient1192)"/>
 </g>
 </g>
 <g transform="matrix(.95497 0 0 .95497 -39.693 19.153)" fill="none" stroke="#000" stroke-dashoffset="1" stroke-linejoin="round" stroke-opacity=".01">

@@ -1,12 +1,16 @@
-<svg width="48" height="48" version="1.0" xmlns="http://www.w3.org/2000/svg">
+<svg width="48" height="48" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <linearGradient id="linearGradient2643" x1="302.86" x2="302.86" y1="366.65" y2="609.51" gradientTransform="matrix(.067325 0 0 .0147 -.34114 37.04)" gradientUnits="userSpaceOnUse">
 <stop stop-opacity="0" offset="0"/>
 <stop offset=".5"/>
 <stop stop-opacity="0" offset="1"/>
 </linearGradient>
-<radialGradient id="radialGradient2640" cx="605.71" cy="486.65" r="117.14" gradientTransform="matrix(-.02304 0 0 .0147 21.623 37.04)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient2637" cx="605.71" cy="486.65" r="117.14" gradientTransform="matrix(.02304 0 0 .0147 26.361 37.04)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="radialGradient2640" cx="605.71" cy="486.65" r="117.14" gradientTransform="matrix(-.02304 0 0 .0147 21.623 37.04)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient5060"/>
+<linearGradient id="linearGradient5060">
+<stop offset="0"/>
+<stop stop-opacity="0" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient2637" cx="605.71" cy="486.65" r="117.14" gradientTransform="matrix(.02304 0 0 .0147 26.361 37.04)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient5060"/>
 <linearGradient id="linearGradient2634" x1="-51.786" x2="-51.786" y1="53.624" y2="2.9062" gradientTransform="matrix(.8075 0 0 .89483 59.41 -2.9806)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#2e4a5a" offset="0"/>
 <stop stop-color="#6e8796" offset="1"/>

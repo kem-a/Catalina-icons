@@ -1,7 +1,7 @@
 <svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <g transform="translate(-341 223)">
 <g transform="matrix(0 .85714 -.85714 0 592.43 -257)">
-<g fill="#bebebe">
+<g fill="#dedede">
 <g transform="translate(2e-4)">
 <path transform="matrix(0 -1 1 0 -123 393)" d="m106 165c-1.6447 0-3 1.3553-3 3v1 0.65625 3.3438 3c0 1.6447 1.3553 3 3 3h3v-2h-3c-0.5713 0-1-0.4287-1-1v-3-3.3438-0.65625-1c0-0.5713 0.4287-1 1-1h4c0.5713 0 1 0.4287 1 1v3h2v-3c0-1.6447-1.3553-3-3-3h-4z" color="#000000"/>
 </g>

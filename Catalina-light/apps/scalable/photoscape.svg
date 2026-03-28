@@ -6,7 +6,10 @@
 <clipPath id="clipPath2121">
 <path d="m68.113 5.2168a64.022 64.022 0 0 0-64.023 64.021 64.022 64.022 0 0 0 64.023 64.021 64.022 64.022 0 0 0 64.021-64.021 64.022 64.022 0 0 0-64.021-64.021z" fill="url(#linearGradient2125)" stroke="#e83c2b" stroke-width="6"/>
 </clipPath>
-<linearGradient id="linearGradient2125" x1="74.704" x2="77.588" y1="130.15" y2="11.32" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient2125" x1="74.704" x2="77.588" y1="130.15" y2="11.32" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1461ff" offset="0"/>
+<stop stop-color="#91ff68" offset="1"/>
+</linearGradient>
 <filter id="filter2129" x="-.012" y="-.012" width="1.024" height="1.024" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="0.59352142"/>
 </filter>

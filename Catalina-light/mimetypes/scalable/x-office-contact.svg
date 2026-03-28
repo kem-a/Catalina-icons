@@ -1,8 +1,17 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<radialGradient id="radialGradient1388" cx="-286.16" cy="123.46" r="35.238" gradientTransform="matrix(.20166 0 0 .20317 69.135 252.96)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient1400" cx="-286.57" cy="161.14" r="35.447" gradientTransform="matrix(.20165 -.0021197 .0036434 .34717 68.544 228.35)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1420" x1="-107.94" x2="-59.692" y1="54.721" y2="117.37" gradientTransform="matrix(.20166 0 0 .20183 32.925 265.55)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="radialGradient1388" cx="-286.16" cy="123.46" r="35.238" gradientTransform="matrix(.20166 0 0 .20317 69.135 252.96)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fdfdfd" offset="0"/>
+<stop stop-color="#b2bdca" offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient1400" cx="-286.57" cy="161.14" r="35.447" gradientTransform="matrix(.20165 -.0021197 .0036434 .34717 68.544 228.35)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#666" offset="0"/>
+<stop stop-color="#333" offset="1"/>
+</radialGradient>
+<linearGradient id="linearGradient1420" x1="-107.94" x2="-59.692" y1="54.721" y2="117.37" gradientTransform="matrix(.20166 0 0 .20183 32.925 265.55)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e5e5e5" offset="0"/>
+<stop stop-color="#fafafa" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <path d="m1.0834 267.5c-0.42638 0-0.76962 0.34351-0.76962 0.77024v24.184c0 0.42672 0.34324 0.77034 0.76962 0.77034h6.6286v-1.3096h-0.98565c-0.2648 0-0.47792-0.21341-0.47792-0.47842v-1.3453c0-0.26501 0.21313-0.47841 0.47792-0.47841h3.3511c0.2648 0 0.47792 0.2134 0.47792 0.47841v1.3453c0 0.26501-0.21313 0.47842-0.47792 0.47842h-1.0049v1.3096h15.483v-1.3096h-0.98565c-0.2648 0-0.47792-0.21341-0.47792-0.47842v-1.3453c0-0.26501 0.21312-0.47841 0.47792-0.47841h3.3511c0.2648 0 0.47792 0.2134 0.47792 0.47841v1.3453c0 0.26501-0.21312 0.47842-0.47792 0.47842h-1.0049v1.3096h6.8674c0.42638 0 0.76961-0.34362 0.76961-0.77034v-24.184c0-0.42673-0.34324-0.77024-0.76961-0.77024z" opacity=".25"/>

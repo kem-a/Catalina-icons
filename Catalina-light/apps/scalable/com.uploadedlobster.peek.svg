@@ -1,10 +1,14 @@
-<svg width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+<svg width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <filter id="f" x="-.036" y="-.036" width="1.072" height="1.072" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="14.1435"/>
 </filter>
-<linearGradient id="d" x1="65.693" x2="65.693" y1="1.6441" y2="58.976" gradientTransform="matrix(.80001 0 0 .80001 -20.028 6.6848)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="b" x1="520.32" x2="520.32" y1="-138.46" y2="1484.8" gradientTransform="matrix(.050907 0 0 .050907 5.9453 5.9689)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="c" x1="65.693" x2="65.693" y1="1.6441" y2="58.976" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f9f9f9" offset="0"/>
+<stop stop-color="#f9f9f9" stop-opacity=".82535" offset="1"/>
+</linearGradient>
+<linearGradient id="d" x1="65.693" x2="65.693" y1="1.6441" y2="58.976" gradientTransform="matrix(.80001 0 0 .80001 -20.028 6.6848)" gradientUnits="userSpaceOnUse" xlink:href="#c"/>
+<linearGradient id="b" x1="520.32" x2="520.32" y1="-138.46" y2="1484.8" gradientTransform="matrix(.050907 0 0 .050907 5.9453 5.9689)" gradientUnits="userSpaceOnUse" xlink:href="#c"/>
 <linearGradient id="a" x1="520.32" x2="520.32" y1="-138.46" y2="1484.8" gradientTransform="matrix(.063633 0 0 .063633 -.56761 -.53897)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#ffda64" offset="0"/>
 <stop stop-color="#fb7c38" offset=".35152"/>

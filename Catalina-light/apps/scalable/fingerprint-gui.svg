@@ -1,7 +1,14 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient859" x1="73.909" x2="73.909" y1="8.694" y2="132.41" gradientTransform="matrix(.95684 0 0 .95684 4.0968 2.4098)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient910" cx="68.861" cy="68.251" r="68.22" gradientTransform="translate(-.57853 3.5716e-6)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient859" x1="73.909" x2="73.909" y1="8.694" y2="132.41" gradientTransform="matrix(.95684 0 0 .95684 4.0968 2.4098)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fc9b69" offset="0"/>
+<stop stop-color="#f41ab4" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient910" cx="68.861" cy="68.251" r="68.22" gradientTransform="translate(-.57853 3.5716e-6)" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop stop-opacity=".85882" offset=".9"/>
+<stop stop-opacity="0" offset="1"/>
+</radialGradient>
 </defs>
 <filter x="-.069933" y="-.054406" width="1.1399" height="1.1088" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.9764485"/>

@@ -1,14 +1,42 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient4979" x1="463.73" x2="489.22" y1="378.17" y2="378.17" gradientTransform="matrix(1.0644 .3387 -.30322 .95292 701.54 -183.73)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5012" x1="364.15" x2="356.67" y1="424.37" y2="448.34" gradientTransform="translate(712.38 -44.296)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5038" x1="347.85" x2="359.01" y1="476.88" y2="455.73" gradientTransform="translate(712.38 -44.296)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient4979" x1="463.73" x2="489.22" y1="378.17" y2="378.17" gradientTransform="matrix(1.0644 .3387 -.30322 .95292 701.54 -183.73)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#69737a" offset="0"/>
+<stop stop-color="#6b7276" offset=".038339"/>
+<stop stop-color="#58595c" offset=".1463"/>
+<stop stop-color="#f2f3f4" offset=".32275"/>
+<stop stop-color="#f2f3f4" offset=".48029"/>
+<stop stop-color="#7f868b" offset=".60172"/>
+<stop stop-color="#525252" offset=".69846"/>
+<stop stop-color="#5c5c5c" offset=".80096"/>
+<stop stop-color="#484848" offset=".88617"/>
+<stop stop-opacity="0" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient5012" x1="364.15" x2="356.67" y1="424.37" y2="448.34" gradientTransform="translate(712.38 -44.296)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#25150f" offset="0"/>
+<stop stop-color="#3d241b" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient5038" x1="347.85" x2="359.01" y1="476.88" y2="455.73" gradientTransform="translate(712.38 -44.296)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#25150f" offset="0"/>
+<stop stop-color="#25150f" stop-opacity="0" offset="1"/>
+</linearGradient>
 <filter id="filter5067" x="-.041528" y="-.013521" width="1.0831" height="1.027" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="2.5323039"/>
 </filter>
-<linearGradient id="linearGradient5095" x1="570.66" x2="788.53" y1="524.47" y2="862.92" gradientTransform="matrix(.2704 0 0 .2704 -132.55 -111.64)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5141" x1="487.6" x2="515.04" y1="177.83" y2="187.03" gradientTransform="translate(654.53 -41.726)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4330" x1="85.525" x2="56.024" y1="92.1" y2="28.053" gradientTransform="translate(.27119 2.4407)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient5095" x1="570.66" x2="788.53" y1="524.47" y2="862.92" gradientTransform="matrix(.2704 0 0 .2704 -132.55 -111.64)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f6f6f6" offset="0"/>
+<stop stop-color="#e6e6e6" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient5141" x1="487.6" x2="515.04" y1="177.83" y2="187.03" gradientTransform="translate(654.53 -41.726)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e3e3e3" offset="0"/>
+<stop stop-color="#ebebeb" offset=".15983"/>
+<stop stop-color="#c8c8c8" offset=".50868"/>
+<stop stop-color="#9a9a9a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4330" x1="85.525" x2="56.024" y1="92.1" y2="28.053" gradientTransform="translate(.27119 2.4407)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#561c9e" offset="0"/>
+<stop stop-color="#6a22c2" offset="1"/>
+</linearGradient>
 </defs>
 <rect transform="matrix(.98725 -.15918 .15918 .98725 0 0)" x="-1.1398" y="20.351" width="106.18" height="105.3" rx="7.3329" ry="7.3329" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".064394" stroke-width="1.6224" style="paint-order:fill markers stroke"/>
 <rect transform="matrix(.98725 -.15918 .15918 .98725 0 0)" x="-1.1398" y="20.351" width="106.18" height="105.3" rx="7.3329" ry="7.3329" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".064394" stroke-width="1.0816" style="paint-order:fill markers stroke"/>

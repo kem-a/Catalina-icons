@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1442" x1="15.048" x2="15.048" y1="29.081" y2="3.2852" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient5129" cx="26.018" cy="26.14" r="12.591" gradientTransform="matrix(.84747 -.87015 .71638 .69771 -14.758 30.541)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1442" x1="15.048" x2="15.048" y1="29.081" y2="3.2852" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ffb937" offset="0"/>
+<stop stop-color="#fcd840" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient5129" cx="26.018" cy="26.14" r="12.591" gradientTransform="matrix(.84747 -.87015 .71638 .69771 -14.758 30.541)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#704600" offset="0"/>
+<stop stop-color="#704600" stop-opacity="0" offset="1"/>
+</radialGradient>
 </defs>
 <g stroke-linecap="round" stroke-linejoin="round">
 <g transform="matrix(.97573 0 0 .97573 -65.794 -37.247)" fill="none" opacity=".295" stroke="#000" stroke-opacity=".02">

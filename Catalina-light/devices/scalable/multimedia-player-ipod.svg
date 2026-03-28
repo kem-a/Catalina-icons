@@ -1,7 +1,13 @@
-<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg">
+<svg width="512" height="512" version="1.1" viewBox="0 0 135.47 135.47" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient968" x1="-329.22" x2="-328.74" y1="137.64" y2="304.37" gradientTransform="matrix(.77323 0 0 .77323 316 57.858)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1250" x1="-329.64" x2="-372.4" y1="137.99" y2="201.93" gradientTransform="matrix(.77323 0 0 .77323 322.56 63.586)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient968" x1="-329.22" x2="-328.74" y1="137.64" y2="304.37" gradientTransform="matrix(.77323 0 0 .77323 316 57.858)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e2e3e5" offset="0"/>
+<stop stop-color="#c7c9cc" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1250" x1="-329.64" x2="-372.4" y1="137.99" y2="201.93" gradientTransform="matrix(.77323 0 0 .77323 322.56 63.586)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#808080" offset="0"/>
+<stop stop-color="#4d4d4d" offset="1"/>
+</linearGradient>
 <filter id="filter1306" x="-.032077" y="-.019172" width="1.0642" height="1.0383" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.3319389"/>
 </filter>

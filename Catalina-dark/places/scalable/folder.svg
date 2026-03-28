@@ -1,18 +1,33 @@
 <svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="linearGradient828" x1="655.16" x2="655.16" y1="211.5" y2="419.86" gradientTransform="matrix(.39478 0 0 .39478 -194.76 -40.484)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient859" x1="-286.85" x2="-286.85" y1="201.42" y2="326.3" gradientTransform="matrix(.39478 0 0 .39478 167.73 -51.642)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient828" x1="655.16" x2="655.16" y1="211.5" y2="419.86" gradientTransform="matrix(.39478 0 0 .39478 -194.76 -53.484)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#66aed7" offset="0"/>
+<stop stop-color="#6cb1d7" offset=".33128"/>
+<stop stop-color="#76b6d7" offset=".50478"/>
+<stop stop-color="#7bb6d5" offset=".60396"/>
+<stop stop-color="#77b2d0" offset=".80198"/>
+<stop stop-color="#6aa4c2" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient859" x1="-286.85" x2="-286.85" y1="201.42" y2="326.3" gradientTransform="matrix(.39478 0 0 .39478 167.73 -64.642)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#608ea7" offset="0"/>
+<stop stop-color="#5887a2" offset=".16505"/>
+<stop stop-color="#4e7890" offset=".29031"/>
+<stop stop-color="#4a7289" offset=".34926"/>
+<stop stop-color="#345a6c" offset=".38956"/>
+<stop stop-color="#33586d" offset=".444"/>
+<stop stop-color="#4e88a4" stop-opacity="0" offset="1"/>
+</linearGradient>
 </defs>
-<path d="m7.9342 28.215c-3.391 0-6.1214 2.7297-6.1214 6.1206v27.211c19.294 15.457 121.85 17.085 124.92 4.1073v-21.828c0-3.391-2.7304-6.1206-6.1214-6.1206h-71.623c-3.596 0-5.767-4.553-8.2038-7.8536-1.0918-1.0164-2.5579-1.6365-4.1743-1.6365z" fill="url(#linearGradient859)" style="paint-order:fill markers stroke"/>
-<path d="m8.3844 43.357c-3.6124 0-6.5208 2.9077-6.5208 6.52v72.546c0 1.8154 1.4616 3.277 3.277 3.277h118.3c1.8154 0 3.277-1.4616 3.277-3.277v-72.546c0-3.6123-2.9077-6.52-6.52-6.52z" fill="url(#linearGradient828)" style="paint-order:fill markers stroke"/>
-<path d="m8.384 43.357c-3.6124 0-6.5208 2.9077-6.5208 6.52v0.27527c0-3.6123 2.9085-6.52 6.5208-6.52h111.81c3.6123 0 6.52 2.9077 6.52 6.52v-0.27527c0-3.6123-2.9077-6.52-6.52-6.52z" fill="#ebf5fa" fill-opacity=".23626" style="paint-order:fill markers stroke"/>
-<path d="m2.095 115.95h124.29" fill="none" stroke="#fff" stroke-opacity=".25275" stroke-width=".31582"/>
+<path d="m7.9342 15.215c-3.391 0-6.1214 2.7297-6.1214 6.1206v27.211c19.294 15.457 121.85 17.085 124.92 4.1073v-21.828c0-3.391-2.7304-6.1206-6.1214-6.1206h-71.623c-3.596 0-5.767-4.553-8.2038-7.8536-1.0918-1.0164-2.5579-1.6365-4.1743-1.6365z" fill="url(#linearGradient859)" style="paint-order:fill markers stroke"/>
+<path d="m8.3844 30.357c-3.6124 0-6.5208 2.9077-6.5208 6.52v72.546c0 1.8154 1.4616 3.277 3.277 3.277h118.3c1.8154 0 3.277-1.4616 3.277-3.277v-72.546c0-3.6123-2.9077-6.52-6.52-6.52z" fill="url(#linearGradient828)" style="paint-order:fill markers stroke"/>
+<path d="m8.384 30.357c-3.6124 0-6.5208 2.9077-6.5208 6.52v0.27527c0-3.6123 2.9085-6.52 6.5208-6.52h111.81c3.6123 0 6.52 2.9077 6.52 6.52v-0.27527c0-3.6123-2.9077-6.52-6.52-6.52z" fill="#ebf5fa" fill-opacity=".23626" style="paint-order:fill markers stroke"/>
+<path d="m2.095 102.95h124.29" fill="none" stroke="#fff" stroke-opacity=".25275" stroke-width=".31582"/>
 <g transform="matrix(.39478 0 0 .39478 -44.909 -40.529)" fill="none" stroke-width=".8">
-<path d="m118.62 404.5h314.84" stroke="#fff" stroke-opacity=".18681"/>
-<path d="m118.62 403.68h314.84" stroke="#22394c" stroke-opacity=".27473"/>
+<path d="m118.62 371.57h314.84" stroke="#fff" stroke-opacity=".18681"/>
+<path d="m118.62 370.75h314.84" stroke="#22394c" stroke-opacity=".27473"/>
 </g>
 <g transform="matrix(.39478 0 0 .39478 -44.909 -37.089)" fill="none" stroke-width=".8">
-<path d="m118.62 404.5h314.84" stroke="#fff" stroke-opacity=".18681"/>
-<path d="m118.62 403.68h314.84" stroke="#22394c" stroke-opacity=".2967"/>
+<path d="m118.62 371.57h314.84" stroke="#fff" stroke-opacity=".18681"/>
+<path d="m118.62 370.75h314.84" stroke="#22394c" stroke-opacity=".2967"/>
 </g>
 </svg>

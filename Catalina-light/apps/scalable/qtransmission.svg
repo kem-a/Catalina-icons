@@ -1,4 +1,4 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="linearGradient1103" x1="237.54" x2="313.54" y1="170.4" y2="343.4" gradientUnits="userSpaceOnUse"/><linearGradient id="linearGradient1121" x1="519.28" x2="598.56" y1="70.751" y2="208.06" gradientUnits="userSpaceOnUse"/></defs>
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient id="linearGradient1103" x1="237.54" x2="313.54" y1="170.4" y2="343.4" gradientUnits="userSpaceOnUse" xlink:href="#SVGID_13_"/><linearGradient id="linearGradient1121" x1="519.28" x2="598.56" y1="70.751" y2="208.06" gradientUnits="userSpaceOnUse" xlink:href="#SVGID_13_"/></defs>
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:#CDCDCD;}
@@ -104,7 +104,7 @@
 </g>
 <polygon class="st11" transform="matrix(.14064 0 0 .14064 -7.4763 -4.8127)" points="403.7 469.7 355 411.5 355 396 353.2 392.7 325.6 352 385.8 325.5 417.8 434.3" opacity=".5"/>
 <g transform="matrix(.14064 0 0 .14064 -7.4763 -4.8127)">
-	<linearGradient id="SVGID_8_" x1="528.05" x2="606.05" y1="61.674" y2="213.67" gradientUnits="userSpaceOnUse">
+	<linearGradient id="SVGID_8_" x1="528.05" x2="606.05" y1="61.674" y2="213.67" gradientUnits="userSpaceOnUse" xlink:href="#SVGID_13_">
 		<stop stop-color="#BC1E1B" offset="0"/>
 		<stop stop-color="#A61B19" offset=".5531"/>
 		<stop stop-color="#991917" offset=".6315"/>

@@ -1,16 +1,27 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1503-8" x1="29.203" x2="4.5843" y1="263.52" y2="296.17" gradientTransform="matrix(1.001 0 0 1.001 -.017758 -.29086)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1503-8" x1="29.203" x2="4.5843" y1="263.52" y2="296.17" gradientTransform="matrix(1.001 0 0 1.001 -.017758 -.29086)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d9d9d9" offset="0"/>
+<stop stop-color="#fff" offset="1"/>
+</linearGradient>
 <radialGradient id="radialGradient2490" cx="23.335" cy="41.636" r="22.627" gradientTransform="matrix(.42147 0 0 .16278 40.353 280.78)" gradientUnits="userSpaceOnUse">
 <stop offset="0"/>
 <stop stop-opacity="0" offset="1"/>
 </radialGradient>
-<linearGradient id="linearGradient2479" x1="89.018" x2="89.018" y1="22.537" y2="27.546" gradientTransform="matrix(.7336 0 0 .73677 -18.886 269.47)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient2477" x1="103.95" x2="89.424" y1="-7.6657" y2="-7.6657" gradientTransform="matrix(.33587 0 0 .3185 15.274 290.44)" gradientUnits="userSpaceOnUse" spreadMethod="reflect"/>
-<linearGradient id="linearGradient2473" x1="89.018" x2="89.018" y1="22.537" y2="27.546" gradientTransform="matrix(.7336 0 0 .73677 -18.886 265.05)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient2471" x1="103.95" x2="89.424" y1="-7.6657" y2="-7.6657" gradientTransform="matrix(.33587 0 0 .3185 15.274 286.02)" gradientUnits="userSpaceOnUse" spreadMethod="reflect"/>
-<linearGradient id="linearGradient2466" x1="89.018" x2="89.018" y1="22.537" y2="27.546" gradientTransform="matrix(.7336 0 0 .73677 -18.886 260.63)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient2463" x1="103.95" x2="89.424" y1="-7.6657" y2="-7.6657" gradientTransform="matrix(.33587 0 0 .3185 15.274 281.59)" gradientUnits="userSpaceOnUse" spreadMethod="reflect"/>
+<linearGradient id="linearGradient2479" x1="89.018" x2="89.018" y1="22.537" y2="27.546" gradientTransform="matrix(.7336 0 0 .73677 -18.886 269.47)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3858"/>
+<linearGradient id="linearGradient2477" x1="103.95" x2="89.424" y1="-7.6657" y2="-7.6657" gradientTransform="matrix(.33587 0 0 .3185 15.274 290.44)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" xlink:href="#linearGradient2793"/>
+<linearGradient id="linearGradient2473" x1="89.018" x2="89.018" y1="22.537" y2="27.546" gradientTransform="matrix(.7336 0 0 .73677 -18.886 265.05)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3858"/>
+<linearGradient id="linearGradient2471" x1="103.95" x2="89.424" y1="-7.6657" y2="-7.6657" gradientTransform="matrix(.33587 0 0 .3185 15.274 286.02)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" xlink:href="#linearGradient2793"/>
+<linearGradient id="linearGradient3858">
+<stop stop-color="#a0a0a0" offset="0"/>
+<stop stop-color="#4a4a4a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient2466" x1="89.018" x2="89.018" y1="22.537" y2="27.546" gradientTransform="matrix(.7336 0 0 .73677 -18.886 260.63)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3858"/>
+<linearGradient id="linearGradient2793">
+<stop stop-color="#868688" offset="0"/>
+<stop stop-color="#d9d9da" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient2463" x1="103.95" x2="89.424" y1="-7.6657" y2="-7.6657" gradientTransform="matrix(.33587 0 0 .3185 15.274 281.59)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" xlink:href="#linearGradient2793"/>
 <linearGradient id="linearGradient2460" x1="109.96" x2="109.96" y1="-24.911" y2="-2.3758" gradientTransform="matrix(.33609 0 0 .32336 15.254 278.66)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#b3b3b3" offset="0"/>
 <stop stop-color="#dadada" offset="1"/>

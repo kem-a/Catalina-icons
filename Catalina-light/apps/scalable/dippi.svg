@@ -1,4 +1,4 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <linearGradient id="ButtonShadow" x1="45.448" x2="45.448" y1="92.54" y2="7.0165" gradientTransform="scale(1.0059 .99417)" gradientUnits="userSpaceOnUse">
 <stop offset="0"/>
@@ -10,7 +10,7 @@
 <filter id="filter3174-7" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.71"/>
 </filter>
-<linearGradient id="linearGradient1021" x1="45.448" x2="45.448" y1="92.54" y2="7.0165" gradientTransform="scale(1.0059 .99417)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1021" x1="45.448" x2="45.448" y1="92.54" y2="7.0165" gradientTransform="scale(1.0059 .99417)" gradientUnits="userSpaceOnUse" xlink:href="#ButtonShadow"/>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.26458 0 0 .26458 -92.023 258.36)" display="none">

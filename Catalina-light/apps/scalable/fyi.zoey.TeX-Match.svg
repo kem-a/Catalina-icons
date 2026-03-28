@@ -1,11 +1,29 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<radialGradient id="radialGradient1124" cx="16.744" cy="4.1208" r="14.544" gradientTransform="matrix(3.7095 0 0 1.8362 -45.368 -3.4458)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1030" x1="2.2835" x2="31.371" y1="17.031" y2="17.031" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient1042" cx="16.744" cy="4.1208" r="14.544" gradientTransform="matrix(3.7095 0 0 1.8362 -45.713 -3.4458)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1048" x1="8.3338" x2="25.321" y1="26.383" y2="26.383" gradientTransform="translate(0 -1.4227)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient1058" cx="16.827" cy="17.031" r="14.544" gradientTransform="matrix(2.5302 0 0 3.7795 19.736 38.822)" gradientUnits="userSpaceOnUse"/>
-<radialGradient id="radialGradient1131" cx="16.918" cy="2.2601" r="13.098" gradientTransform="matrix(3.6389 0 0 1.5939 -44.644 .83697)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1026">
+<stop stop-color="#9a6a44" offset="0"/>
+<stop stop-color="#c39977" offset=".085468"/>
+<stop stop-color="#9a6a44" offset=".24637"/>
+<stop stop-color="#9a6a44" offset=".78508"/>
+<stop stop-color="#c39977" offset=".90321"/>
+<stop stop-color="#9a6a44" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1630">
+<stop stop-color="#bc8a62" offset="0"/>
+<stop stop-color="#b07a4f" offset="1"/>
+</linearGradient>
+<radialGradient id="radialGradient1124" cx="16.744" cy="4.1208" r="14.544" gradientTransform="matrix(3.7095 0 0 1.8362 -45.368 -3.4458)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1630"/>
+<linearGradient id="linearGradient1030" x1="2.2835" x2="31.371" y1="17.031" y2="17.031" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1026"/>
+<radialGradient id="radialGradient1042" cx="16.744" cy="4.1208" r="14.544" gradientTransform="matrix(3.7095 0 0 1.8362 -45.713 -3.4458)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1630"/>
+<linearGradient id="linearGradient1048" x1="8.3338" x2="25.321" y1="26.383" y2="26.383" gradientTransform="translate(0 -1.4227)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1026"/>
+<radialGradient id="radialGradient1058" cx="16.827" cy="17.031" r="14.544" gradientTransform="matrix(2.5302 0 0 3.7795 19.736 38.822)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#63442c" offset="0"/>
+<stop stop-color="#63442c" stop-opacity="0" offset="1"/>
+</radialGradient>
+<radialGradient id="radialGradient1131" cx="16.918" cy="2.2601" r="13.098" gradientTransform="matrix(3.6389 0 0 1.5939 -44.644 .83697)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2ab48c" offset="0"/>
+<stop stop-color="#26a169" offset="1"/>
+</radialGradient>
 </defs>
 <g transform="matrix(.97573 0 0 .97573 -65.861 -37.234)" fill="none" opacity=".14" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".02">
 <rect x="69.84" y="40.71" width="29.811" height="29.811" rx="6.6099" ry="6.6099" stroke-width=".1"/>

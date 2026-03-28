@@ -1,13 +1,37 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient965" x1="55.269" x2="-23.585" y1="124.84" y2="226.62" gradientTransform="matrix(.1982 0 0 .20233 13.608 241.78)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient974" x1="-164.32" x2="-164.66" y1="352.01" y2="487.21" gradientTransform="matrix(.23257 0 0 .23257 54.324 181.76)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient885" x1="67.527" x2="67.546" y1="164.93" y2="175.15" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient899" x1="39.884" x2="40.19" y1="272.11" y2="281.7" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient907" x1="95.632" x2="95.588" y1="272.63" y2="281.63" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient909" x1="84.344" x2="84.522" y1="272.47" y2="282.14" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient911" x1="67.129" x2="67.781" y1="270.26" y2="285.6" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient913" x1="50.801" x2="51.035" y1="272.19" y2="281.75" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient965" x1="55.269" x2="-23.585" y1="124.84" y2="226.62" gradientTransform="matrix(.1982 0 0 .20233 13.608 241.78)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#77bde5" offset="0"/>
+<stop stop-color="#182f73" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient974" x1="-164.32" x2="-164.66" y1="352.01" y2="487.21" gradientTransform="matrix(.23257 0 0 .23257 54.324 181.76)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#a6a6a6" offset="0"/>
+<stop stop-color="#bfbfbf" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient885" x1="67.527" x2="67.546" y1="164.93" y2="175.15" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#1a1a1a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient899" x1="39.884" x2="40.19" y1="272.11" y2="281.7" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#1a1a1a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient907" x1="95.632" x2="95.588" y1="272.63" y2="281.63" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#1a1a1a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient909" x1="84.344" x2="84.522" y1="272.47" y2="282.14" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#1a1a1a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient911" x1="67.129" x2="67.781" y1="270.26" y2="285.6" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#1a1a1a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient913" x1="50.801" x2="51.035" y1="272.19" y2="281.75" gradientTransform="matrix(.25171 0 0 .25171 -.11571 222.38)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#1a1a1a" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(1.024 0 0 1.024 -.40607 -6.2526)">

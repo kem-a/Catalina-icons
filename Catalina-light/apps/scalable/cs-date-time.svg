@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 33.867 33.867" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient826" x1="26.973" x2="27.578" y1="256.77" y2="221.62" gradientTransform="matrix(.89197 0 0 .89197 -8.0277 66.958)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient938" x1="26.919" x2="26.919" y1="297.14" y2="296.51" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient826" x1="26.973" x2="27.578" y1="256.77" y2="221.62" gradientTransform="matrix(.89197 0 0 .89197 -8.0277 66.958)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#636261" offset="0"/>
+<stop stop-color="#c7e1ea" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient938" x1="26.919" x2="26.919" y1="297.14" y2="296.51" gradientUnits="userSpaceOnUse">
+<stop stop-color="#b2b2b2" offset="0"/>
+<stop stop-color="#d9d9d9" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -263.13)">
 <g transform="matrix(.9847 0 0 .9847 -.33339 4.024)">

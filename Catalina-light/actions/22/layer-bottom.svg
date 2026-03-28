@@ -1,12 +1,12 @@
 <svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#4d4d4d;
+        color:#363636;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
       }</style>
 </defs>
-<path class="ColorScheme-Text" d="m11 3-8.4336 4.2168 8.4336 4.2168 8.4336-4.2168-8.4336-4.2168zm-6.084 6.9258-2.3496 1.1758 8.4336 4.2188 8.4336-4.2188-2.3496-1.1758-6.084 3.043-6.084-3.043z" fill="currentColor"/>
-<path class="ColorScheme-Highlight" d="m4.916 13.607-2.3496 1.1758 8.4336 4.2168 8.4336-4.2168-2.3496-1.1758-6.084 3.041-6.084-3.041z" fill="currentColor" stroke="naone"/>
+<path class="ColorScheme-Text" d="m11 3-8.4336 4.2168 8.4336 4.2168 8.4336-4.2168-8.4336-4.2168zm-6.084 6.9258-2.3496 1.1758 8.4336 4.2188 8.4336-4.2188-2.3496-1.1758-6.084 3.043-6.084-3.043z" fill="#363636"/>
+<path class="ColorScheme-Highlight" d="m4.916 13.607-2.3496 1.1758 8.4336 4.2168 8.4336-4.2168-2.3496-1.1758-6.084 3.041-6.084-3.041z" fill="#363636" stroke="naone"/>
 </svg>

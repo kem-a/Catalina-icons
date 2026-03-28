@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient827" x1="1.3017" x2="16.054" y1="1.6271" y2="17.464" gradientTransform="matrix(4.8139 0 0 4.8139 2.6266 2.4444)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient837" x1="4.6644" x2="20.339" y1="5.0983" y2="21.207" gradientTransform="matrix(4.8139 0 0 4.8139 2.6266 2.4444)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient827" x1="1.3017" x2="16.054" y1="1.6271" y2="17.464" gradientTransform="matrix(4.8139 0 0 4.8139 2.6266 2.4444)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#31d5dd" offset="0"/>
+<stop stop-color="#21c1cd" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient837" x1="4.6644" x2="20.339" y1="5.0983" y2="21.207" gradientTransform="matrix(4.8139 0 0 4.8139 2.6266 2.4444)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0e3c49" offset="0"/>
+<stop stop-color="#0a2932" offset="1"/>
+</linearGradient>
 </defs>
 <rect x="6.2819" y="6.6219" width="115.4" height="115.4" fill="url(#linearGradient827)" style="paint-order:fill markers stroke"/>
 <path d="m15.159 15.76h96.604v96.604h-96.604z" fill="url(#linearGradient837)" style="paint-order:fill markers stroke"/>

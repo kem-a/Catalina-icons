@@ -1,15 +1,28 @@
-<svg width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient4835" x1="102.3" x2="102.3" y1="-.42687" y2="199.17" gradientTransform="matrix(5.1 0 0 5.1 2 30.362)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient5473" x1="97.546" x2="101.81" y1="4.3025" y2="192.07" gradientTransform="matrix(4.6866 0 0 4.6866 42.84 72.198)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient4829">
+<stop stop-color="#f4fbfc" offset="0"/>
+<stop stop-color="#d6d6d6" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4835" x1="102.3" x2="102.3" y1="-.42687" y2="199.17" gradientTransform="matrix(5.1 0 0 5.1 2 30.362)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#d7d7d7" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient5473" x1="97.546" x2="101.81" y1="4.3025" y2="192.07" gradientTransform="matrix(4.6866 0 0 4.6866 42.84 72.198)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4bea95" offset="0"/>
+<stop stop-color="#389070" offset="1"/>
+</linearGradient>
 <clipPath id="clipPath-440877745">
 <g transform="translate(0 -1004.4)">
 <path transform="matrix(15.333 0 0 11.5 415 878.86)" d="m-24 13c0 1.105-0.672 2-1.5 2s-1.5-0.895-1.5-2 0.672-2 1.5-2 1.5 0.895 1.5 2z" fill="#1890d0"/>
 </g>
 </clipPath>
-<linearGradient id="linearGradient3796" x1="24.487" x2="24.487" y1="-.28484" y2="48.44" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient842" x1="24.586" x2="24.586" y1="12.173" y2="35.946" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient844" x1="24.586" x2="24.586" y1="4.4953" y2="43.58" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient3796" x1="24.487" x2="24.487" y1="-.28484" y2="48.44" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4829"/>
+<linearGradient id="linearGradient842" x1="24.586" x2="24.586" y1="12.173" y2="35.946" gradientUnits="userSpaceOnUse">
+<stop stop-color="#fff" offset="0"/>
+<stop stop-color="#d7d7d7" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient844" x1="24.586" x2="24.586" y1="4.4953" y2="43.58" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4829"/>
 <filter id="filter886" x="-.034419" y="-.037733" width="1.0688" height="1.0755" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="0.37276032"/>
 </filter>

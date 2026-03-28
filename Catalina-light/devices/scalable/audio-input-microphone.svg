@@ -1,8 +1,18 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient5095" x1="570.66" x2="788.53" y1="524.47" y2="862.92" gradientTransform="matrix(.2704 0 0 .2704 -132.55 -111.64)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1096" x1="58.177" x2="60.816" y1="192.12" y2="192.12" gradientTransform="matrix(16.148 0 0 3.8777 -921.07 -1405.5)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1508" x1="98.661" x2="99.727" y1="91.266" y2="175.41" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient5095" x1="570.66" x2="788.53" y1="524.47" y2="862.92" gradientTransform="matrix(.2704 0 0 .2704 -132.55 -111.64)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#eef0f0" offset="0"/>
+<stop stop-color="#d2d4d4" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1506">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#353534" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1096" x1="58.177" x2="60.816" y1="192.12" y2="192.12" gradientTransform="matrix(16.148 0 0 3.8777 -921.07 -1405.5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4d4d4d" offset="0"/>
+<stop stop-color="#1a1a1a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1508" x1="98.661" x2="99.727" y1="91.266" y2="175.41" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1506"/>
 </defs>
 <rect transform="matrix(.98725 -.15918 .15918 .98725 0 0)" x="-1.1398" y="20.351" width="106.18" height="105.3" rx="7.3329" ry="7.3329" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".064394" stroke-width="1.6224" style="paint-order:fill markers stroke"/>
 <rect transform="matrix(.98725 -.15918 .15918 .98725 0 0)" x="-1.1398" y="20.351" width="106.18" height="105.3" rx="7.3329" ry="7.3329" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".064394" stroke-width="1.0816" style="paint-order:fill markers stroke"/>

@@ -1,7 +1,13 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient1080" x1="701.81" x2="699.28" y1="398.37" y2="220.53" gradientTransform="matrix(.66355 0 0 .66355 -399.67 -144.99)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4543" x1="58.562" x2="59.299" y1="89.077" y2="-22.547" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient1080" x1="701.81" x2="699.28" y1="398.37" y2="220.53" gradientTransform="matrix(.66355 0 0 .66355 -399.67 -144.99)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#cccdd1" offset="0"/>
+<stop stop-color="#f7f9f9" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4543" x1="58.562" x2="59.299" y1="89.077" y2="-22.547" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0072e1" offset="0"/>
+<stop stop-color="#82ccff" offset="1"/>
+</linearGradient>
 </defs>
 <path d="m76.271 27.452c-3.5788 0-7.2534 4.9493-7.2534 14.507 0 8.7041 2.9014 14.507 2.9014 14.507s23.211-2.9014 23.211-14.507c0-8.7041-8.1727-15.773-11.605-8.7041-1.2959-3.8878-3.7882-5.8027-7.2534-5.8027zm-33.366 2.9014c-8.7041 0-15.773 8.1727-8.7041 11.605-3.8878 1.2959-5.8027 3.7882-5.8027 7.2534 0 3.5788 4.9493 7.2534 14.507 7.2534 8.7041 0 14.507-2.9014 14.507-2.9014s-2.9014-23.211-14.507-23.211zm11.605 37.718s-23.211 2.9014-23.211 14.507c0 8.7041 8.1727 15.773 11.605 8.7041 1.2959 3.8878 3.7882 5.8027 7.2534 5.8027 3.5788 0 7.2534-4.9493 7.2534-14.507 0-8.7041-2.9014-14.507-2.9014-14.507zm29.014 0c-8.7041 0-14.507 2.9014-14.507 2.9014s2.9014 23.211 14.507 23.211c8.7041 0 15.773-8.1727 8.7041-11.605 3.8878-1.2959 5.8027-3.7882 5.8027-7.2534 0-3.5788-4.9493-7.2534-14.507-7.2534z" fill="#f9f9f9" stroke-width=".48356" style="isolation:isolate"/>
 <circle cx="64.333" cy="64.226" r="60.566" fill="url(#linearGradient4543)" stroke="#cccdd1" stroke-width="4.6449"/>

@@ -1,9 +1,10 @@
-<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient7637" x1="-53.412" x2="40.658" y1="-130.38" y2="-130.38" gradientUnits="userSpaceOnUse">
+<linearGradient id="linearGradient7568">
 <stop stop-color="#161719" offset="0"/>
 <stop stop-color="#424649" offset="1"/>
 </linearGradient>
+<linearGradient id="linearGradient7637" x1="-53.412" x2="40.658" y1="-130.38" y2="-130.38" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient7568"/>
 <linearGradient id="linearGradient4468" x1="383.54" x2="416.8" y1="531.66" y2="531.4" gradientUnits="userSpaceOnUse">
 <stop stop-color="#ac92ec" offset="0"/>
 <stop stop-color="#64a9ff" offset=".20238"/>
@@ -37,6 +38,11 @@
 <flowRoot fill="#000000" font-family="sans-serif" font-size="12.5px" letter-spacing="0px" stroke-width="1.0797" word-spacing="0px" style="line-height:125%" xml:space="preserve"><flowRegion stroke="url(#linearGradient7637)"><rect x="-427.82" y="-178.14" width="100.15" height="116.76" stroke="none"/></flowRegion><flowPara/></flowRoot>
 <g transform="matrix(.95126 0 0 .95126 2.2342 -8.438)">
 <g transform="translate(-2.8633 1.9646)">
+<g transform="matrix(-1.9142 -.35633 .35633 -1.9142 562.76 1040.6)">
+<g transform="matrix(1.6135 0 0 1.6135 -246.08 -318.92)">
+<g transform="matrix(.12799 0 0 .12799 330.91 498.48)"></g>
+</g>
+</g>
 <g transform="matrix(.99254 0 0 .99254 .10564 -1.1289)">
 <circle transform="matrix(-.60126 -.11193 .11193 -.60126 81.312 148.88)" cx="235.79" cy="426.28" r="67.571" fill="none"/>
 <circle transform="matrix(-3.0885 -.57493 .57493 -3.0885 920.16 1738.7)" cx="400.62" cy="531.73" r="0" fill="url(#linearGradient4458)" stroke="url(#linearGradient4468)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7591"/>
@@ -49,11 +55,16 @@
 <flowRoot fill="#000000" font-family="sans-serif" font-size="12.5px" letter-spacing="0px" stroke-width="1.0797" word-spacing="0px" style="line-height:125%" xml:space="preserve"><flowRegion stroke="url(#linearGradient7637)"><rect x="-427.82" y="-178.14" width="100.15" height="116.76" stroke="none"/></flowRegion><flowPara/></flowRoot>
 <g transform="matrix(.95126 0 0 .95126 2.2342 -8.438)">
 <g transform="translate(-2.8633 1.9646)">
+<g transform="matrix(-1.9142 -.35633 .35633 -1.9142 562.76 1040.6)">
+<g transform="matrix(1.6135 0 0 1.6135 -246.08 -318.92)">
+<g transform="matrix(.12799 0 0 .12799 330.91 498.48)"></g>
+</g>
+</g>
 <g transform="matrix(.99254 0 0 .99254 .10564 -1.1289)">
 <circle transform="matrix(-.60126 -.11193 .11193 -.60126 81.312 148.88)" cx="235.79" cy="426.28" r="67.571" fill="none"/>
-<path transform="matrix(-6.0821 -1.1322 1.1322 -6.0821 43.005 -54.469)" d="m11 3c-4.413 0-8 3.587-8 8 2e-7 4.413 3.587 8 8 8s8-3.587 8-8-3.587-8-8-8zm0 0.89258c3.9302 0 7.1055 3.1772 7.1055 7.1074s-3.1752 7.1074-7.1055 7.1074c-3.9302-1e-6 -7.1074-3.1772-7.1074-7.1074-2e-7 -3.9302 3.1772-7.1074 7.1074-7.1074z" color="#000000" color-rendering="auto" fill="url(#linearGradient4468-6)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
+<path transform="matrix(-6.0821 -1.1322 1.1322 -6.0821 43.005 -54.469)" d="m11 3c-4.413 0-8 3.587-8 8 2e-7 4.413 3.587 8 8 8 4.413 0 8-3.587 8-8 0-4.413-3.587-8-8-8zm0 0.89258c3.9302 0 7.1055 3.1772 7.1055 7.1074 0 3.9302-3.1752 7.1074-7.1055 7.1074-3.9302-1e-6 -7.1074-3.1772-7.1074-7.1074-2e-7 -3.9302 3.1772-7.1074 7.1074-7.1074z" color="#000000" color-rendering="auto" fill="url(#linearGradient4468-6)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="block-progression:tb;isolation:auto;mix-blend-mode:normal;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-transform:none;white-space:normal"/>
 <g transform="matrix(-.059784 -.011129 .011129 -.059784 9.8867 -105.56)" fill="#3d4245" opacity=".9">
-<path transform="matrix(101.73 4.455e-6 -4.455e-6 101.73 -689.18 -726.34)" d="m11 3.834a7.1667 7.1667 0 0 0-7.166 7.166 7.1667 7.1667 0 0 0 7.166 7.166 7.1667 7.1667 0 0 0 7.166-7.166 7.1667 7.1667 0 0 0-7.166-7.166zm-0.068359 3.2676c0.066385 0 0.1341 0.033737 0.17188 0.099609l2.2871 3.9883c0.7782 1.3572 0.30834 3.087-1.0488 3.8652-1.3572 0.7782-3.089 0.31029-3.8672-1.0469-0.51767-0.90281-0.48056-1.9752 0-2.8184l2.2871-3.9883c0.037765-0.065873 0.10354-0.099609 0.16992-0.099609z" fill="#4d4d4d"/>
+<path transform="matrix(101.73 4.455e-6 -4.455e-6 101.73 -689.18 -726.34)" d="m11 3.834a7.1667 7.1667 0 0 0-7.166 7.166 7.1667 7.1667 0 0 0 7.166 7.166 7.1667 7.1667 0 0 0 7.166-7.166 7.1667 7.1667 0 0 0-7.166-7.166zm-0.068359 3.2676c0.066385 0 0.1341 0.033737 0.17188 0.099609l2.2871 3.9883c0.7782 1.3572 0.30834 3.087-1.0488 3.8652-1.3572 0.7782-3.089 0.31029-3.8672-1.0469-0.51767-0.90281-0.48056-1.9752 0-2.8184l2.2871-3.9883c0.037765-0.065873 0.10354-0.099609 0.16992-0.099609z" fill="#363636"/>
 </g>
 </g>
 </g>

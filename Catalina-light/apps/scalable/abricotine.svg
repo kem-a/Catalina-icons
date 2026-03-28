@@ -1,7 +1,13 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient4186" x1="30.858" x2="116.88" y1="16.587" y2="116.38" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient4319" x1="99.703" x2="60.766" y1="125.93" y2="16.877" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient4186" x1="30.858" x2="116.88" y1="16.587" y2="116.38" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f5f5f5" offset="0"/>
+<stop stop-color="#ebeae6" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient4319" x1="99.703" x2="60.766" y1="125.93" y2="16.877" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ff8409" offset="0"/>
+<stop stop-color="#ff942a" offset="1"/>
+</linearGradient>
 </defs>
 <circle cx="68.953" cy="68.366" r="64.022" fill="url(#linearGradient4319)" stroke="url(#linearGradient4186)" stroke-width="6"/>
 <path d="m71.738 33.844v82.151" fill="none" stroke="#fff" stroke-opacity=".23954" stroke-width="1.5"/>

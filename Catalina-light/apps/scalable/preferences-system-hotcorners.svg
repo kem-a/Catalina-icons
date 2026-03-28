@@ -1,7 +1,14 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient4558" x1="-133.4" x2="-133.4" y1="111.37" y2="41.365" gradientTransform="translate(209.07 -28.388)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient4558" x1="-133.4" x2="-133.4" y1="111.37" y2="41.365" gradientTransform="translate(209.07 -28.388)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f22083" offset="0"/>
+<stop stop-color="#fa951b" offset="1"/>
+</linearGradient>
 </defs>
+<linearGradient id="a">
+<stop stop-color="#909090" offset="0"/>
+<stop stop-color="#636363" stop-opacity="0" offset="1"/>
+</linearGradient>
 <radialGradient id="b" cx="199.22" cy="60.978" r="62.148" gradientTransform="matrix(1.0119 3e-8 -1.5e-7 5.0958 -134.28 -251.23)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#e6e6e8" offset="0"/>
 <stop stop-color="#cbccce" offset="1"/>
@@ -17,14 +24,14 @@
 <stop stop-color="#909090" offset="0"/>
 <stop stop-color="#727272" stop-opacity="0" offset="1"/>
 </linearGradient>
-<radialGradient id="f" cx="178.79" cy="120.7" r="22.055" gradientTransform="matrix(3.8591 -2.3e-7 0 .1388 -511.17 103.95)" gradientUnits="userSpaceOnUse"/>
+<radialGradient id="f" cx="178.79" cy="120.7" r="22.055" gradientTransform="matrix(3.8591 -2.3e-7 0 .1388 -511.17 103.95)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
 <filter id="g" x="-.040865" y="-.504" width="1.0817" height="2.008" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation=".32830532"/>
 </filter>
 <filter id="h" x="-.080467" y="-.24545" width="1.1609" height="1.4909" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.4789442"/>
 </filter>
-<linearGradient id="i" x1="183.06" x2="183.06" y1="129.42" y2="127.06" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="i" x1="183.06" x2="183.06" y1="129.42" y2="127.06" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
 <linearGradient id="j" x1="23.844" x2="23.816" y1="17.574" y2="85.151" gradientUnits="userSpaceOnUse">
 <stop stop-color="#fa951b" offset="0"/>
 <stop stop-color="#f21c86" offset="1"/>

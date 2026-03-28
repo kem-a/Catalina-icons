@@ -1,8 +1,21 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient856" x1="86.345" x2="97.988" y1="58.765" y2="56.894" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient980" x1="116.56" x2="109.39" y1="90.71" y2="9.5853" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient1098" x1="-61.906" x2="-79.228" y1="110.36" y2="8.3432" gradientTransform="translate(126.75 10.223)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient856" x1="86.345" x2="97.988" y1="58.765" y2="56.894" gradientUnits="userSpaceOnUse">
+<stop offset="0"/>
+<stop stop-opacity=".054902" offset=".8249"/>
+<stop stop-opacity=".027451" offset=".90864"/>
+<stop stop-opacity=".019608" offset=".92884"/>
+<stop stop-opacity=".011765" offset=".95191"/>
+<stop stop-opacity="0" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient980" x1="116.56" x2="109.39" y1="90.71" y2="9.5853" gradientUnits="userSpaceOnUse">
+<stop stop-color="#390a8d" offset="0"/>
+<stop stop-color="#81359d" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1098" x1="-61.906" x2="-79.228" y1="110.36" y2="8.3432" gradientTransform="translate(126.75 10.223)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4100c2" offset="0"/>
+<stop stop-color="#8d3ce3" offset="1"/>
+</linearGradient>
 </defs>
 <linearGradient id="a" x1="484.08" x2="486.81" y1="104.42" y2="183.26" gradientTransform="matrix(1.311 -.19918 .19918 1.311 -605.29 -33.841)" gradientUnits="userSpaceOnUse">
 <stop stop-color="#9743e7" offset="0"/>

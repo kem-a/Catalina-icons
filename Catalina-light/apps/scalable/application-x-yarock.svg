@@ -1,8 +1,12 @@
-<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg">
+<svg width="136.53" height="136.53" version="1.1" viewBox="0 0 136.53 136.53" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient894" x1="37.228" x2="79.895" y1="13.254" y2="133.76" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient878" x1="33.585" x2="98.141" y1="27.308" y2="115.06" gradientTransform="translate(.00031444 -.00085442)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient911" x1="45.971" x2="103.35" y1="25.061" y2="110.76" gradientTransform="translate(-138.47 1.8409)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient864">
+<stop stop-color="#00002b" offset="0"/>
+<stop stop-color="#7cf1e7" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient894" x1="37.228" x2="79.895" y1="13.254" y2="133.76" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient864"/>
+<linearGradient id="linearGradient878" x1="33.585" x2="98.141" y1="27.308" y2="115.06" gradientTransform="translate(.00031444 -.00085442)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient864"/>
+<linearGradient id="linearGradient911" x1="45.971" x2="103.35" y1="25.061" y2="110.76" gradientTransform="translate(-138.47 1.8409)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient864"/>
 </defs>
 <filter x="-.069933" y="-.054406" width="1.1399" height="1.1088" color-interpolation-filters="sRGB">
 <feGaussianBlur stdDeviation="1.9764485"/>

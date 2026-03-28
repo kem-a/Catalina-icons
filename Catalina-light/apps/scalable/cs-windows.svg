@@ -1,9 +1,21 @@
-<svg width="128" height="128" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="linearGradient3445" x1="76" x2="38" y1="1044.4" y2="957.86" gradientTransform="translate(1,48)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient3507" x1="49.569" x2="51.952" y1="1030.1" y2="968.57" gradientTransform="translate(1,48)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient3571" x1="734.68" x2="450.43" y1="-1005.7" y2="-1060.1" gradientTransform="matrix(.4131 -.2385 -.2385 -.4131 -383.98 787.52)" gradientUnits="userSpaceOnUse"/>
-<linearGradient id="linearGradient3573" x1="564.39" x2="462.09" y1="929.21" y2="913.76" gradientTransform="matrix(.4131 -.2385 .2385 .4131 -383.98 787.52)" gradientUnits="userSpaceOnUse"/>
+<linearGradient id="linearGradient3445" x1="76" x2="38" y1="1044.4" y2="957.86" gradientTransform="translate(1,48)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e6e6e6" offset="0"/>
+<stop stop-color="#f9f9f9" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient3507" x1="49.569" x2="51.952" y1="1030.1" y2="968.57" gradientTransform="translate(1,48)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#b2b2b2" offset="0"/>
+<stop stop-color="#6a6a6a" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient3571" x1="734.68" x2="450.43" y1="-1005.7" y2="-1060.1" gradientTransform="matrix(.4131 -.2385 -.2385 -.4131 -383.98 787.52)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#d0d0d0" offset="0"/>
+<stop stop-color="#fcfcfc" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient3573" x1="564.39" x2="462.09" y1="929.21" y2="913.76" gradientTransform="matrix(.4131 -.2385 .2385 .4131 -383.98 787.52)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e3e3e3" offset="0"/>
+<stop stop-color="#efefef" offset="1"/>
+</linearGradient>
 </defs>
 <g transform="translate(0 -844.36)">
 <g transform="matrix(2.7978 0 0 2.7978 -8.0899 -1973.7)">

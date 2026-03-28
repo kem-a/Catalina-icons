@@ -1,8 +1,10 @@
-<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#4d4d4d;
-      }</style>
-</defs>
-<path class="ColorScheme-Text" d="m3 3v7h16v-7h-16zm1 1h2v2h1v-2h1v3h1v-3h1v2h1v-2h1v2h1v-2h1v3h1v-3h3v5h-14v-5zm2.707 9-3 3 3 3v-6zm9.293 0v6l3-3-3-3z" fill="currentColor"/>
+<svg width="24" height="24" version="1.1" viewBox="0 0 6.35 6.35" xmlns="http://www.w3.org/2000/svg">
+<g transform="matrix(.84354 0 0 .84354 4.6712 4.1217)">
+<path d="m-3.638 1.3229 5.2917-3.0551-1.6536-1.6536-5.2917 3.0551z" fill="#edda86" stroke="#f7eeca" stroke-width=".26458px"/>
+<path d="m-3.7703 0.066146 0.7276 0.79375 0.26458-0.19844-0.7276-0.79375z" fill-opacity=".14061"/>
+<path d="m-2.8443-0.46302 0.7276 0.79375 0.26458-0.19844-0.7276-0.79375z" fill-opacity=".14061"/>
+<path d="m-1.9182-0.99219 0.7276 0.79375 0.26458-0.19844-0.7276-0.79375z" fill-opacity=".14061"/>
+<path d="m-0.92604-1.5875 0.7276 0.79375 0.26458-0.19844-0.7276-0.79375z" fill-opacity=".14061"/>
+<path d="m6e-8 -2.1167 0.7276 0.79375 0.26458-0.19844-0.7276-0.79375z" fill-opacity=".14061"/>
+</g>
 </svg>
