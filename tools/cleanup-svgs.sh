@@ -3,7 +3,7 @@
 # cleanup-svgs.sh — Validate and optimize SVG files using xmllint and scour
 #
 # Usage:
-#   ./cleanup-svgs.sh [OPTIONS] <directory>
+#   ./cleanup-svgs.sh [OPTIONS] <directory|file.svg>
 #
 # Options:
 #   --check    Validate XML only, do not modify files
@@ -13,6 +13,7 @@
 #   ./cleanup-svgs.sh Catalina-light/actions/22/
 #   ./cleanup-svgs.sh --check Catalina-dark/
 #   ./cleanup-svgs.sh Catalina-light/
+#   ./cleanup-svgs.sh Catalina-light/apps/scalable/myapp.svg
 
 set -euo pipefail
 
@@ -35,7 +36,7 @@ while [[ $# -gt 0 ]]; do
             if [[ -z "$TARGET_DIR" ]]; then
                 TARGET_DIR="$1"
             else
-                echo "Error: Multiple directories specified"
+                echo "Error: Multiple targets specified"
                 exit 1
             fi
             shift
@@ -44,12 +45,12 @@ while [[ $# -gt 0 ]]; do
 done
 
 if [[ -z "$TARGET_DIR" ]]; then
-    echo "Error: No directory specified"
+    echo "Error: No directory or file specified"
     usage
 fi
 
-if [[ ! -d "$TARGET_DIR" ]]; then
-    echo "Error: '$TARGET_DIR' is not a directory"
+if [[ ! -d "$TARGET_DIR" && ! -f "$TARGET_DIR" ]]; then
+    echo "Error: '$TARGET_DIR' is not a file or directory"
     exit 1
 fi
 
@@ -62,7 +63,15 @@ for cmd in xmllint scour; do
 done
 
 # Collect SVG files
-mapfile -t SVG_FILES < <(find "$TARGET_DIR" -type f -name '*.svg' | sort)
+if [[ -f "$TARGET_DIR" ]]; then
+    if [[ "$TARGET_DIR" != *.svg ]]; then
+        echo "Error: '$TARGET_DIR' is not an SVG file"
+        exit 1
+    fi
+    SVG_FILES=("$TARGET_DIR")
+else
+    mapfile -t SVG_FILES < <(find "$TARGET_DIR" -type f -name '*.svg' | sort)
+fi
 TOTAL=${#SVG_FILES[@]}
 
 if [[ $TOTAL -eq 0 ]]; then
@@ -70,7 +79,7 @@ if [[ $TOTAL -eq 0 ]]; then
     exit 0
 fi
 
-echo "Found $TOTAL SVG files in '$TARGET_DIR'"
+echo "Found $TOTAL SVG file(s) in '$TARGET_DIR'"
 
 # Phase 1: XML validation
 echo ""

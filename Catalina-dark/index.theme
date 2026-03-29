@@ -5,7 +5,7 @@ Inherits=hicolor,Catalina-light
 Example=folder
 FollowsColorScheme=true
 
-Directories=actions/16,actions/22,actions/24,actions/symbolic,apps/22,apps/64,apps/scalable,devices/16,devices/scalable,devices/symbolic,places/16,places/22,places/24,places/symbolic,places/scalable,status/16,status/22,status/24,status/symbolic,mimetypes/scalable,categories/22,categories/symbolic
+Directories=actions/16,actions/22,actions/24,actions/symbolic,apps/22,apps/64,apps/scalable,devices/16,devices/scalable,devices/symbolic,places/16,places/22,places/24,places/symbolic,places/scalable,status/16,status/22,status/24,status/symbolic,mimetypes/scalable,mimetypes/scalable,categories/22,categories/symbolic
 
 [actions/16]
 Context=Actions
@@ -122,6 +122,13 @@ Type=Scalable
 Context=MimeTypes
 Size=128
 MinSize=64
+MaxSize=512
+Type=Scalable
+
+[mimetypes/symbolic]
+Size=16
+Context=MimeTypes
+MinSize=16
 MaxSize=512
 Type=Scalable
 
