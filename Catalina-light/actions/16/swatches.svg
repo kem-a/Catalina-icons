@@ -1,7 +1,12 @@
 <svg width="16" height="16" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#5c616c;
+      }</style>
+</defs>
 <rect transform="rotate(90)" x="5.994" y="-5.0216" width="3.9986" height="3.992" color="#000000" fill="#ffbf00" fill-rule="evenodd" stroke-width=".99882"/>
 <rect transform="rotate(90)" x="5.994" y="-10.012" width="3.9986" height="3.992" color="#000000" fill="#ff69bc" fill-rule="evenodd" stroke-width=".99882"/>
-<rect transform="rotate(90)" x=".99574" y="-10.012" width="3.9986" height="3.992" color="#000000" fill="#fff" fill-rule="evenodd" stroke-width=".99882"/>
+<rect transform="rotate(90)" x=".99574" y="-10.012" width="3.9986" height="3.992" color="#000000" class="ColorScheme-Text" fill="currentColor" fill-rule="evenodd" stroke-width=".99882"/>
 <rect transform="rotate(90)" x="10.992" y="-5.0216" width="2.9989" height="3.992" color="#000000" fill="#c8c8c8" fill-rule="evenodd" stroke-width=".99882"/>
 <rect transform="rotate(90)" x="5.994" y="-15.002" width="3.9986" height="3.992" color="#000000" fill="#f0fa00" fill-rule="evenodd" stroke-width=".99882"/>
 <path d="m10.012 10.992v3.9986l-3.992-0.99965v-2.9989z" color="#000000" fill="#a4602b" fill-rule="evenodd" stroke-width=".99882"/>

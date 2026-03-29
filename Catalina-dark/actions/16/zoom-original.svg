@@ -1,9 +1,14 @@
 <svg width="16" height="16" version="1.1" viewBox="0 0 4.2333 4.2333" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#bebebe;
+      }</style>
+</defs>
 <g transform="translate(0 -292.77)">
-<path transform="matrix(.26458 0 0 .26458 0 292.77)" d="m2 3v1 10 1h12v-1-11h-12zm1 1h10v10h-10v-10z" fill="#f1f8f8"/>
+<path transform="matrix(.26458 0 0 .26458 0 292.77)" d="m2 3v1 10 1h12v-1-11h-12zm1 1h10v10h-10v-10z" class="ColorScheme-Text" fill="currentColor"/>
 <g transform="translate(.18893 -.02301)" shape-rendering="auto" stroke-linecap="square" stroke-width=".2">
 <path d="m1.7052 294.69c0.029233-0.0169 0.059236-0.0377 0.090007-0.0623 0.032311-0.0246 0.063082-0.0508 0.092315-0.0785 0.029233-0.0292 0.056159-0.0584 0.080776-0.0877 0.026156-0.0308 0.047696-0.0608 0.064621-0.09h0.15232v1.5994h-0.19848v-1.2855c-0.026156 0.0277-0.056928 0.0539-0.092315 0.0785-0.033849 0.0246-0.070005 0.0477-0.10847 0.0692z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
-<path d="m1.9746 294.27-0.4043 0.38282 0.17773 0.31445 0.13867-0.082v1.1836h0.39844v-1.7988z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#f1f8f8" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m1.9746 294.27-0.4043 0.38282 0.17773 0.31445 0.13867-0.082v1.1836h0.39844v-1.7988z" color="#000000" color-rendering="auto" dominant-baseline="auto" class="ColorScheme-Text" fill="currentColor" image-rendering="auto" solid-color="#000000" stop-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
 </g>
 </g>
 </svg>

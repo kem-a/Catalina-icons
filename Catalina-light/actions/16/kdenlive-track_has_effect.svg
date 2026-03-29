@@ -6,6 +6,6 @@
         color:#666666;
       }</style>
 </defs>
-<path class="ColorScheme-Text" d="m8 1.2259-1.9875 5.1582-5.5126 0.29074 4.2844 3.4888-1.4156 5.3364 4.6313-3.0011 4.6313 3.0011-1.4156-5.3364 4.2844-3.4888-5.5126-0.29074z" color="#565656" fill="none" stroke="#565656" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".8"/>
+<path class="ColorScheme-Text" d="m8 1.2259-1.9875 5.1582-5.5126 0.29074 4.2844 3.4888-1.4156 5.3364 4.6313-3.0011 4.6313 3.0011-1.4156-5.3364 4.2844-3.4888-5.5126-0.29074z" color="#565656" fill="currentColor" stroke="#565656" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".8"/>
 <path d="m8.0002 2.5644 1.6484 4.2789 4.5721 0.24024-3.5532 2.8938 1.1735 4.4263-3.8407-2.488-3.8407 2.488 1.1735-4.4263-3.5532-2.8938 4.5721-0.24024z" fill="#525252" fill-opacity=".67826"/>
 </svg>

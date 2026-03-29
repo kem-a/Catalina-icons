@@ -1,5 +1,10 @@
 <svg width="16" height="16" version="1.1" viewBox="0 0 4.2333 4.2333" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(0 -292.77)" fill="#f1f6f8" fill-opacity=".85098">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#bebebe;
+      }</style>
+</defs>
+<g transform="translate(0 -292.77)" fill-opacity=".85098">
 <path transform="matrix(.26458 0 0 .26458 0 292.77)" d="m3 3c-1.108 0-2 0.89199-2 2v7c0 1.108 0.89199 2 2 2h10c1.108 0 2-0.89199 2-2v-7c0-1.108-0.89199-2-2-2zm11 9c0 0.554-0.44601 1-1 1h-10c-0.55399 0-1-0.446-1-1v-7c0-0.554 0.446-1 1-1h10c0.554 0 1 0.446 1 1z"/>
 <path d="m2.6458 294.35-0.92604 0.13229 0.13229 0.13229c-0.10645 0.15813-0.20475 0.85358-1e-7 1.0583 0-0.2016 0.26458-0.66146 0.52917-0.52917l0.13229 0.13229z"/>
 </g>

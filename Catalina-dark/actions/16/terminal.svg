@@ -1,10 +1,15 @@
 <svg width="16" height="16" version="1.1" viewBox="0 0 4.2333 4.2333" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#bebebe;
+      }</style>
+</defs>
 <g transform="translate(0 -292.77)">
-<rect x=".52917" y="296.47" width="3.175" height=".26458" fill="#f1f8f8"/>
-<rect x=".52917" y="293.56" width=".26458" height="2.9104" fill="#f1f8f8"/>
-<rect x="3.4396" y="293.56" width=".26458" height="2.9104" fill="#f1f8f8"/>
-<rect x=".52917" y="293.56" width="3.175" height=".26458" fill="#f1f8f8"/>
+<rect x=".52917" y="296.47" width="3.175" height=".26458" class="ColorScheme-Text" fill="currentColor"/>
+<rect x=".52917" y="293.56" width=".26458" height="2.9104" class="ColorScheme-Text" fill="currentColor"/>
+<rect x="3.4396" y="293.56" width=".26458" height="2.9104" class="ColorScheme-Text" fill="currentColor"/>
+<rect x=".52917" y="293.56" width="3.175" height=".26458" class="ColorScheme-Text" fill="currentColor"/>
 <path d="m1.0583 294.35 0.52917 0.52916-0.52917 0.52917" fill="none" stroke="#f1f8f8" stroke-width=".26458px"/>
-<path d="m2.1167 295.15v0.26458h0.79375v-0.26458z" fill="#f1f8f8"/>
+<path d="m2.1167 295.15v0.26458h0.79375v-0.26458z" class="ColorScheme-Text" fill="currentColor"/>
 </g>
 </svg>

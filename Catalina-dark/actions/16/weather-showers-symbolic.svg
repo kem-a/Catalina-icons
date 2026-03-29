@@ -1,10 +1,15 @@
 <svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb">
 <defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#bebebe;
+      }</style>
+</defs>
+<defs>
 <filter color-interpolation-filters="sRGB">
 <feBlend in2="BackgroundImage" mode="darken"/>
 </filter>
 </defs>
-<g transform="translate(-485 331)" fill="#555">
+<g transform="translate(-485 331)">
 <path d="m487.88-319a0.50005 0.50005 0 0 0-0.3125 0.28125l-1 2a0.50005 0.50005 0 1 0 0.875 0.4375l1-2a0.50005 0.50005 0 0 0-0.5625-0.71875z" color="#000000" enable-background="accumulate" style="block-progression:tb;text-indent:0;text-transform:none"/>
 <path d="m490.38-319a0.50005 0.50005 0 0 0-0.3125 0.28125l-1 2a0.50005 0.50005 0 1 0 0.875 0.4375l1-2a0.50005 0.50005 0 0 0-0.5625-0.71875z" color="#000000" enable-background="accumulate" style="block-progression:tb;text-indent:0;text-transform:none"/>
 <path d="m492.88-319a0.50005 0.50005 0 0 0-0.3125 0.28125l-1 2a0.50005 0.50005 0 1 0 0.875 0.4375l1-2a0.50005 0.50005 0 0 0-0.5625-0.71875z" color="#000000" enable-background="accumulate" style="block-progression:tb;text-indent:0;text-transform:none"/>

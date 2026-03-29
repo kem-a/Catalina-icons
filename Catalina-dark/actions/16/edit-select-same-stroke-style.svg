@@ -1,6 +1,11 @@
 <svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#bebebe;
+      }</style>
+</defs>
 <g transform="translate(-45 -707.36)">
-<g fill="#dedede">
+<g>
 <path d="m45 707.36h1v1h-1z"/>
 <path d="m47 707.36h1v1h-1z"/>
 <path d="m49 707.36h1v1h-1z"/>

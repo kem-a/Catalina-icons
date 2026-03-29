@@ -2,5 +2,5 @@
 <defs>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }</style>
 </defs>
-<path class="ColorScheme-Text" d="m1 1v10h1.166 2.834v4h0.66602 7 0.68359 1.6504l-10-9v-3.834-1.166h-2.834-1.166z" fill="#f1f6f8" fill-opacity=".85098"/>
+<path class="ColorScheme-Text" d="m1 1v10h1.166 2.834v4h0.66602 7 0.68359 1.6504l-10-9v-3.834-1.166h-2.834-1.166z" fill="currentColor" fill-opacity=".85098"/>
 </svg>
