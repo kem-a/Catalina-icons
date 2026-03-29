@@ -1,14 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-<defs>
-<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#363636
-      }</style>
-</defs>
-<g>
-<g transform="matrix(0 1 -1 0 1053.4 1)" fill="#363636">
-<rect class="ColorScheme-Text" x="9.25" y="1034.4" width="1.5" height="16" ry=".5" />
-<rect class="ColorScheme-Text" x="6" y="1036.4" width="8" height="5" ry=".5" />
-<rect class="ColorScheme-Text" x="4" y="1043.4" width="12" height="5" ry=".5" />
-</g>
-</g>
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#4d4d4d
+      }
+      </style>
+  </defs>
+  <g
+     transform="translate(1,-1031.3622)">
+    <g
+       id="g4154"
+       transform="matrix(0,1,-1,0,1052.3622,1032.3622)">
+      <rect
+         ry="0.5"
+         y="1034.3622"
+         x="9.25"
+         height="16"
+         width="1.5"
+         id="rect4145"
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+	 class="ColorScheme-Text"
+          />
+      <rect
+         ry="0.5"
+         y="1036.3622"
+         x="6"
+         height="5"
+         width="8"
+         id="rect4147"
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+	 class="ColorScheme-Text"
+          />
+      <rect
+         ry="0.5"
+         y="1043.3622"
+         x="4"
+         height="4.9999828"
+         width="12"
+         id="rect4149"
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+	 class="ColorScheme-Text"
+          />
+    </g>
+  </g>
 </svg>

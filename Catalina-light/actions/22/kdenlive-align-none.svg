@@ -1,12 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-<defs>
-<style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#363636
-      }</style>
-</defs>
-<g fill="#363636">
-<rect class="ColorScheme-Text" x="3" y="11" width="6" height="6" ry=".5" />
-<rect class="ColorScheme-Text" x="6" y="3" width="13" height="6" ry=".5" />
-<rect class="ColorScheme-Text" x="13" y="13" width="6" height="6" ry=".5" />
-</g>
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#4d4d4d
+      }
+      </style>
+  </defs>
+  <g
+     transform="translate(-553.72253,-583.11926)">
+    <rect
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+	 class="ColorScheme-Text"
+       id="rect4178"
+       width="6"
+       height="6"
+       x="556.72253"
+       y="594.11926"
+       ry="0.5" />
+    <rect
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+	 class="ColorScheme-Text"
+       id="rect4180"
+       width="13"
+       height="5.9999971"
+       x="559.72253"
+       y="586.11926"
+       ry="0.5" />
+    <rect
+     style="fill:currentColor;fill-opacity:1;stroke:none"
+	 class="ColorScheme-Text"
+       id="rect4182"
+       width="6.0000038"
+       height="6"
+       x="566.72253"
+       y="596.11926"
+       ry="0.5" />
+  </g>
 </svg>
