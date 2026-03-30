@@ -24,7 +24,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="7.328125"
-     inkscape:cx="64.06823"
+     inkscape:cx="64"
      inkscape:cy="64"
      inkscape:window-width="1920"
      inkscape:window-height="1168"
@@ -44,11 +44,13 @@
       <stop
          stop-color="#cfe6ec"
          offset="0"
-         id="stop1" />
+         id="stop1"
+         style="stop-color:#5d0f7e;stop-opacity:1;" />
       <stop
          stop-color="#747472"
          offset="1"
-         id="stop2" />
+         id="stop2"
+         style="stop-color:#150a51;stop-opacity:1;" />
     </linearGradient>
     <linearGradient
        id="linearGradient4159"
