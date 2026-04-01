@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" enable-background="new" version="1.1">
+<svg width="16" height="16" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<filter color-interpolation-filters="sRGB">
-<feBlend in2="BackgroundImage" mode="darken" />
-</filter>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#bebebe;
       }</style>
@@ -10,20 +7,15 @@
         color:#dedede
       }</style>
 </defs>
-<g>
-<g transform="matrix(0.52112 0 0 0.52112 3.18 3.38)" fill="#fff">
-<g transform="matrix(.02206 0 0 .02206 -29.9 -.39149)" fill="#fff" />
-</g>
-<circle transform="matrix(-0.064329 -0.99793 0.99793 -0.064329 -385.03 235)" cx="197.24" cy="394.25" r="0" enable-background="new" fill="#bebebe" />
+<g transform="matrix(.52112 0 0 .52112 3.18 3.38)" fill="#fff"></g>
+<circle transform="matrix(-.064329 -.99793 .99793 -.064329 -385.03 235)" cx="197.24" cy="394.25" r="0" enable-background="new" fill="#bebebe"/>
 <text x="377.5881" y="-214.44621" enable-background="new" fill="#bebebe" font-family="sans-serif" font-size="20.899px" letter-spacing="0px" stroke-width="1px" word-spacing="0px" style="line-height:125%" xml:space="preserve">
-<tspan x="377.5881" y="-214.44621" fill="#bebebe" font-family="'DejaVu Sans'" />
+<tspan x="377.5881" y="-214.44621" fill="#bebebe" font-family="'DejaVu Sans'"/>
 </text>
-<g transform="matrix(0.0067059 0 0 0.0067059 12.47 -23.45)" fill="#bebebe" />
-<path d="m11 6.8h-6v-1.2h6m0 3.6h-6v-1.2h6m-1.8 3.6h-4.2v-1.2h4.2m-1.2-7.2a0.6 0.6 0 0 1 0.6 0.6 0.6 0.6 0 0 1-0.6 0.6 0.6 0.6 0 0 1-0.6-0.6 0.6 0.6 0 0 1 0.6-0.6m4.2 0h-2.508c-0.252-0.696-0.912-1.2-1.692-1.2s-1.44 0.504-1.692 1.2h-2.508a1.2 1.2 0 0 0-1.2 1.2v8.4a1.2 1.2 0 0 0 1.2 1.2h8.4a1.2 1.2 0 0 0 1.2-1.2v-8.4a1.2 1.2 0 0 0-1.2-1.2z" fill="#bebebe" />
-<path d="m11.42 15.53a3.5 3.5 0 0 1-3.5-3.5 3.5 3.5 0 0 1 3.5-3.5 3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5zm-0.0872-1.5313a0.4375 0.4375 0 0 0 0.4375-0.43749 0.4375 0.4375 0 0 0-0.4375-0.4375 0.4375 0.4375 0 0 0-0.4375 0.4375 0.4375 0.4375 0 0 0 0.4375 0.43749zm-0.047-1.3125h0.0932c0.15581 0 0.28198-0.12532 0.28198-0.28113v-2.0628c0-0.15581-0.12617-0.28112-0.28198-0.28112h-0.0932c-0.15581 0-0.28113 0.12531-0.28113 0.28112v2.0628c0 0.15581 0.12532 0.28113 0.28113 0.28113z" enable-background="new" fill="#e74c3c" fill-rule="evenodd" />
-<circle transform="matrix(-0.064329 -0.99793 0.99793 -0.064329 -385.03 235)" cx="188.22" cy="407.97" r="0" fill="#bebebe" />
+<path d="m11 6.8h-6v-1.2h6m0 3.6h-6v-1.2h6m-1.8 3.6h-4.2v-1.2h4.2m-1.2-7.2a0.6 0.6 0 0 1 0.6 0.6 0.6 0.6 0 0 1-0.6 0.6 0.6 0.6 0 0 1-0.6-0.6 0.6 0.6 0 0 1 0.6-0.6m4.2 0h-2.508c-0.252-0.696-0.912-1.2-1.692-1.2s-1.44 0.504-1.692 1.2h-2.508a1.2 1.2 0 0 0-1.2 1.2v8.4a1.2 1.2 0 0 0 1.2 1.2h8.4a1.2 1.2 0 0 0 1.2-1.2v-8.4a1.2 1.2 0 0 0-1.2-1.2z" fill="#bebebe"/>
+<path d="m11.42 15.53a3.5 3.5 0 0 1-3.5-3.5 3.5 3.5 0 0 1 3.5-3.5 3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5zm-0.0872-1.5313a0.4375 0.4375 0 0 0 0.4375-0.43749 0.4375 0.4375 0 0 0-0.4375-0.4375 0.4375 0.4375 0 0 0-0.4375 0.4375 0.4375 0.4375 0 0 0 0.4375 0.43749zm-0.047-1.3125h0.0932c0.15581 0 0.28198-0.12532 0.28198-0.28113v-2.0628c0-0.15581-0.12617-0.28112-0.28198-0.28112h-0.0932c-0.15581 0-0.28113 0.12531-0.28113 0.28112v2.0628c0 0.15581 0.12532 0.28113 0.28113 0.28113z" enable-background="new" fill="#e74c3c" fill-rule="evenodd"/>
+<circle transform="matrix(-.064329 -.99793 .99793 -.064329 -385.03 235)" cx="188.22" cy="407.97" r="0" fill="#bebebe"/>
 <text x="391.85474" y="-206.32886" fill="#bebebe" font-family="sans-serif" font-size="20.899px" letter-spacing="0px" stroke-width="1px" word-spacing="0px" style="line-height:125%" xml:space="preserve">
-<tspan x="391.85474" y="-206.32886" fill="#bebebe" font-family="'DejaVu Sans'" />
+<tspan x="391.85474" y="-206.32886" fill="#bebebe" font-family="'DejaVu Sans'"/>
 </text>
-</g>
 </svg>

@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" enable-background="new" version="1.1">
-<g>
-<g transform="matrix(0.85714 0 0 0.85714 -51.14 -202)" fill="#bebebe">
-<path d="m-77 21s-2 0-2 2.0625v9.9375c0 2 2 2 2 2h10c2 0 2-2 2-2v-10s1.3e-5 -2-2-2zm1.0002 2h2v8h4v-8h2v8s0 2-2 2h-4s-2 0-2-2z" color="#bebebe" />
-</g>
+<svg width="16" height="16" enable-background="new" version="1.1" viewBox="-118.9 -184 12 12" xmlns="http://www.w3.org/2000/svg">
+<g transform="matrix(.85714 0 0 .85714 -51.14 -202)" fill="#bebebe">
+<path d="m-77 21s-2 0-2 2.0625v9.9375c0 2 2 2 2 2h10c2 0 2-2 2-2v-10s1.3e-5 -2-2-2zm1.0002 2h2v8h4v-8h2v8s0 2-2 2h-4s-2 0-2-2z" color="#bebebe"/>
 </g>
 </svg>
