@@ -73,6 +73,9 @@ if [[ "$SCALE_UP" == true ]] && ! command -v inkscape &>/dev/null; then
     exit 1
 fi
 
+# Clean up on Ctrl+C
+trap 'echo ""; echo "Interrupted."; exit 130' INT TERM
+
 # Collect SVG files
 if [[ -f "$TARGET_DIR" ]]; then
     if [[ "$TARGET_DIR" != *.svg ]]; then
@@ -102,6 +105,7 @@ echo ""
 echo "=== Validating XML ==="
 ERROR_COUNT=0
 ERROR_LOG=$(mktemp)
+VALIDATED=0
 
 for svg in "${SVG_FILES[@]}"; do
     errors=$(xmllint --noout "$svg" 2>&1)
@@ -109,7 +113,15 @@ for svg in "${SVG_FILES[@]}"; do
         echo "$errors" >> "$ERROR_LOG"
         ERROR_COUNT=$((ERROR_COUNT + 1))
     fi
+    VALIDATED=$((VALIDATED + 1))
+    if (( VALIDATED % 25 == 0 || VALIDATED == TOTAL )); then
+        pct=$(( VALIDATED * 100 / TOTAL ))
+        filled=$(( pct / 4 ))
+        bar=$(printf '#%.0s' $(seq 1 $filled 2>/dev/null); printf -- '-%.0s' $(seq $((filled+1)) 25 2>/dev/null))
+        printf "\r  [%s] %d/%d" "$bar" "$VALIDATED" "$TOTAL"
+    fi
 done
+echo ""
 
 if [[ $ERROR_COUNT -gt 0 ]]; then
     echo "ERRORS: $ERROR_COUNT file(s) with XML errors:"
@@ -136,7 +148,7 @@ if [[ "$FIX_SIZE" == true ]]; then
     echo ""
     echo "=== Fixing SVG dimensions ==="
 
-    FIX_RESULT=$(python3 - "${SVG_FILES[@]}" << 'PYEOF'
+    python3 - "${SVG_FILES[@]}" << 'PYEOF'
 import re, sys, os
 
 def get_target_size(path):
@@ -213,30 +225,70 @@ def fix_svg(svg_file, target):
     old = f"{cur_w}x{cur_h}" if cur_w and cur_h else "missing"
     return f"size {old} -> {t}x{t}"
 
+files = sys.argv[1:]
+total = len(files)
 count = 0
-for svg_file in sys.argv[1:]:
+errors = 0
+
+for i, svg_file in enumerate(files):
+    n = i + 1
     target = get_target_size(svg_file)
     if not target:
+        pct = n * 100 // total
+        filled = pct // 4
+        bar = '#' * filled + '-' * (25 - filled)
+        print(f"\r  [{bar}] {n}/{total}", end='', flush=True)
         continue
-    result = fix_svg(svg_file, target)
-    if result:
+    try:
+        result = fix_svg(svg_file, target)
+        if result:
+            name = os.path.basename(svg_file)
+            print(f"\r{' ' * 70}\r  FIXED ({result}): {name}", flush=True)
+            count += 1
+    except Exception as e:
         name = os.path.basename(svg_file)
-        print(f"  FIXED ({result}): {name}", flush=True)
-        count += 1
+        print(f"\r{' ' * 70}\r  ERROR ({e}): {name}", flush=True)
+        errors += 1
 
-print(f"\n  Fixed {count} file(s)")
+    pct = n * 100 // total
+    filled = pct // 4
+    bar = '#' * filled + '-' * (25 - filled)
+    print(f"\r  [{bar}] {n}/{total}", end='', flush=True)
+
+print(f"\n  Fixed {count} file(s)", end='')
+if errors:
+    print(f", {errors} error(s)", end='')
+print(flush=True)
 PYEOF
-    )
-    echo "$FIX_RESULT"
 fi
 
 # Phase 3: Scale up undersized drawings (--scale-up)
 if [[ "$SCALE_UP" == true ]]; then
     echo ""
-    echo "=== Scaling up undersized drawings ==="
+    echo "=== Scaling up undersized drawings (parallel: $JOBS jobs) ==="
 
-    SCALE_RESULT=$(python3 - "${SVG_FILES[@]}" << 'PYEOF'
-import re, sys, os, subprocess
+    python3 - "$JOBS" "${SVG_FILES[@]}" << 'PYEOF'
+import re, sys, os, subprocess, threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+JOBS = int(sys.argv[1])
+files = sys.argv[2:]
+total = len(files)
+lock = threading.Lock()
+done = 0
+scaled_count = 0
+error_count = 0
+
+def make_bar(n, t, width=25):
+    filled = int(width * n / t) if t else width
+    return f"[{'#' * filled}{'-' * (width - filled)}] {n}/{t}"
+
+def note(msg):
+    """Print a permanent notification line (clears progress bar first)."""
+    print(f"\r{' ' * 72}\r  {msg}", flush=True)
+
+def progress():
+    print(f"\r  {make_bar(done, total)}", end='', flush=True)
 
 def get_target_size(path):
     m = re.findall(r'/(\d+)/', path)
@@ -246,24 +298,30 @@ def get_drawing_bbox(svg_file):
     """Query inkscape for the drawing bounding box (in user units)."""
     try:
         r = subprocess.run(
-            ['inkscape', '--query-all', svg_file],
-            capture_output=True, text=True, timeout=30)
+            ['timeout', '20', 'inkscape', '--query-all', svg_file],
+            capture_output=True, text=True, timeout=25)
         if r.returncode != 0 or not r.stdout.strip():
-            return None
-        first = r.stdout.strip().split('\n')[0]
-        parts = first.split(',')
-        if len(parts) < 5:
-            return None
-        return tuple(float(p) for p in parts[1:5])
-    except Exception:
-        return None
+            err = (r.stderr.strip().split('\n')[0] if r.stderr.strip()
+                   else f"exit {r.returncode}" if r.returncode else "no output")
+            return None, err
+        # Scan all lines for a valid id,x,y,w,h entry (inkscape AppImage and
+        # some versions print warnings or preamble lines to stdout before data)
+        for line in r.stdout.splitlines():
+            parts = line.strip().split(',')
+            if len(parts) >= 5:
+                try:
+                    return tuple(float(p) for p in parts[1:5]), None
+                except ValueError:
+                    continue
+        return None, "no bbox data in inkscape output"
+    except subprocess.TimeoutExpired:
+        return None, "timeout (>25s)"
+    except FileNotFoundError:
+        return None, "inkscape not found"
+    except Exception as e:
+        return None, str(e)
 
-def scale_up(svg_file, target):
-    bbox = get_drawing_bbox(svg_file)
-    if not bbox:
-        return None
-
-    # Inkscape reports bbox in display pixels
+def do_scale(svg_file, target, bbox):
     dx, dy, dw, dh = bbox
     max_dim = max(dw, dh)
 
@@ -318,27 +376,52 @@ def scale_up(svg_file, target):
 
     return real_w, real_h
 
-count = 0
-files = sys.argv[1:]
-for i, svg_file in enumerate(files):
+def process(svg_file):
+    global done, scaled_count, error_count
+
     target = get_target_size(svg_file)
     if not target:
-        continue
+        with lock:
+            done += 1
+            progress()
+        return
 
-    result = scale_up(svg_file, target)
-    if result:
-        dw, dh = result
-        name = os.path.basename(svg_file)
-        print(f"  SCALED ({dw:.1f}x{dh:.1f} -> fill {target}): {name}", flush=True)
-        count += 1
+    bbox, err = get_drawing_bbox(svg_file)
 
-    if (i + 1) % 100 == 0:
-        print(f"  Processed {i + 1} / {len(files)} files...", flush=True)
+    if err:
+        with lock:
+            done += 1
+            error_count += 1
+            note(f"ERROR ({err}): {os.path.basename(svg_file)}")
+            progress()
+        return
 
-print(f"\n  Scaled {count} file(s)")
+    result = do_scale(svg_file, target, bbox)
+
+    with lock:
+        done += 1
+        if result:
+            scaled_count += 1
+            dw, dh = bbox[2], bbox[3]
+            note(f"SCALED ({dw:.1f}x{dh:.1f} -> fill {target}): {os.path.basename(svg_file)}")
+        progress()
+
+with ThreadPoolExecutor(max_workers=JOBS) as ex:
+    futures = [ex.submit(process, f) for f in files]
+    for fut in as_completed(futures):
+        try:
+            fut.result()
+        except Exception as e:
+            with lock:
+                error_count += 1
+                note(f"UNHANDLED ERROR: {e}")
+                progress()
+
+summary = f"\n  Scaled {scaled_count} file(s)"
+if error_count:
+    summary += f", {error_count} error(s)"
+print(summary, flush=True)
 PYEOF
-    )
-    echo "$SCALE_RESULT"
 fi
 
 # Phase 4: Clean with scour
@@ -404,8 +487,17 @@ clean_svg() {
     fi
 }
 
+IDX=0
 for svg in "${SVG_FILES[@]}"; do
-    result=$(clean_svg "$svg" 2>&1) || { SKIPPED=$((SKIPPED + 1)); continue; }
+    IDX=$((IDX + 1))
+    result=$(clean_svg "$svg" 2>&1) || {
+        SKIPPED=$((SKIPPED + 1))
+        pct=$(( IDX * 100 / TOTAL ))
+        filled=$(( pct / 4 ))
+        bar=$(printf '#%.0s' $(seq 1 $filled 2>/dev/null); printf -- '-%.0s' $(seq $((filled+1)) 25 2>/dev/null))
+        printf "\r  [%s] %d/%d" "$bar" "$IDX" "$TOTAL"
+        continue
+    }
 
     before=$(echo "$result" | awk '{print $1}')
     after=$(echo "$result" | awk '{print $2}')
@@ -413,11 +505,12 @@ for svg in "${SVG_FILES[@]}"; do
     SIZE_AFTER=$((SIZE_AFTER + after))
     CLEANED=$((CLEANED + 1))
 
-    # Progress indicator every 100 files
-    if (( CLEANED % 100 == 0 )); then
-        echo "  Processed $CLEANED / $TOTAL files..."
-    fi
+    pct=$(( IDX * 100 / TOTAL ))
+    filled=$(( pct / 4 ))
+    bar=$(printf '#%.0s' $(seq 1 $filled 2>/dev/null); printf -- '-%.0s' $(seq $((filled+1)) 25 2>/dev/null))
+    printf "\r  [%s] %d/%d" "$bar" "$IDX" "$TOTAL"
 done
+echo ""
 
 SAVED=$((SIZE_BEFORE - SIZE_AFTER))
 

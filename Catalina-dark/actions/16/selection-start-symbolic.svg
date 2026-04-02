@@ -1,8 +1,8 @@
-<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<svg width="16" height="16" viewBox="5 2 6 12" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#bebebe;
       }</style>
 </defs>
-<path class="ColorScheme-Text" d="m5 2v6l6 6v-6-6h-6z" fill="currentColor"/>
+<path class="ColorScheme-Text" d="m5 2v6l6 6v-12h-6z" fill="currentColor"/>
 </svg>

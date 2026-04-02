@@ -5,7 +5,9 @@ Flatten translate() transforms in symbolic SVG icons.
 GTK4's simplified SVG renderer cannot handle translate() transforms with
 large offset values — it parses the SVG without error but renders invisibly.
 This script removes the <g transform="translate(dx dy)"> wrapper and applies
-the offset directly to the first moveto coordinate of each <path>.
+the offset directly to all child element coordinates.
+
+Handles: <path>, <rect>, <circle>, <ellipse>, <line>, <polygon>, <polyline>
 
 Usage:
     python3 flatten-svg-transforms.py <file_or_directory> [...]
@@ -20,96 +22,276 @@ import re
 import sys
 import os
 import glob
+import xml.etree.ElementTree as ET
+
+
+SVG_NS = 'http://www.w3.org/2000/svg'
+# Register namespace so output doesn't get ns0: prefixes
+ET.register_namespace('', SVG_NS)
 
 
 def parse_translate(transform_str):
     """Extract dx, dy from translate(dx dy) or translate(dx, dy)."""
-    m = re.search(r'translate\(\s*([+-]?\d+\.?\d*)\s*[,\s]\s*([+-]?\d+\.?\d*)\s*\)', transform_str)
+    NUM = r'[+-]?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?'
+    m = re.search(rf'translate\(\s*({NUM})\s*[,\s]\s*({NUM})\s*\)', transform_str, re.IGNORECASE)
     if not m:
         return None
     return float(m.group(1)), float(m.group(2))
 
 
-def apply_translate_to_path(d_attr, dx, dy):
-    """Apply translate to SVG path data.
+def fmt(n):
+    """Format number compactly: drop trailing zeros."""
+    if n == int(n) and abs(n) < 1e10:
+        return str(int(n))
+    return f"{n:g}"
 
-    Only the first moveto (m/M) of each <path> is absolute — all subsequent
-    commands use relative coordinates, so only that first pair needs adjusting.
+
+def tokenize_svg_numbers(s):
+    """Extract SVG numbers from a string, handling cases like '423.97-224.53'."""
+    return re.findall(r'[+-]?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?', s, re.IGNORECASE)
+
+
+def adjust_path_d(d_attr, dx, dy):
+    """Apply translate to the first moveto of each subpath in SVG path data.
+
+    In SVG path 'd' attribute:
+    - The first 'm'/'M' command is always absolute
+    - After 'z', the next 'm' is relative to the closed subpath's start
+    - All other lowercase commands are relative (no adjustment needed)
     """
-    # Match the initial moveto: m or M followed by two numbers
-    pattern = r'^([mM])\s*([+-]?\d+\.?\d*(?:e[+-]?\d+)?)\s*[,\s]\s*([+-]?\d+\.?\d*(?:e[+-]?\d+)?)'
-    m = re.match(pattern, d_attr.strip())
+    if not d_attr or not d_attr.strip():
+        return d_attr
+
+    # We need to find and adjust the first moveto's absolute coordinates.
+    # Strategy: find the leading m/M command and its first two numbers,
+    # adjust them, leave everything else untouched.
+
+    stripped = d_attr.strip()
+    # Match: optional whitespace, m or M, then capture everything
+    m = re.match(r'^([mM])', stripped)
     if not m:
-        return d_attr  # Can't parse, return unchanged
+        return d_attr
 
     cmd = m.group(1)
-    x = float(m.group(2)) + dx
-    y = float(m.group(3)) + dy
+    rest = stripped[m.end():]
 
-    # Format numbers: drop trailing zeros, use compact representation
-    def fmt(n):
-        if n == int(n):
-            return str(int(n))
-        return f"{n:g}"
+    # Extract the first two numbers (x, y of the moveto)
+    nums = tokenize_svg_numbers(rest)
+    if len(nums) < 2:
+        return d_attr
 
-    rest = d_attr.strip()[m.end():]
-    new_start = f"{cmd}{fmt(x)} {fmt(y)}"
-    return new_start + rest
+    x_str = nums[0]
+    y_str = nums[1]
+    x_new = float(x_str) + dx
+    y_new = float(y_str) + dy
+
+    # Find where x_str and y_str are in 'rest' and replace them
+    # Find position of first number
+    x_match = re.search(re.escape(x_str), rest)
+    if not x_match:
+        return d_attr
+
+    after_x = rest[x_match.end():]
+    y_match = re.search(re.escape(y_str), after_x)
+    if not y_match:
+        return d_attr
+
+    # Reconstruct: cmd + new_x + separator + new_y + remainder
+    before_x = rest[:x_match.start()]
+    between = after_x[:y_match.start()]
+    after_y = after_x[y_match.end():]
+
+    # Use space as separator if between is empty or just a sign boundary
+    if not between.strip(' ,'):
+        between = ' '
+
+    new_d = f"{cmd}{before_x}{fmt(x_new)}{between}{fmt(y_new)}{after_y}"
+    return new_d
+
+
+def adjust_attr(element, attr, offset):
+    """Adjust a numeric attribute by offset."""
+    val = element.get(attr)
+    if val is not None:
+        try:
+            element.set(attr, fmt(float(val) + offset))
+        except ValueError:
+            pass
+
+
+def adjust_points(points_str, dx, dy):
+    """Adjust all coordinate pairs in a points attribute (polygon/polyline)."""
+    nums = tokenize_svg_numbers(points_str)
+    if len(nums) < 2 or len(nums) % 2 != 0:
+        return points_str
+    pairs = []
+    for i in range(0, len(nums), 2):
+        x = float(nums[i]) + dx
+        y = float(nums[i + 1]) + dy
+        pairs.append(f"{fmt(x)},{fmt(y)}")
+    return ' '.join(pairs)
+
+
+def fold_translate_into_transform(el, dx, dy):
+    """Fold a parent translate(dx,dy) into an element's existing transform.
+
+    SVG applies parent transform after child transform, so for:
+      parent: translate(dx, dy)  child: matrix(a,b,c,d,e,f)
+    Combined = matrix(a, b, c, d, e+dx, f+dy)
+
+    For child: translate(cx, cy) → translate(cx+dx, cy+dy)
+    """
+    transform = el.get('transform', '')
+
+    # Check for matrix transform
+    m = re.search(
+        r'matrix\(\s*([^\s,]+)\s*[,\s]\s*([^\s,]+)\s*[,\s]\s*([^\s,]+)\s*[,\s]\s*([^\s,]+)\s*[,\s]\s*([^\s,]+)\s*[,\s]\s*([^\s,]+)\s*\)',
+        transform)
+    if m:
+        a, b, c, d, e, f = [float(x) for x in m.groups()]
+        new_matrix = f'matrix({fmt(a)} {fmt(b)} {fmt(c)} {fmt(d)} {fmt(e + dx)} {fmt(f + dy)})'
+        el.set('transform', transform[:m.start()] + new_matrix + transform[m.end():])
+        return
+
+    # Check for translate transform
+    NUM = r'[+-]?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?'
+    t = re.search(rf'translate\(\s*({NUM})\s*[,\s]\s*({NUM})\s*\)', transform, re.IGNORECASE)
+    if t:
+        cx, cy = float(t.group(1)), float(t.group(2))
+        new_translate = f'translate({fmt(cx + dx)} {fmt(cy + dy)})'
+        el.set('transform', transform[:t.start()] + new_translate + transform[t.end():])
+        return
+
+    # Unknown transform type — prepend a translate
+    if transform.strip():
+        el.set('transform', f'translate({fmt(dx)} {fmt(dy)}) {transform}')
+    else:
+        el.set('transform', f'translate({fmt(dx)} {fmt(dy)})')
+
+
+def apply_translate_to_element(el, dx, dy):
+    """Apply translate offset to a single SVG element's coordinates."""
+    # If the element has its own transform, fold the translate into it
+    # instead of adjusting coordinates (which would break the transform chain)
+    if el.get('transform'):
+        fold_translate_into_transform(el, dx, dy)
+        return
+
+    tag = el.tag
+    # Strip namespace if present
+    if tag.startswith('{'):
+        tag = tag.split('}', 1)[1]
+
+    if tag == 'path':
+        d = el.get('d')
+        if d:
+            el.set('d', adjust_path_d(d, dx, dy))
+
+    elif tag == 'rect':
+        adjust_attr(el, 'x', dx)
+        adjust_attr(el, 'y', dy)
+
+    elif tag in ('circle', 'ellipse'):
+        adjust_attr(el, 'cx', dx)
+        adjust_attr(el, 'cy', dy)
+
+    elif tag == 'line':
+        adjust_attr(el, 'x1', dx)
+        adjust_attr(el, 'y1', dy)
+        adjust_attr(el, 'x2', dx)
+        adjust_attr(el, 'y2', dy)
+
+    elif tag in ('polygon', 'polyline'):
+        pts = el.get('points')
+        if pts:
+            el.set('points', adjust_points(pts, dx, dy))
+
+    elif tag == 'g':
+        # Nested group without its own transform — adjust all children recursively
+        for child in el:
+            apply_translate_to_element(child, dx, dy)
 
 
 def flatten_svg(filepath):
     """Flatten translate transforms in an SVG file. Returns True if modified."""
-    if not os.path.isfile(filepath) or os.path.islink(filepath) and not os.path.exists(filepath):
+    if os.path.islink(filepath) and not os.path.exists(filepath):
         return False
+    if not os.path.isfile(filepath):
+        return False
+
     with open(filepath, 'r') as f:
-        content = f.read()
+        original = f.read()
 
-    # Find <g transform="translate(...)"> with optional other attributes
-    g_pattern = r'<g\s+([^>]*?)transform="(translate\([^)]+\))"([^>]*)>'
-    g_match = re.search(g_pattern, content)
-    if not g_match:
+    # Quick check before full parse
+    if 'translate(' not in original:
         return False
 
-    transform_str = g_match.group(2)
-    offset = parse_translate(transform_str)
-    if not offset:
+    try:
+        tree = ET.parse(filepath)
+    except ET.ParseError:
         return False
 
-    dx, dy = offset
+    root = tree.getroot()
+    modified = False
 
-    # Skip if offset is already small (coordinates already in viewport range)
-    if abs(dx) < 20 and abs(dy) < 20:
+    # Find all elements with translate transforms
+    for el in root.iter():
+        transform = el.get('transform', '')
+        offset = parse_translate(transform)
+        if not offset:
+            continue
+
+        dx, dy = offset
+        # Skip small offsets (already in viewport range)
+        if abs(dx) < 20 and abs(dy) < 20:
+            continue
+
+        tag = el.tag
+        if tag.startswith('{'):
+            tag = tag.split('}', 1)[1]
+
+        if tag == 'g':
+            # Apply translate to all children
+            for child in el:
+                apply_translate_to_element(child, dx, dy)
+        else:
+            # Apply translate directly to this element
+            apply_translate_to_element(el, dx, dy)
+
+        # Remove the transform attribute
+        del el.attrib['transform']
+        modified = True
+
+    if not modified:
         return False
 
-    # Apply translate to each <path d="..."> within the file
-    def replace_path_d(m):
-        prefix = m.group(1)
-        d_attr = m.group(2)
-        new_d = apply_translate_to_path(d_attr, dx, dy)
-        return f'{prefix}"{new_d}"'
+    # Also normalize height to integer if close (16.009 -> 16)
+    svg_height = root.get('height', '')
+    try:
+        h = float(svg_height)
+        if h != int(h) and abs(h - round(h)) < 0.1:
+            root.set('height', str(int(round(h))))
+    except ValueError:
+        pass
 
-    new_content = re.sub(r'(<path[^>]*\bd=)"([^"]*)"', replace_path_d, content)
+    # Write back — use ET to serialize, but we want compact output like the original
+    # ET.write adds XML declaration and may reformat, so let's do minimal serialization
+    ET.indent(tree, space='')
+    output = ET.tostring(root, encoding='unicode', xml_declaration=False)
 
-    # Remove the transform attribute from the <g> element
-    # Rebuild <g> without the transform, keeping other attributes
-    before_transform = g_match.group(1).strip()
-    after_transform = g_match.group(3).strip()
-    remaining_attrs = f"{before_transform} {after_transform}".strip()
-    if remaining_attrs:
-        new_g = f'<g {remaining_attrs}>'
-    else:
-        new_g = '<g>'
-    new_content = new_content[:g_match.start()] + new_g + new_content[g_match.end():]
+    # ET may add ns0 prefixes or change attribute order, so let's use a simpler approach:
+    # Re-read the original and do targeted replacements instead.
+    # Actually, let's just write the ET output and clean it up.
 
-    # Also fix non-integer height to round 16.009 -> 16 etc.
-    new_content = re.sub(
-        r'height="(\d+)\.\d+"',
-        lambda m: f'height="{m.group(1)}"',
-        new_content
-    )
+    # Remove any xmlns:ns0 artifacts
+    output = output.replace('ns0:', '').replace(':ns0', '')
+
+    # Ensure it ends with newline
+    if not output.endswith('\n'):
+        output += '\n'
 
     with open(filepath, 'w') as f:
-        f.write(new_content)
+        f.write(output)
 
     return True
 
@@ -135,7 +317,6 @@ def main():
     total_skipped = 0
 
     for arg in sys.argv[1:]:
-        # Expand globs if shell didn't
         paths = glob.glob(arg) if '*' in arg else [arg]
         for path in paths:
             results = process_path(path)
