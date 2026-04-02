@@ -1,9 +1,0 @@
-<svg width="24" height="24" enable-background="new" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<path d="m8.75 19.5v1h7.5v-1z" fill-opacity=".39216"/>
-<path d="m12 17.641v1.8594h1v-1.8594c-0.33328 0.032503-0.66672 0.032503-1 0z" fill-opacity=".39216"/>
-<path d="m16.5 12.25c0 5.5-8 5.5-8 0h-1c0 7.25 10 7.25 10 0z" fill-opacity=".39216"/>
-<rect x="9.5" y="3.5469" width="6" height="12" rx="3" ry="3" fill-opacity=".39216" style="paint-order:fill markers stroke"/>
-<path d="m8.5 12.25v-2.75h-1v2.75z" fill-opacity=".39216"/>
-<path d="m17.5 12.25v-2.75h-1v2.75z" fill-opacity=".39216"/>
-<path d="m12.5 4.25c-1.2465 0-2.25 1.0035-2.25 2.25v3h4.5v-3c0-1.2465-1.0035-2.25-2.25-2.25z" fill="#fff" style="paint-order:fill markers stroke"/>
-</svg>
