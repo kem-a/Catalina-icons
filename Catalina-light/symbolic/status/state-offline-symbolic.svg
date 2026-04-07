@@ -1,0 +1,10 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="prefix__prefix__prefix__linearGradient4160-4" x1="2" x2="46.54" y1="1028.4" y2="1031.1" gradientTransform="translate(-21.787 -269.42) scale(.27273)" gradientUnits="userSpaceOnUse"/>
+<style id="current-color-scheme" type="text/css"/>
+</defs>
+<g transform="matrix(1.3333 0 0 1.3333 -8 -11.334)">
+<circle transform="rotate(266.31)" cx="-15.242" cy="11.042" r="6" fill="url(#prefix__prefix__prefix__linearGradient4160-4)"/>
+<path d="M12 9.5c2.757 0 5 2.243 5 5s-2.243 5-5 5-5-2.243-5-5 2.243-5 5-5zm0 1.69a3.29 3.29 0 00-1.665.45l4.525 4.525a3.29 3.29 0 00.45-1.665A3.314 3.314 0 0012 11.19zm0 6.62a3.29 3.29 0 001.665-.45L9.14 12.835a3.29 3.29 0 00-.45 1.665A3.314 3.314 0 0012 17.81z" fill="#363636" fill-opacity=".859"/>
+</g>
+</svg>
