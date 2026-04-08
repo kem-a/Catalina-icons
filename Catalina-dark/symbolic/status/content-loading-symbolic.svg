@@ -64,7 +64,7 @@
      style="fill:#bebebe;fill-opacity:1">
     <rect
        id="rect5458"
-       style="color:#000000;fill:#bebebe;fill-opacity:1;enable-background:new"
+       style="color:#dedede;fill:#bebebe;fill-opacity:1;enable-background:new"
        rx="2"
        ry="2"
        transform="matrix(0,1,-1,0,0,0)"
@@ -74,7 +74,7 @@
        height="4" />
     <rect
        id="rect5460"
-       style="color:#000000;fill:#bebebe;fill-opacity:1;enable-background:new"
+       style="color:#dedede;fill:#bebebe;fill-opacity:1;enable-background:new"
        rx="2"
        ry="2"
        transform="matrix(0,1,-1,0,0,0)"
@@ -84,7 +84,7 @@
        height="4" />
     <rect
        id="rect5462"
-       style="color:#000000;fill:#bebebe;fill-opacity:1;enable-background:new"
+       style="color:#dedede;fill:#bebebe;fill-opacity:1;enable-background:new"
        rx="2"
        ry="2"
        transform="matrix(0,1,-1,0,0,0)"
