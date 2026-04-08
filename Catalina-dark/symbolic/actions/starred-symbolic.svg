@@ -7,13 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
    viewBox="0 0 16 16"
-   id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="starred-symbolic.svg">
+   id="svg7"
+   sodipodi:docname="starred.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
-     id="metadata10">
+     id="metadata11">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -34,26 +36,26 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview8"
+     id="namedview9"
      showgrid="false"
-     inkscape:zoom="41.1875"
-     inkscape:cx="3.6783005"
+     inkscape:zoom="14.75"
+     inkscape:cx="6.8135593"
      inkscape:cy="8"
-     inkscape:current-layer="svg2" />
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg7" />
   <defs
-     id="defs3051">
+     id="defs3">
     <style
-       type="text/css"
-       id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#bebebe;
-      }
-      </style>
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
   </defs>
   <path
-     style="color:#bebebe;fill:currentColor;fill-opacity:1;stroke:none"
+     style="fill:#f1f6f8;fill-opacity:0.8509804"
      class="ColorScheme-Text"
-     d="M 14,6.71276 C 14,6.5348429 13.865456,6.42428 13.596014,6.3810029 L 9.9759826,5.8545971 8.3533994,2.5733171 C 8.2621396,2.3761914 8.1442365,2.2776714 8.0000442,2.2776714 c -0.1441922,0 -0.2620068,0.09852 -0.3533551,0.2956457 L 6.0240173,5.8545971 2.4038091,6.3810029 C 2.1346325,6.42428 2,6.5348429 2,6.71276 2,6.8137486 2.060102,6.92918 2.1803067,7.0589429 L 4.8053316,9.611823 4.1851898,13.217609 c -0.00965,0.06737 -0.014428,0.115508 -0.014428,0.144274 0,0.100997 0.025227,0.18624 0.075681,0.25608 0.050454,0.06977 0.126135,0.104537 0.2271315,0.104537 0.086569,0 0.1826967,-0.02871 0.2884731,-0.08648 L 7.9999558,11.933948 11.23813,13.63602 c 0.101085,0.05769 0.197213,0.08648 0.288385,0.08648 0.09639,0 0.169596,-0.03471 0.22005,-0.104537 0.05037,-0.06977 0.07559,-0.155083 0.07559,-0.25608 0,-0.06249 -0.0024,-0.110554 -0.0073,-0.144274 L 11.194625,9.611823 13.812392,7.0589429 C 13.937567,6.9339543 13.999971,6.8185314 13.999971,6.71276 l 0,0 z"
-     id="path6"
-     inkscape:connector-curvature="0" />
+     d="M 8 0.39257812 L 5.8828125 5.8867188 L 0 6.203125 L 4.5722656 9.9179688 L 3.0566406 15.609375 L 8 12.408203 L 8.9941406 13.052734 L 8.9941406 11 L 10.994141 11 L 10.994141 9 L 12.558594 9 L 16 6.203125 L 10.119141 5.8867188 L 8 0.39257812 z M 11.990234 10 L 11.990234 12 L 9.9902344 12 L 9.9902344 14 L 11.990234 14 L 11.990234 16 L 13.990234 16 L 13.990234 14 L 15.990234 14 L 15.990234 12 L 13.990234 12 L 13.990234 10 L 11.990234 10 z"
+     id="path5" />
 </svg>

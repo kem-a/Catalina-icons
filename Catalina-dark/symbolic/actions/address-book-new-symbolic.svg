@@ -7,13 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
    viewBox="0 0 16 16"
-   id="svg3197"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="address-book-new-symbolic.svg">
+   id="svg7"
+   sodipodi:docname="address-book-new.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
-     id="metadata3205">
+     id="metadata11">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -34,26 +36,26 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview3203"
+     id="namedview9"
      showgrid="false"
-     inkscape:zoom="39.8125"
-     inkscape:cx="3.0769231"
-     inkscape:cy="6.9952904"
-     inkscape:current-layer="svg3197" />
+     inkscape:zoom="14.75"
+     inkscape:cx="6.8135593"
+     inkscape:cy="8"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg7" />
   <defs
-     id="defs3051">
+     id="defs3">
     <style
-       type="text/css"
-       id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#bebebe;
-      }
-      </style>
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
   </defs>
   <path
-     style="color:#bebebe;fill:currentColor;fill-opacity:1;stroke:none"
+     style="fill:#f1f6f8;fill-opacity:0.8509804"
      class="ColorScheme-Text"
-     d="M 8.8984777,8.7876425 C 8.8578277,8.7743675 8.6007275,8.6584625 8.76137,8.170145 l -0.00225,0 C 9.17786,7.738865 9.49787,7.0448825 9.49787,6.36164 c 0,-1.0505625 -0.698595,-1.6013025 -1.5105,-1.6013025 -0.812415,0 -1.50717,0.550485 -1.50717,1.6013025 0,0.686055 0.3182175,1.38285 0.7395225,1.81311 0.16422,0.4307625 -0.129435,0.59064 -0.19083,0.6128925 C 6.45647,8.97275 4.899275,9.89564 4.9239125,11.239662 l 6.1521145,0 C 11.103481,9.9557377 9.8717754,9.1220075 8.89853,8.7876425 Z M 14,8 A 5.9999993,5.9999997 0 0 1 8,14 5.9999993,5.9999997 0 0 1 2,8 5.9999993,5.9999997 0 0 1 8,2 5.9999993,5.9999997 0 0 1 14,8 Z"
-     id="path3201"
-     inkscape:connector-curvature="0" />
+     d="M 3 1.0097656 C 1.892 1.0097656 1 1.9017656 1 3.0097656 L 1 13.009766 C 1 14.117766 1.892 15.009766 3 15.009766 L 13 15.009766 C 14.108 15.009766 15 14.117766 15 13.009766 L 15 3.0097656 C 15 1.9017656 14.108 1.0097656 13 1.0097656 L 3 1.0097656 z M 8 4 C 10.2091 4 12 5.7909 12 8 L 12 8.5 C 12 9.32843 11.32843 10 10.5 10 C 10.05709 10.00022 9.6366925 9.8037238 9.3515625 9.4648438 C 8.9951725 9.7935738 8.52312 10 8 10 C 6.8954 10 6 9.10457 6 8 C 6 6.89543 6.89543 6 8 6 C 9.10457 6 10 6.89543 10 8 L 10 8.5 C 10 8.77614 10.22386 9 10.5 9 C 10.77614 9 11 8.77614 11 8.5 L 11 8 C 11 6.3431 9.6569 5 8 5 C 6.3431 5 5 6.3431 5 8 C 5 9.6568 6.3431 11 8 11 L 10.5 11 C 10.5 11 11 11 11 11.5 C 10.9688 12 10.5 12 10.5 12 L 8 12 C 5.7909 12 4 10.2091 4 8 C 4 5.7909 5.7909 4 8 4 z M 8 7 C 7.44771 7 7 7.44772 7 8 C 7 8.55228 7.44771 9 8 9 C 8.55229 9 9 8.55228 9 8 C 9 7.44772 8.55229 7 8 7 z"
+     id="path5" />
 </svg>

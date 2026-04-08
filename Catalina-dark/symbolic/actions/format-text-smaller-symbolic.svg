@@ -7,13 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
    viewBox="0 0 16 16"
-   id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="format-text-smaller-symbolic.svg">
+   id="svg7"
+   sodipodi:docname="format-text-smaller.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
-     id="metadata10">
+     id="metadata11">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -34,26 +36,26 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview8"
+     id="namedview9"
      showgrid="false"
-     inkscape:zoom="41.1875"
-     inkscape:cx="3.6783005"
+     inkscape:zoom="14.75"
+     inkscape:cx="6.8135593"
      inkscape:cy="8"
-     inkscape:current-layer="svg2" />
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg7" />
   <defs
-     id="defs3051">
+     id="defs3">
     <style
-       type="text/css"
-       id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#bebebe;
-      }
-      </style>
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
   </defs>
   <path
-     style="color:#bebebe;fill:currentColor;fill-opacity:1;stroke:none"
+     style="fill:#f1f6f8;fill-opacity:0.8509804"
      class="ColorScheme-Text"
-     d="M 7.2667858,5 4.0525,14 l 1.6071428,0 0.6411831,-1.714286 3.2142858,0 L 10.159643,14 11.94759,14 8.5525,5 7.2667858,5 Z M 7.9096428,7.5714286 9.0731473,11 6.7427902,11 7.9096428,7.5714286 Z"
-     id="path6"
-     inkscape:connector-curvature="0" />
+     d="M 6.8808594 4.5 L 3.1308594 15 L 5.0058594 15 L 5.7519531 13 L 9.5019531 13 L 10.255859 15 L 12.341797 15 L 8.3808594 4.5 L 6.8808594 4.5 z M 7.6308594 7.5 L 8.9863281 11.5 L 6.2675781 11.5 L 7.6308594 7.5 z"
+     id="path5" />
 </svg>
