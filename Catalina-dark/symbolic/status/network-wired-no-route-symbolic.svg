@@ -1077,12 +1077,12 @@
        y2="457.42279"
        id="linearGradient-3">
       <stop
-         stop-color="#000000"
+         stop-color="#dedede"
          stop-opacity="0"
          offset="0%"
          id="stop4894" />
       <stop
-         stop-color="#000000"
+         stop-color="#dedede"
          stop-opacity="0.19"
          offset="100%"
          id="stop4896" />
@@ -1670,7 +1670,7 @@
       <stop
          id="stop3789"
          offset="1"
-         style="stop-color:#000000;stop-opacity:1;" />
+         style="stop-color:#dedede;stop-opacity:1;" />
     </linearGradient>
     <filter
        id="filter7554-0"

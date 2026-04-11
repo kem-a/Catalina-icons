@@ -7,13 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
    viewBox="0 0 16 16"
-   id="svg3545"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="window-minimize-symbolic.svg">
+   id="svg7"
+   sodipodi:docname="window-minimize.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
-     id="metadata3553">
+     id="metadata11">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -34,26 +36,26 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview3551"
+     id="namedview9"
      showgrid="false"
-     inkscape:zoom="39.8125"
-     inkscape:cx="3.5290424"
+     inkscape:zoom="14.75"
+     inkscape:cx="6.8135593"
      inkscape:cy="8"
-     inkscape:current-layer="svg3545" />
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg7" />
   <defs
-     id="defs3051">
+     id="defs3">
     <style
-       type="text/css"
-       id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#bebebe;
-      }
-      </style>
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
   </defs>
   <path
-     style="color:#bebebe;fill:currentColor;fill-opacity:1;stroke:none"
+     style="fill:#f1f6f8;fill-opacity:0.8509804"
      class="ColorScheme-Text"
-     d="M 8,2 A 5.9999998,5.9999998 0 0 0 2,8 5.9999998,5.9999998 0 0 0 8,14 5.9999998,5.9999998 0 0 0 14,8 5.9999998,5.9999998 0 0 0 8,2 Z m -3.5005041,5.3014113 2.8019154,0 4.1990927,0 0,1.3971774 -7.0010081,0 0,-1.3971774 z"
-     id="path3549"
-     inkscape:connector-curvature="0" />
+     d="M 5 10 L 5 12 L 11 12 L 11 10 L 5 10 z"
+     id="path5" />
 </svg>

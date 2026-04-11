@@ -1,3 +1,40 @@
-<svg width="36" height="36" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<path d="m30.527 0.0078125-16.584 4.2871c-1.2459 0.33383-2.25 1.6614-2.25 2.9512v20.451c-1.2633-0.66151-2.8862-0.92926-4.5684-0.49219-3.0354 0.7887-4.9378 3.3386-4.2871 5.6934 0.65067 2.3548 3.6423 3.6696 6.6777 2.8809 2.4216-0.62922 4.0912-2.4098 4.3574-4.2871l0.07031-19.326 15.74-4.2168v15.25c-1.2633-0.66151-2.8843-0.92926-4.5664-0.49219-3.0354 0.7887-4.9378 3.3386-4.2871 5.6934 0.65067 2.3548 3.6404 3.6696 6.6758 2.8809 2.4216-0.62922 4.0912-2.4098 4.3574-4.2871l0.07031-25.158c0-0.96736-0.59856-1.692-1.4062-1.8281z" color="#bebebe" fill="#e8f1f5" fill-opacity=".68235"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="folder-music-symbolic.svg"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="21.138889"
+     inkscape:cx="18"
+     inkscape:cy="18"
+     inkscape:window-width="1920"
+     inkscape:window-height="972"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 13.869002,-8.0884849e-8 6.4984904,1.9053375 C 5.9447687,2.0537033 5.4985114,2.643722 5.4985114,3.2169543 V 12.306095 C 4.9370566,12.012097 4.2157829,11.8931 3.4681542,12.087349 2.119116,12.437875 1.2736227,13.57114 1.5628166,14.617696 c 0.2891806,1.046555 1.6187659,1.630899 2.9678041,1.280373 1.076244,-0.279648 1.8182728,-1.071 1.9365814,-1.905338 L 6.4984504,5.4035791 13.493859,3.5294855 V 10.30712 c -0.561455,-0.293998 -1.281884,-0.4129955 -2.029469,-0.218747 -1.349038,0.350526 -2.1945313,1.483791 -1.9053373,2.530347 0.28918,1.046556 1.6179213,1.630899 2.9669603,1.280373 1.076243,-0.279647 1.818272,-1.071 1.936581,-1.905338 l 0.03125,-11.18109665 c 0,-0.42992872 -0.266021,-0.75198415 -0.624964,-0.81247177088 z"
+     color="#bebebe"
+     fill="#e8f1f5"
+     fill-opacity="0.68235"
+     id="path1"
+     style="stroke-width:0.444435" />
 </svg>

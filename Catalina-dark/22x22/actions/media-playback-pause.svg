@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22" width="22" height="22">
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
@@ -6,22 +7,6 @@
       }
       </style>
   </defs>
-  <rect
-     style="fill:currentColor;fill-opacity:1;stroke:none"
-     class="ColorScheme-Text"
-     width="4"
-     height="12"
-     x="5"
-     y="5"
-     ry="0.5"
-     id="rect6" />
-  <rect
-     style="fill:currentColor;fill-opacity:1;stroke:none"
-     class="ColorScheme-Text"
-     width="4"
-     height="12"
-     x="13"
-     y="5"
-     ry="0.5"
-     id="rect8" />
+  <rect style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Text" width="4" height="12" x="5" y="5" ry="0.5" id="rect6"/>
+  <rect style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Text" width="4" height="12" x="13" y="5" ry="0.5" id="rect8"/>
 </svg>

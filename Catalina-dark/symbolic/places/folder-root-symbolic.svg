@@ -1,6 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" version="1.1">
-<g fill="#e8f1f5">
-<path transform="translate(0 0)" d="m7.5 15.875v16.125h21.875v-16.125h-21.875zm10.938 1.8105a3.8125 3.8125 0 0 1 3.8125 3.8125 3.8125 3.8125 0 0 1-2.2871 3.4883l1.6738 5.2031h-6.3984l1.6719-5.1992a3.8125 3.8125 0 0 1-2.2852-3.4922 3.8125 3.8125 0 0 1 3.8125-3.8125z" fill-opacity=".56863" />
-<path d="m18.63 1.05c-5.2379-6e-3 -10.305 4.2614-11.029 11.826h-0.0977c-1.636 0-3 1.364-3 3v16.125c0 1.636 1.364 3 3 3h21.875c1.636 0 3-1.364 3-3v-16.125c0-1.5398-1.2126-2.8232-2.7188-2.9707-0.71492-7.5655-5.7855-11.849-11.029-11.855zm-4e-3 3c3.6183 5e-3 7.3866 2.6499 8.0234 8.8262h-16.043c0.6346-6.196 4.4002-8.8303 8.0195-8.8262zm-11.123 11.826h21.875v16.125h-21.875z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill-opacity=".89412" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal" />
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="folder-root-symbolic.svg"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="21.138889"
+     inkscape:cx="18"
+     inkscape:cy="18"
+     inkscape:window-width="1920"
+     inkscape:window-height="972"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     fill="#e8f1f5"
+     id="g2"
+     transform="matrix(0.47126733,0,0,0.47126733,-0.69054658,-0.49482777)">
+    <path
+       d="M 7.5,15.875 V 32 H 29.375 V 15.875 Z m 10.938,1.8105 a 3.8125,3.8125 0 0 1 3.8125,3.8125 3.8125,3.8125 0 0 1 -2.2871,3.4883 l 1.6738,5.2031 h -6.3984 l 1.6719,-5.1992 A 3.8125,3.8125 0 0 1 14.6255,21.498 3.8125,3.8125 0 0 1 18.438,17.6855 Z"
+       fill-opacity="0.56863"
+       id="path1" />
+    <path
+       d="M 18.63,1.05 C 13.3921,1.044 8.325,5.3114 7.601,12.876 H 7.5033 c -1.636,0 -3,1.364 -3,3 v 16.125 c 0,1.636 1.364,3 3,3 h 21.875 c 1.636,0 3,-1.364 3,-3 V 15.876 c 0,-1.5398 -1.2126,-2.8232 -2.7188,-2.9707 C 28.94458,5.3398 23.874,1.0563 18.6305,1.0503 Z m -0.004,3 c 3.6183,0.005 7.3866,2.6499 8.0234,8.8262 H 10.6064 C 11.241,6.6802 15.0066,4.0459 18.6259,4.05 Z M 7.503,15.876 H 29.378 V 32.001 H 7.503 Z"
+       color="#000000"
+       color-rendering="auto"
+       dominant-baseline="auto"
+       fill-opacity="0.89412"
+       image-rendering="auto"
+       shape-rendering="auto"
+       solid-color="#000000"
+       style="font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal"
+       id="path2" />
+  </g>
 </svg>

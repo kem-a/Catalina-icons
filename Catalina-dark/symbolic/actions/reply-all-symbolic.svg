@@ -7,13 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
    viewBox="0 0 16 16"
-   id="svg3197"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="reply-all-symbolic.svg">
+   id="svg7"
+   sodipodi:docname="reply-all.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
-     id="metadata3205">
+     id="metadata11">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -34,26 +36,26 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview3203"
+     id="namedview9"
      showgrid="false"
-     inkscape:zoom="39.8125"
-     inkscape:cx="-0.94191521"
+     inkscape:zoom="14.75"
+     inkscape:cx="6.8135593"
      inkscape:cy="8"
-     inkscape:current-layer="svg3197" />
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg7" />
   <defs
-     id="defs3051">
+     id="defs3">
     <style
-       type="text/css"
-       id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#bebebe;
-      }
-      </style>
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
   </defs>
   <path
-     style="color:#bebebe;fill:currentColor;fill-opacity:1;stroke:none"
+     style="fill:#f1f6f8;fill-opacity:0.8509804"
      class="ColorScheme-Text"
-     d="M 6.8619299,3.3038023 2,6.6849934 l 4.8619299,3.3811916 0,-0.7836619 -3.7348662,-2.5975297 3.7348662,-2.5975296 0,-0.7836615 z m 2.629815,0 -4.860462,3.3811911 4.860462,3.3811916 0,-1.8784399 0.3756882,0 c 1.0255529,0 1.9322449,0.6562516 2.2071659,1.5027516 C 12.403402,10.702976 10.994497,12.696 10.994497,12.696 10.994497,12.696 14,11.568936 14,9.1269649 14,6.7800425 12.497249,5.1822418 10.243121,5.1822418 l -0.7513761,0 0,-1.8784395 z"
-     id="path3201"
-     inkscape:connector-curvature="0" />
+     d="M 6.5 1.5 L 0.029296875 6 L 6.5 10.5 L 6.5 9.4570312 L 1.5292969 6 L 6.5 2.5429688 L 6.5 1.5 z M 10 1.5039062 L 3.53125 6.0039062 L 10 10.503906 L 10 8.0039062 L 10.5 8.0039062 C 11.8649 8.0039062 13.0716 8.8772563 13.4375 10.003906 C 13.87513 11.351406 12 14.003906 12 14.003906 C 12 14.003906 16 12.503906 16 9.2539062 C 16 6.1304062 14 4.0039062 11 4.0039062 L 10 4.0039062 L 10 1.5039062 z"
+     id="path5" />
 </svg>

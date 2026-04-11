@@ -7,13 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
    viewBox="0 0 16 16"
-   id="svg3255"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="color-select-symbolic.svg">
+   id="svg7"
+   sodipodi:docname="color-select.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
-     id="metadata3263">
+     id="metadata11">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -32,28 +34,28 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
+     inkscape:window-width="715"
      inkscape:window-height="480"
-     id="namedview3261"
+     id="namedview9"
      showgrid="false"
-     inkscape:zoom="39.8125"
-     inkscape:cx="3.0769231"
+     inkscape:zoom="14.75"
+     inkscape:cx="-0.54237288"
      inkscape:cy="8"
-     inkscape:current-layer="svg3255" />
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg7" />
   <defs
-     id="defs3051">
+     id="defs3">
     <style
-       type="text/css"
-       id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#bebebe;
-      }
-      </style>
+       id="current-color-scheme"
+       type="text/css">
+   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; }
+  </style>
   </defs>
   <path
-     style="color:#bebebe;fill:currentColor;fill-opacity:1;stroke:none"
+     style="fill:#f1f6f8;fill-opacity:0.8509804"
      class="ColorScheme-Text"
-     d="m 7.9988691,1.9999998 c -0.095648,0 -0.1900244,0.0474 -0.2444387,0.1423102 l -3.294898,5.7459807 c -0.6923886,1.2148493 -0.7458677,2.7592433 0,4.0600243 1.1212368,1.955426 3.6147494,2.631414 5.5701866,1.510162 1.955431,-1.121232 2.631413,-3.614735 1.51016,-5.5701863 L 8.2449818,2.14231 C 8.1905602,2.0474001 8.0945171,1.9999998 7.9988691,1.9999998 Z"
-     id="path3259"
-     inkscape:connector-curvature="0" />
+     d="M 13.470703 0.9921875 C 13.081143 1.0034875 12.711243 1.1660525 12.439453 1.4453125 L 10.082031 3.8027344 L 10.078125 3.796875 L 8.140625 1.859375 L 6.7265625 3.2734375 L 8.1660156 4.7128906 L 0.9921875 11.886719 L 0.9921875 15.005859 L 4.1132812 15.005859 L 11.285156 7.8339844 L 12.726562 9.2734375 L 14.140625 7.859375 L 12.203125 5.9238281 L 14.560547 3.5664062 C 15.539917 2.6125863 14.837183 0.9527875 13.470703 0.9921875 z M 9.0039062 5.5429688 L 10.417969 6.9570312 L 3.5292969 13.845703 L 2.1152344 12.431641 L 9.0039062 5.5429688 z"
+     id="path5" />
 </svg>
