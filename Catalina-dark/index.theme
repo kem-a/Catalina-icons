@@ -5,7 +5,7 @@ Inherits=hicolor,Catalina-light
 Example=folder
 FollowsColorScheme=true
 
-Directories=16x16/actions,16x16/devices,16x16/places,16x16/status,22x22/actions,22x22/categories,22x22/places,22x22/status,24x24/places,24x24/status,scalable/apps,scalable/devices,scalable/mimetypes,scalable/places,symbolic/actions,symbolic/apps,symbolic/categories,symbolic/devices,symbolic/emblems,symbolic/mimetypes,symbolic/places,symbolic/status,16x16@2x/actions,16x16@2x/devices,16x16@2x/places,16x16@2x/status,22x22@2x/actions,22x22@2x/apps,22x22@2x/categories,22x22@2x/places,22x22@2x/status,24x24@2x/actions,24x24@2x/places,24x24@2x/status,scalable@2x/apps,scalable@2x/devices,scalable@2x/mimetypes,scalable@2x/places,symbolic@2x/actions,symbolic@2x/apps,symbolic@2x/categories,symbolic@2x/devices,symbolic@2x/emblems,symbolic@2x/mimetypes,symbolic@2x/places,symbolic@2x/status
+Directories=16x16/actions,16x16/devices,16x16/places,16x16/status,22x22/actions,22x22/categories,22x22/places,22x22/status,24x24/places,24x24/status,scalable/apps,scalable/devices,scalable/mimetypes,scalable/places,symbolic/actions,symbolic/apps,symbolic/categories,symbolic/devices,symbolic/emblems,symbolic/mimetypes,symbolic/places,symbolic/status,16x16@2x/actions,16x16@2x/devices,16x16@2x/places,16x16@2x/status,22x22@2x/actions,22x22@2x/categories,22x22@2x/places,22x22@2x/status,24x24@2x/places,24x24@2x/status,scalable@2x/apps,scalable@2x/devices,scalable@2x/mimetypes,scalable@2x/places,symbolic@2x/actions,symbolic@2x/apps,symbolic@2x/categories,symbolic@2x/devices,symbolic@2x/emblems,symbolic@2x/mimetypes,symbolic@2x/places,symbolic@2x/status
 
 [16x16/actions]
 Context=Actions
@@ -171,12 +171,6 @@ Size=22
 Scale=2
 Type=Fixed
 
-[22x22@2x/apps]
-Context=Applications
-Size=22
-Scale=2
-Type=Fixed
-
 [22x22@2x/categories]
 Context=Categories
 Size=22
@@ -192,12 +186,6 @@ Type=Fixed
 [22x22@2x/status]
 Context=Status
 Size=22
-Scale=2
-Type=Fixed
-
-[24x24@2x/actions]
-Context=Actions
-Size=24
 Scale=2
 Type=Fixed
 

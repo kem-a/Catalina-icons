@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="audio-speakers-rtl-symbolic.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="53.625"
+     inkscape:cx="7.990676"
+     inkscape:cy="8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1088"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <g
+     fill="#bebebe"
+     id="g4"
+     transform="rotate(180,8,8)">
+    <path
+       d="M 15,8 C 15,4.7753 13.7953,2.0181 12.054,0.7505 l -1.1553,1.0398 c 1.4994,1.0618 2.5417,3.4526 2.5417,6.2097 0,2.7571 -1.0422,5.148 -2.5417,6.2097 l 1.1553,1.0398 C 13.7953,13.9819 15,11.2247 15,8 Z"
+       color="#bebebe"
+       id="path1" />
+    <path
+       d="M 11.94,8 C 11.94,5.8192 11.11124,3.9154 9.8605,2.7145 L 8.7919,3.66762 c 0.96536,1.0267 1.5885,2.5828 1.5885,4.3324 0,1.7496 -0.62317,3.3057 -1.5885,4.3324 l 1.0686,0.95312 c 1.2508,-1.2008 2.0795,-3.1047 2.0795,-5.2855 z"
+       color="#bebebe"
+       id="path2" />
+    <path
+       d="M 8.99,8 C 8.99,6.6743 8.55062,5.458 7.8347,4.5052 L 6.7372,5.48721 c 0.43232,0.72272 0.69317,1.5882 0.69317,2.5128 0,0.92461 -0.26085,1.79 -0.69317,2.5128 l 1.0975,0.982 C 8.55062,10.542 8.99,9.32571 8.99,8.00001 Z"
+       color="#bebebe"
+       id="path3" />
+    <path
+       d="m 0,6 v 4 H 1.6521 L 5,13.3692 V 2.6312 L 1.6521,6.0004 Z"
+       color="#bebebe"
+       id="path4" />
+  </g>
+</svg>
