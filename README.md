@@ -2,6 +2,10 @@
 
 An icon theme for Linux inspired by macOS Catalina. Available in two variants: **Catalina-dark** and **Catalina-light**.
 
+**THIS IS UNMAINTAINED AND WILL BE REMOVED IN NEAR FUTURE**
+
+Use new version from here [Catalina-reloaded](https://github.com/kem-a/Catalina-reloaded)
+
 ## Sizes
 
 | Size     | Contexts                                |
